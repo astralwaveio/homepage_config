@@ -2,25 +2,25 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/bookmarks
 
-- Search:
-    - Google 搜索:
+- 搜索:
+    - Google:
         - abbr: GG
           href: https://google.com/
-    - Github 搜索:
+    - Github:
         - abbr: GHS
           href: https://github.com/search?q=
 
-- Developer:
-    - Github 主页:
+- 开发网站:
+    - Github:
         - abbr: GH
           href: https://github.com/
 
-- Social:
+- 社交论坛:
     - Reddit 主页:
         - abbr: RE
           href: https://reddit.com/
 
-- Entertainment:
+- 娱乐:
     - YouTube 主页:
         - abbr: YT
           href: https://youtube.com/
