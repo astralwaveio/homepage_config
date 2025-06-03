@@ -78,6 +78,12 @@
             description: 青龙面板 - 定时任务管理
             target: _blank
             ping: https://h-ql.homehub.stream:8443
+      - DDNS-Go:
+            icon: mdi-dns
+            href: https://h-ddns.homehub.stream:8443
+            description: 动态 DNS 自动更新服务
+            target: _blank
+            ping: https://h-ddns.homehub.stream:8443
 
 - 常用PT站:
       - 馒头 (M-Team):
@@ -104,11 +110,3 @@
             href: https://www.ptskit.com/
             description: PTS - 短剧 PT 站
             target: _blank
-
-- 网络工具:
-      - DDNS-Go:
-            icon: mdi-dns
-            href: https://h-ddns.homehub.stream:8443
-            description: 动态 DNS 自动更新服务
-            target: _blank
-            ping: https://h-ddns.homehub.stream:8443
