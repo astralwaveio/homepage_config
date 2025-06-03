@@ -29,6 +29,27 @@
             icon: mdi-monitor-dashboard
             href: https://h-1p.homehub.stream:8443
             description: 现代化服务器管理面板
+      - 青龙面板:
+            icon: mdi-robot-outline
+            href: https://h-ql.homehub.stream:8443
+            description: 青龙面板
+- 常用PT站:
+      - 馒头 (M-Team):
+            icon: mdi-nas
+            href: https://kp.m-team.cc/
+            description: 中文综合 PT 大站，以高清影视资源为主
+      - 海豚音乐 (DICMusic):
+            icon: mdi-music-note
+            href: https://dicmusic.com/
+            description: 专注高质量音乐资源的PT站
+      - CarPT:
+            icon: mdi-car
+            href: https://carpt.net/
+            description: 车PT或小车（CarPT） 影视 / 音乐资源
+      - PTSKit:
+            icon: mdi-tools
+            href: https://www.ptskit.com/
+            description: PTS 短剧站
 
 - 网络工具:
       - DDNS-Go:
