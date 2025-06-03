@@ -47,14 +47,17 @@
             widget:
                 type: qbittorrent
                 url: https://h-qbt.homehub.stream:8443
-                username: astral
+                username: admin
                 password: KRu-FPoAD7WG
-                fields: ["status", "speed", "eta", "progress"]
+                enableLeechProgress: true # optional, defaults to false
+                fields: ["leech", "download", "seed", "upload"]
+
       - qBittorrent - 本地:
             icon: mdi-download
             href: http://192.168.31.8:8085
             description: qBittorrent 本地
             target: _blank
+
       - Transmission:
             icon: mdi-progress-download
             href: https://h-tr.homehub.stream:8443/transmission/web/
@@ -67,6 +70,7 @@
             #   username: your_rpc_username # 如果设置了RPC认证
             #   password: your_rpc_password # 如果设置了RPC认证
             #   fields: ["status", "speed", "eta", "progress"] # 可选显示字段
+
       - Transmission - 本地:
             icon: mdi-progress-download
             href: http://192.168.31.8:9091/transmission/web/
@@ -126,6 +130,7 @@
             description: 动态 DNS - 自动更新服务
             target: _blank
             ping: https://h-ddns.homehub.stream:8443
+
       - DDNS-Go - 本地:
             icon: mdi-dns
             href: http://192.168.31.8:9876/
@@ -138,7 +143,7 @@
             href: https://kp.m-team.cc/
             description: 中文综合 PT 大站，以高清影视资源为主
             target: _blank # 外部链接建议在新标签页打开
-            # ping: https://kp.m-team.cc/ # 可以添加，但外部站点状态不由您控制
+            ping: https://kp.m-team.cc/
 
       - 海豚音乐 (DICMusic):
             icon: mdi-music-note
@@ -151,9 +156,11 @@
             href: https://carpt.net/
             description: 车PT（CarPT） -  影视、音乐 PT 站
             target: _blank
+            ping: https://carpt.net/
 
-      - PTSKit:
+      - PTS-Kit:
             icon: mdi-tools
             href: https://www.ptskit.com/
             description: PTS - 短剧 PT 站
             target: _blank
+            ping: https://www.ptskit.com/
