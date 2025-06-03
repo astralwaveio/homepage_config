@@ -4,27 +4,27 @@
       - 飞牛OS:
             icon: mdi-server
             href: https://h-fn.homehub.stream:8443
-            description: 飞牛OS主系统入口（反向代理HTTPS）
+            description: 飞牛OS
       - 飞牛影视:
             icon: mdi-movie-play-outline
             href: https://h-fn.homehub.stream:8443/v
-            description: 飞牛影视（通过飞牛OS子路径访问）
+            description: 飞牛影视
 
 - 下载工具:
       - qBittorrent:
             icon: mdi-download
             href: https://h-qbt.homehub.stream:8443
-            description: qBittorrent WebUI（反向代理HTTPS）
+            description: qBittorrent 下载工具 WebUI
       - Transmission:
             icon: mdi-progress-download
             href: https://h-tr.homehub.stream:8443
-            description: Transmission Web控制台
+            description: Transmission Web 控制台
 
 - 虚拟化与运维:
       - Proxmox VE:
             icon: mdi-virtual-reality
             href: https://h-pve.homehub.stream:8443
-            description: PVE虚拟化管理平台（反向代理HTTPS）
+            description: PVE 虚拟化管理平台
       - 1Panel:
             icon: mdi-monitor-dashboard
             href: https://h-1p.homehub.stream:8443
@@ -34,4 +34,4 @@
       - DDNS-Go:
             icon: mdi-dns
             href: https://h-ddns.homehub.stream:8443
-            description: 动态DNS自动更新服务（反向代理HTTPS）
+            description: 动态 DNS 自动更新服务
