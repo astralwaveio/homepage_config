@@ -1,0 +1,43 @@
+name: Auto deploy project to Remote Server
+run-name: ${{ github.actor }} 提交触发自动部署 🚀
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            # 第一步：检出代码到 Actions 运行器
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            # 第二步：设置 SSH 密钥用于后续操作
+            - name: Set up SSH
+              run: |
+                  mkdir -p ~/.ssh
+                  echo "${{ secrets.PRIVATE_KEY }}" > ~/.ssh/id_rsa
+                  chmod 600 ~/.ssh/id_rsa
+                  ssh-keyscan -t rsa ${{ secrets.HOST }} >> ~/.ssh/known_hosts
+
+            # 第三步：通过 SSH 在远程服务器执行 git 强制更新
+            - name: Force update and deploy
+              run: |
+                  echo "开始部署..."
+                  ssh -o StrictHostKeyChecking=no \
+                      -i ~/.ssh/id_rsa \
+                      root@${{ secrets.HOST }} \
+                      "cd /data/magichub && \
+                       git fetch --all && \
+                       git reset --hard origin/main && \
+                       git clean -fd && \
+                       git pull origin main"
+                  echo "部署 sha: $SHA"
+                  echo "部署完成 - 代码已强制更新到最新版本"
+              env:
+                  SHA: ${{ github.sha }}
+
+
+
