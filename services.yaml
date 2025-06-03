@@ -99,7 +99,7 @@
             #   token_value: your_api_token_value
             #   fields: ["vms", "lxc", "storage", "nodes"] # 可选显示字段
 
-      - Proxmox VE:
+      - Proxmox VE - 本地:
             icon: mdi-virtual-reality
             href: https://192.168.31.18:8006
             description: PVE 虚拟化管理平台 - 本地
