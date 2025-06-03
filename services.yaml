@@ -49,13 +49,13 @@
                 url: https://h-qbt.homehub.stream:8443
                 username: admin
                 password: KRu-FPoAD7WG
-                enableLeechProgress: true # optional, defaults to false
+                enableLeechProgress: true
                 fields: ["leech", "download", "seed", "upload"]
 
       - qBittorrent - 本地:
             icon: mdi-download
             href: http://192.168.31.8:8085
-            description: qBittorrent 本地
+            description: qBittorrent - 本地
             target: _blank
 
       - Transmission:
