@@ -1,18 +1,37 @@
 ---
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/services/
+# 家庭服务器服务目录 (homehub.stream) - 统一 HTTPS + 8443 + 反向代理
+- 核心系统:
+      - 飞牛OS:
+            icon: mdi-server
+            href: https://h-fn.homehub.stream:8443
+            description: 飞牛OS主系统入口（反向代理HTTPS）
+      - 飞牛影视:
+            icon: mdi-movie-play-outline
+            href: https://h-fn.homehub.stream:8443/v
+            description: 飞牛影视（通过飞牛OS子路径访问）
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- 下载工具:
+      - qBittorrent:
+            icon: mdi-download
+            href: https://h-qbt.homehub.stream:8443
+            description: qBittorrent WebUI（反向代理HTTPS）
+      - Transmission:
+            icon: mdi-progress-download
+            href: https://h-tr.homehub.stream:8443
+            description: Transmission Web控制台
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+- 虚拟化与运维:
+      - Proxmox VE:
+            icon: mdi-virtual-reality
+            href: https://h-pve.homehub.stream:8443
+            description: PVE虚拟化管理平台（反向代理HTTPS）
+      - 1Panel:
+            icon: mdi-monitor-dashboard
+            href: https://h-1p.homehub.stream:8443
+            description: 现代化服务器管理面板
 
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+- 网络工具:
+      - DDNS-Go:
+            icon: mdi-dns
+            href: https://h-ddns.homehub.stream:8443
+            description: 动态DNS自动更新服务（反向代理HTTPS）
