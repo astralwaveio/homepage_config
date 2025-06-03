@@ -58,10 +58,10 @@
             description: qBittorrent - 本地
             target: _blank
 
-      - Transmission:
+      - Transmission(桌面端):
             icon: mdi-progress-download
-            href: https://h-tr.homehub.stream:8443/transmission/web/
-            description: Transmission - Web 控制台
+            href: https://h-tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
+            description: Transmission - 电脑版 Web 控制台
             target: _blank
             ping: https://h-tr.homehub.stream:8443
             # widget: # Transmission 小组件示例 (需要填写您的Transmission实际RPC配置)
@@ -71,7 +71,14 @@
             #   password: your_rpc_password # 如果设置了RPC认证
             #   fields: ["status", "speed", "eta", "progress"] # 可选显示字段
 
-      - Transmission - 本地:
+      - Transmission(手机端):
+            icon: mdi-progress-download
+            href: https://h-tr.homehub.stream:8443/transmission/web/index.mobile.html
+            description: Transmission - 手机版 Web 控制台
+            target: _blank
+            ping: https://h-tr.homehub.stream:8443
+
+      - Transmission - 本地(桌面端):
             icon: mdi-progress-download
             href: http://192.168.31.8:9091/transmission/web/
             description: Transmission - 本地
