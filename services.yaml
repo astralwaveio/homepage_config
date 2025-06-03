@@ -47,8 +47,8 @@
             widget:
                 type: qbittorrent
                 url: https://h-qbt.homehub.stream:8443
-                username: admin
-                password: KRu-FPoAD7WG
+                username: astral
+                password: zCWu@EaT9UBs
                 enableLeechProgress: true
                 fields: ["leech", "download", "seed", "upload"]
 
