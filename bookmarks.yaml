@@ -1,14 +1,5 @@
 ---
 # https://gethomepage.dev/configs/bookmarks
-
-- 搜索:
-    - Google:
-        - abbr: GG
-          href: https://google.com/
-    - Github:
-        - abbr: GHS
-          href: https://github.com/search?q=
-
 - 开发网站:
     - Github:
         - abbr: GH
@@ -19,7 +10,19 @@
         - abbr: RE
           href: https://reddit.com/
 
+    - V2EX 主页:
+        - abbr: V2EX
+          href: https://www.v2ex.com/
+
 - 娱乐:
     - YouTube 主页:
         - abbr: YT
           href: https://youtube.com/
+
+- 云盘资源:
+    - 猫狸盘搜:
+        - abbr: ML
+          href: https://www.alipansou.com/
+    - 阿里小站:
+        - abbr: AL
+          href: https://pan666.net/

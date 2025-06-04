@@ -9,33 +9,18 @@
             description: 飞牛OS - 宿主机管理面板
             target: _blank # 在新标签页中打开
             ping: https://h-fn.homehub.stream:8443
-      - 飞牛OS - 本地:
-            icon: mdi-server
-            href: http://192.168.31.8:25666/
-            description: 飞牛OS - 本地
-            target: _blank # 在新标签页中打开
       - 飞牛影视:
             icon: mdi-movie-play-outline
             href: https://h-fn.homehub.stream:8443/v
             description: 飞牛影视 - 综合在线影视服务
             target: _blank
             ping: https://h-fn.homehub.stream:8443/v
-      - 飞牛影视 - 本地:
-            icon: mdi-movie-play-outline
-            href: http://192.168.31.8:25666/v
-            description: 飞牛影视 - 本地
-            target: _blank
       - 飞牛相册:
             icon: mdi-movie-play-outline
             href: https://h-fn.homehub.stream:8443/p
             description: 飞牛相册 - 图片媒体管理
             target: _blank
             ping: https://h-fn.homehub.stream:8443/p
-      - 飞牛相册 - 本地:
-            icon: mdi-movie-play-outline
-            href: http://192.168.31.8:25666/p
-            description: 飞牛相册 - 本地
-            target: _blank
 
 - 下载工具:
       - qBittorrent:
@@ -51,12 +36,6 @@
                 password: zCWu@EaT9UBs
                 enableLeechProgress: true
                 fields: ["leech", "download", "seed", "upload"]
-
-      - qBittorrent - 本地:
-            icon: mdi-download
-            href: http://192.168.31.8:8085
-            description: qBittorrent - 本地
-            target: _blank
 
       - Transmission(桌面端):
             icon: mdi-progress-download
@@ -78,12 +57,6 @@
             target: _blank
             ping: https://h-tr.homehub.stream:8443
 
-      - Transmission - 本地(桌面端):
-            icon: mdi-progress-download
-            href: http://192.168.31.8:9091/transmission/web/
-            description: Transmission - 本地
-            target: _blank
-
 - 虚拟化与运维:
       - Proxmox VE:
             icon: mdi-virtual-reality
@@ -99,24 +72,12 @@
             #   token_value: your_api_token_value
             #   fields: ["vms", "lxc", "storage", "nodes"] # 可选显示字段
 
-      - Proxmox VE - 本地:
-            icon: mdi-virtual-reality
-            href: https://192.168.31.18:8006
-            description: PVE 虚拟化管理平台 - 本地
-            target: _blank
-
       - 1Panel:
             icon: mdi-monitor-dashboard
             href: https://h-1p.homehub.stream:8443
             description: 现代化服务器管理面板
             target: _blank
             ping: https://h-1p.homehub.stream:8443
-
-      - 1Panel - 本地:
-            icon: mdi-monitor-dashboard
-            href: http://192.168.31.100:32080/
-            description: 服务器管理面板 - 本地
-            target: _blank
 
       - 青龙面板:
             icon: mdi-robot-outline
@@ -125,24 +86,12 @@
             target: _blank
             ping: https://h-ql.homehub.stream:8443
 
-      - 青龙面板 - 本地:
-            icon: mdi-robot-outline
-            href: hhttp://192.168.31.100:35700
-            description: 青龙面板 - 定时任务管理
-            target: _blank
-
       - DDNS-Go:
             icon: mdi-dns
             href: https://h-ddns.homehub.stream:8443
             description: 动态 DNS - 自动更新服务
             target: _blank
             ping: https://h-ddns.homehub.stream:8443
-
-      - DDNS-Go - 本地:
-            icon: mdi-dns
-            href: http://192.168.31.8:9876/
-            description: 动态 DNS - 本地
-            target: _blank
 
 - 常用PT站:
       - 馒头 (M-Team):
@@ -171,3 +120,50 @@
             description: PTS - 短剧 PT 站
             target: _blank
             ping: https://www.ptskit.com/
+
+- 本地服务:
+      - 飞牛OS - 本地:
+            icon: mdi-server
+            href: http://192.168.31.8:25666/
+            description: 飞牛OS - 本地
+            target: _blank # 在新标签页中打开
+      - 飞牛影视 - 本地:
+            icon: mdi-movie-play-outline
+            href: http://192.168.31.8:25666/v
+            description: 飞牛影视 - 本地
+            target: _blank
+      - 飞牛相册 - 本地:
+            icon: mdi-movie-play-outline
+            href: http://192.168.31.8:25666/p
+            description: 飞牛相册 - 本地
+            target: _blank
+      - qBittorrent - 本地:
+            icon: mdi-download
+            href: http://192.168.31.8:8085
+            description: qBittorrent - 本地
+            target: _blank
+      - Transmission - 本地(桌面端):
+            icon: mdi-progress-download
+            href: http://192.168.31.8:9091/transmission/web/
+            description: Transmission - 本地
+            target: _blank
+      - Proxmox VE - 本地:
+            icon: mdi-virtual-reality
+            href: https://192.168.31.18:8006
+            description: PVE 虚拟化管理平台 - 本地
+            target: _blank
+      - 1Panel - 本地:
+            icon: mdi-monitor-dashboard
+            href: http://192.168.31.100:32080/
+            description: 服务器管理面板 - 本地
+            target: _blank
+      - 青龙面板 - 本地:
+            icon: mdi-robot-outline
+            href: http://192.168.31.100:35700
+            description: 青龙面板 - 定时任务管理
+            target: _blank
+      - DDNS-Go - 本地:
+            icon: mdi-dns
+            href: http://192.168.31.8:9876/
+            description: 动态 DNS - 本地
+            target: _blank
