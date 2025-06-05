@@ -175,25 +175,26 @@
                 icon: mdi-nas
                 href: https://kp.m-team.cc/
                 description: 中文综合 PT 大站，以高清影视资源为主
-                target: _blank # 外部链接建议在新标签页打开
+                target: _blank
                 ping: https://kp.m-team.cc/
 
-        - 海豚音乐 (DICMusic):
-                icon: mdi-music-note
-                href: https://dicmusic.com/
-                description: 专注高质量音乐资源的PT站
-                target: _blank
+        # 未注册成功，暂时不使用
+        #   - 海豚音乐 (DICMusic):
+        #           icon: mdi-music-note
+        #           href: https://dicmusic.com/
+        #           description: 专注高质量音乐资源的PT站
+        #           target: _blank
 
         - CarPT:
                 icon: mdi-car
                 href: https://carpt.net/
-                description: 车PT（CarPT） -  影视、音乐 PT 站
+                description: 车 PT（CarPT） -  影视、音乐 PT 站
                 target: _blank
                 ping: https://carpt.net/
 
         - PTS-Kit:
                 icon: mdi-tools
                 href: https://www.ptskit.com/
-                description: PTS - 短剧 PT 站
+                description: PTS 短剧 PT 站 - 短的是时间，长的是热爱
                 target: _blank
                 ping: https://www.ptskit.com/
