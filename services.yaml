@@ -3,166 +3,197 @@
 # 对于小组件（Widgets）的详细配置，请参考：https://gethomepage.dev/configs/widgets/
 
 - 核心系统:
-      - 飞牛OS:
-            icon: mdi-server
-            href: https://h-fn.homehub.stream:8443
-            description: 飞牛OS - 宿主机管理面板
-            target: _blank # 在新标签页中打开
-            ping: https://h-fn.homehub.stream:8443
-      - 飞牛影视:
-            icon: mdi-movie-play-outline
-            href: https://h-fn.homehub.stream:8443/v
-            description: 飞牛影视 - 综合在线影视服务
-            target: _blank
-            ping: https://h-fn.homehub.stream:8443/v
-      - 飞牛相册:
-            icon: mdi-movie-play-outline
-            href: https://h-fn.homehub.stream:8443/p
-            description: 飞牛相册 - 图片媒体管理
-            target: _blank
-            ping: https://h-fn.homehub.stream:8443/p
-      - 飞牛OS - 本地:
-            icon: mdi-server
-            href: http://192.168.31.8:25666/
-            description: 飞牛OS - 本地
-            target: _blank # 在新标签页中打开
-      - 飞牛影视 - 本地:
-            icon: mdi-movie-play-outline
-            href: http://192.168.31.8:25666/v
-            description: 飞牛影视 - 本地
-            target: _blank
-      - 飞牛相册 - 本地:
-            icon: mdi-movie-play-outline
-            href: http://192.168.31.8:25666/p
-            description: 飞牛相册 - 本地
-            target: _blank
+        - 飞牛OS:
+                icon: mdi-server
+                href: https://h-fn.homehub.stream:8443
+                description: 飞牛OS - 宿主机管理面板
+                target: _blank
+                siteMonitor: https://h-fn.homehub.stream:8443
+        - 飞牛影视:
+                icon: mdi-movie-play-outline
+                href: https://h-fn.homehub.stream:8443/v
+                description: 飞牛影视 - 综合在线影视服务
+                target: _blank
+                siteMonitor: https://h-fn.homehub.stream:8443/v
+        - 飞牛相册:
+                icon: mdi-movie-play-outline
+                href: https://h-fn.homehub.stream:8443/p
+                description: 飞牛相册 - 图片媒体管理
+                target: _blank
+                siteMonitor: https://h-fn.homehub.stream:8443/p
 
 - 下载工具:
-      - qBittorrent:
-            icon: mdi-download
-            href: https://h-qbt.homehub.stream:8443
-            description: qBittorrent - 下载工具 WebUI
-            target: _blank
-            ping: https://h-qbt.homehub.stream:8443
-            widget:
-                type: qbittorrent
-                url: https://h-qbt.homehub.stream:8443
-                username: astral
-                password: zCWu@EaT9UBs
-                enableLeechProgress: true
-                fields: ["leech", "download", "seed", "upload"]
+        - qBittorrent:
+                icon: mdi-download
+                href: https://h-qbt.homehub.stream:8443
+                description: qBittorrent - 下载工具 WebUI
+                target: _blank
+                siteMonitor: https://h-qbt.homehub.stream:8443
+                widget:
+                      type: qbittorrent
+                      url: https://h-qbt.homehub.stream:8443
+                      username: astral
+                      password: zCWu@EaT9UBs
+                      enableLeechProgress: true
+                      fields: ["leech", "download", "seed", "upload"]
 
-      - Transmission(桌面端):
-            icon: mdi-progress-download
-            href: https://h-tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
-            description: Transmission - 电脑版 Web 控制台
-            target: _blank
-            ping: https://h-tr.homehub.stream:8443
-            # widget: # Transmission 小组件示例 (需要填写您的Transmission实际RPC配置)
-            #   type: transmission
-            #   url: https://h-tr.homehub.stream:8443 # 通常是RPC地址，如 http://localhost:9091/transmission/rpc
-            #   username: your_rpc_username # 如果设置了RPC认证
-            #   password: your_rpc_password # 如果设置了RPC认证
-            #   fields: ["status", "speed", "eta", "progress"] # 可选显示字段
+        - Transmission(桌面端):
+                icon: mdi-progress-download
+                href: https://h-tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
+                description: Transmission - 电脑版 Web 控制台
+                target: _blank
+                siteMonitor: https://h-tr.homehub.stream:8443
+                # widget: # Transmission 小组件示例 (需要填写您的Transmission实际RPC配置)
+                #   type: transmission
+                #   url: https://h-tr.homehub.stream:8443 # 通常是RPC地址，如 http://localhost:9091/transmission/rpc
+                #   username: your_rpc_username # 如果设置了RPC认证
+                #   password: your_rpc_password # 如果设置了RPC认证
+                #   fields: ["status", "speed", "eta", "progress"] # 可选显示字段
 
-      - Transmission(手机端):
-            icon: mdi-progress-download
-            href: https://h-tr.homehub.stream:8443/transmission/web/index.mobile.html
-            description: Transmission - 手机版 Web 控制台
-            target: _blank
-            ping: https://h-tr.homehub.stream:8443
-      - qBittorrent - 本地:
-            icon: mdi-download
-            href: http://192.168.31.8:8085
-            description: qBittorrent - 本地
-            target: _blank
-      - Transmission - 本地(桌面端):
-            icon: mdi-progress-download
-            href: http://192.168.31.8:9091/transmission/web/
-            description: Transmission - 本地
-            target: _blank
+        - Transmission(手机端):
+                icon: mdi-progress-download
+                href: https://h-tr.homehub.stream:8443/transmission/web/index.mobile.html
+                description: Transmission - 手机版 Web 控制台
+                target: _blank
+                siteMonitor: https://h-tr.homehub.stream:8443
 
 - 虚拟化与运维:
-      - Proxmox VE:
-            icon: mdi-virtual-reality
-            href: https://h-pve.homehub.stream:8443
-            description: PVE 虚拟化管理平台
-            target: _blank
-            ping: https://h-pve.homehub.stream:8443
-            # widget: # Proxmox VE 小组件示例 (具体参数请查阅文档)
-            #   type: proxmox
-            #   url: https://h-pve.homehub.stream:8443
-            #   username: your_pve_username@pam # 或 @pve
-            #   token_name: your_api_token_name
-            #   token_value: your_api_token_value
-            #   fields: ["vms", "lxc", "storage", "nodes"] # 可选显示字段
+        - Proxmox VE:
+                icon: mdi-virtual-reality
+                href: https://h-pve.homehub.stream:8443
+                description: PVE 虚拟化管理平台
+                target: _blank
+                ping: https://h-pve.homehub.stream:8443
+                # widget: # Proxmox VE 小组件示例 (具体参数请查阅文档)
+                #   type: proxmox
+                #   url: https://h-pve.homehub.stream:8443
+                #   username: your_pve_username@pam # 或 @pve
+                #   token_name: your_api_token_name
+                #   token_value: your_api_token_value
+                #   fields: ["vms", "lxc", "storage", "nodes"] # 可选显示字段
 
-      - 1Panel:
-            icon: mdi-monitor-dashboard
-            href: https://h-1p.homehub.stream:8443
-            description: 现代化服务器管理面板
-            target: _blank
-            ping: https://h-1p.homehub.stream:8443
+        - 1Panel:
+                icon: mdi-monitor-dashboard
+                href: https://h-1p.homehub.stream:8443
+                description: 现代化服务器管理面板
+                target: _blank
+                ping: https://h-1p.homehub.stream:8443
 
-      - 青龙面板:
-            icon: mdi-robot-outline
-            href: https://h-ql.homehub.stream:8443
-            description: 青龙面板 - 定时任务管理
-            target: _blank
-            ping: https://h-ql.homehub.stream:8443
+        - 青龙面板:
+                icon: mdi-robot-outline
+                href: https://h-ql.homehub.stream:8443
+                description: 青龙面板 - 定时任务管理
+                target: _blank
+                ping: https://h-ql.homehub.stream:8443
 
-      - DDNS-Go:
-            icon: mdi-dns
-            href: https://h-ddns.homehub.stream:8443
-            description: 动态 DNS - 自动更新服务
-            target: _blank
-            ping: https://h-ddns.homehub.stream:8443
-      - Proxmox VE - 本地:
-            icon: mdi-virtual-reality
-            href: https://192.168.31.18:8006
-            description: PVE 虚拟化管理平台 - 本地
-            target: _blank
-      - 1Panel - 本地:
-            icon: mdi-monitor-dashboard
-            href: http://192.168.31.100:32080/
-            description: 服务器管理面板 - 本地
-            target: _blank
-      - 青龙面板 - 本地:
-            icon: mdi-robot-outline
-            href: http://192.168.31.100:35700
-            description: 青龙面板 - 定时任务管理
-            target: _blank
-      - DDNS-Go - 本地:
-            icon: mdi-dns
-            href: http://192.168.31.8:9876/
-            description: 动态 DNS - 本地
-            target: _blank
+        - DDNS-Go:
+                icon: mdi-dns
+                href: https://h-ddns.homehub.stream:8443
+                description: 动态 DNS - 自动更新服务
+                target: _blank
+                ping: https://h-ddns.homehub.stream:8443
+        - Proxmox VE - 局域网:
+                icon: mdi-virtual-reality
+                href: https://192.168.31.18:8006
+                description: PVE 虚拟化管理平台 - 局域网
+                target: _blank
+        - 1Panel - 局域网:
+                icon: mdi-monitor-dashboard
+                href: http://192.168.31.100:32080/
+                description: 服务器管理面板 - 局域网
+                target: _blank
+        - 青龙面板 - 局域网:
+                icon: mdi-robot-outline
+                href: http://192.168.31.100:35700
+                description: 青龙面板 - 定时任务管理
+                target: _blank
+        - DDNS-Go - 局域网:
+                icon: mdi-dns
+                href: http://192.168.31.8:9876/
+                description: 动态 DNS - 局域网
+                target: _blank
+
+- 核心系统 - 局域网:
+        - 飞牛OS:
+                icon: mdi-server
+                href: http://192.168.31.8:25666/
+                description: 飞牛OS - 局域网
+                target: _blank
+        - 飞牛影视:
+                icon: mdi-movie-play-outline
+                href: http://192.168.31.8:25666/v
+                description: 飞牛影视 - 局域网
+                target: _blank
+        - 飞牛相册:
+                icon: mdi-movie-play-outline
+                href: http://192.168.31.8:25666/p
+                description: 飞牛相册 - 局域网
+                target: _blank
+
+- 下载工具 - 局域网:
+        - Transmission(桌面端):
+                icon: mdi-download
+                href: http://192.168.31.8:8085
+                description: 局域网访问 qBittorrent
+                target: _blank
+        - Transmission(手机端):
+                icon: mdi-progress-download
+                href: http://192.168.31.8:9091/transmission/web/
+                description: Transmission - 局域网
+                target: _blank
+
+- 虚拟化与运维 - 局域网:
+        - DDNS-Go:
+                icon: mdi-dns
+                href: https://h-ddns.homehub.stream:8443
+                description: 动态 DNS - 自动更新服务
+                target: _blank
+                ping: https://h-ddns.homehub.stream:8443
+        - Proxmox VE:
+                icon: mdi-virtual-reality
+                href: https://192.168.31.18:8006
+                description: PVE 虚拟化管理平台 - 局域网
+                target: _blank
+        - 1Panel:
+                icon: mdi-monitor-dashboard
+                href: http://192.168.31.100:32080/
+                description: 服务器管理面板 - 局域网
+                target: _blank
+        - 青龙面板:
+                icon: mdi-robot-outline
+                href: http://192.168.31.100:35700
+                description: 青龙面板 - 定时任务管理
+                target: _blank
+        - DDNS-Go:
+                icon: mdi-dns
+                href: http://192.168.31.8:9876/
+                description: 动态 DNS - 局域网
+                target: _blank
 
 - 常用PT站:
-      - 馒头 (M-Team):
-            icon: mdi-nas
-            href: https://kp.m-team.cc/
-            description: 中文综合 PT 大站，以高清影视资源为主
-            target: _blank # 外部链接建议在新标签页打开
-            ping: https://kp.m-team.cc/
+        - 馒头 (M-Team):
+                icon: mdi-nas
+                href: https://kp.m-team.cc/
+                description: 中文综合 PT 大站，以高清影视资源为主
+                target: _blank # 外部链接建议在新标签页打开
+                ping: https://kp.m-team.cc/
 
-      - 海豚音乐 (DICMusic):
-            icon: mdi-music-note
-            href: https://dicmusic.com/
-            description: 专注高质量音乐资源的PT站
-            target: _blank
+        - 海豚音乐 (DICMusic):
+                icon: mdi-music-note
+                href: https://dicmusic.com/
+                description: 专注高质量音乐资源的PT站
+                target: _blank
 
-      - CarPT:
-            icon: mdi-car
-            href: https://carpt.net/
-            description: 车PT（CarPT） -  影视、音乐 PT 站
-            target: _blank
-            ping: https://carpt.net/
+        - CarPT:
+                icon: mdi-car
+                href: https://carpt.net/
+                description: 车PT（CarPT） -  影视、音乐 PT 站
+                target: _blank
+                ping: https://carpt.net/
 
-      - PTS-Kit:
-            icon: mdi-tools
-            href: https://www.ptskit.com/
-            description: PTS - 短剧 PT 站
-            target: _blank
-            ping: https://www.ptskit.com/
-
+        - PTS-Kit:
+                icon: mdi-tools
+                href: https://www.ptskit.com/
+                description: PTS - 短剧 PT 站
+                target: _blank
+                ping: https://www.ptskit.com/
