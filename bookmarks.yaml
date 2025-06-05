@@ -1,29 +1,22 @@
 ---
 # https://gethomepage.dev/configs/bookmarks
+- 搜索服务:
+    - GitHub 搜索:
+        - abbr: GH
+          href: https://github.com/search?type=Repositories&q=
 - 开发网站:
-    - Github:
+    - GitHub:
         - abbr: GH
           href: https://github.com/
 
 - 社交论坛:
-    - Reddit 主页:
+    - Reddit:
         - abbr: RE
           href: https://reddit.com/
 
-    - V2EX 主页:
+    - V2EX:
         - abbr: V2EX
           href: https://www.v2ex.com/
-
-- 娱乐:
-    - YouTube 主页:
-        - abbr: YT
-          href: https://youtube.com/
-
-    - 实时热榜:
-        - abbr: RB
-          href: https://momoyu.cc/
-          description: 实时热榜 - 定制化热点榜单
-          target: _blank
 
 - 资源:
     - 猫狸盘搜:
@@ -75,3 +68,14 @@
         description: PTS 短剧 PT 站 - 短的是时间，长的是热爱
         target: _blank
         siteMonitor: https://www.ptskit.com/
+
+- 娱乐:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+
+    - 实时热榜:
+        - abbr: RB
+          href: https://momoyu.cc/
+          description: 实时热榜 - 定制化热点榜单
+          target: _blank
