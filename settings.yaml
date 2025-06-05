@@ -16,7 +16,7 @@ background:
   brightness: 70 # 背景亮度 (0-200，100为原始值)
   opacity: 75 # 背景图片叠加在主题背景色上的不透明度 (0-100)
 
-fullWidth: true # 内容是否撑满整个页面宽度
+fullWidth: false # 内容是否撑满整个页面宽度
 useEqualHeightCards: true # 服务卡片是否等高显示
 groupsInitiallyCollapsed: true # 全局设置服务组是否折叠显示
 
