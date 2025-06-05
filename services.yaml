@@ -43,12 +43,12 @@
                 description: Transmission - 电脑版 Web 控制台
                 target: _blank
                 siteMonitor: https://h-tr.homehub.stream:8443
-                # widget: # Transmission 小组件示例 (需要填写您的Transmission实际RPC配置)
-                #   type: transmission
-                #   url: https://h-tr.homehub.stream:8443 # 通常是RPC地址，如 http://localhost:9091/transmission/rpc
-                #   username: your_rpc_username # 如果设置了RPC认证
-                #   password: your_rpc_password # 如果设置了RPC认证
-                #   fields: ["status", "speed", "eta", "progress"] # 可选显示字段
+                widget:
+                      type: transmission
+                      url: https://h-tr.homehub.stream:8443/transmission/rpc
+                      username: astral
+                      password: YFq8hJwpVg%H
+                      fields: ["status", "speed", "eta", "progress"]
 
         - Transmission(手机端):
                 icon: mdi-progress-download
