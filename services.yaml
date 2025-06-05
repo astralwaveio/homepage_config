@@ -29,13 +29,6 @@
                 description: qBittorrent - 下载工具 WebUI
                 target: _blank
                 siteMonitor: https://h-qbt.homehub.stream:8443/
-                widget:
-                      type: qbittorrent
-                      url: https://h-qbt.homehub.stream:8443/
-                      username: astral
-                      password: zCWu@EaT9UBs
-                      enableLeechProgress: false
-                      fields: ["leech", "seed"]
 
         - Transmission(桌面端):
                 icon: mdi-progress-download
@@ -43,12 +36,6 @@
                 description: Transmission - 电脑版 Web 控制台
                 target: _blank
                 siteMonitor: https://h-tr.homehub.stream:8443
-                widget:
-                      type: transmission
-                      url: https://h-tr.homehub.stream:8443/transmission/rpc
-                      username: astral
-                      password: YFq8hJwpVg%H
-                      fields: ["status", "speed", "eta", "progress"]
 
         - Transmission(手机端):
                 icon: mdi-progress-download
@@ -64,13 +51,6 @@
                 description: PVE 虚拟化管理平台
                 target: _blank
                 siteMonitor: https://h-pve.homehub.stream:8443
-                # widget: # Proxmox VE 小组件示例 (具体参数请查阅文档)
-                #   type: proxmox
-                #   url: https://h-pve.homehub.stream:8443
-                #   username: your_pve_username@pam # 或 @pve
-                #   token_name: your_api_token_name
-                #   token_value: your_api_token_value
-                #   fields: ["vms", "lxc", "storage", "nodes"] # 可选显示字段
 
         - 1Panel:
                 icon: mdi-monitor-dashboard
@@ -92,26 +72,6 @@
                 description: 动态 DNS - 自动更新服务
                 target: _blank
                 siteMonitor: https://h-ddns.homehub.stream:8443
-        - Proxmox VE - 局域网:
-                icon: mdi-virtual-reality
-                href: https://192.168.31.18:8006
-                description: PVE 虚拟化管理平台 - 局域网
-                target: _blank
-        - 1Panel - 局域网:
-                icon: mdi-monitor-dashboard
-                href: http://192.168.31.100:32080/
-                description: 服务器管理面板 - 局域网
-                target: _blank
-        - 青龙面板 - 局域网:
-                icon: mdi-robot-outline
-                href: http://192.168.31.100:35700
-                description: 青龙面板 - 定时任务管理
-                target: _blank
-        - DDNS-Go - 局域网:
-                icon: mdi-dns
-                href: http://192.168.31.8:9876/
-                description: 动态 DNS - 局域网
-                target: _blank
 
 - 核心系统 - 局域网:
         - 飞牛OS:
@@ -143,12 +103,6 @@
                 target: _blank
 
 - 虚拟化与运维 - 局域网:
-        - DDNS-Go:
-                icon: mdi-dns
-                href: https://h-ddns.homehub.stream:8443
-                description: 动态 DNS - 自动更新服务
-                target: _blank
-                siteMonitor: https://h-ddns.homehub.stream:8443
         - Proxmox VE:
                 icon: mdi-virtual-reality
                 href: https://192.168.31.18:8006
