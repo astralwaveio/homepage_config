@@ -25,17 +25,17 @@
 - 下载工具:
         - qBittorrent:
                 icon: mdi-download
-                href: https://h-qbt.homehub.stream:8443
+                href: https://h-qbt.homehub.stream:8443/
                 description: qBittorrent - 下载工具 WebUI
                 target: _blank
-                siteMonitor: https://h-qbt.homehub.stream:8443
+                siteMonitor: https://h-qbt.homehub.stream:8443/
                 widget:
                       type: qbittorrent
-                      url: https://h-qbt.homehub.stream:8443
+                      url: https://h-qbt.homehub.stream:8443/
                       username: astral
                       password: zCWu@EaT9UBs
-                      enableLeechProgress: true
-                      fields: ["leech", "download", "seed", "upload"]
+                      enableLeechProgress: false
+                      fields: ["leech", "seed"]
 
         - Transmission(桌面端):
                 icon: mdi-progress-download
@@ -63,7 +63,7 @@
                 href: https://h-pve.homehub.stream:8443
                 description: PVE 虚拟化管理平台
                 target: _blank
-                ping: https://h-pve.homehub.stream:8443
+                siteMonitor: https://h-pve.homehub.stream:8443
                 # widget: # Proxmox VE 小组件示例 (具体参数请查阅文档)
                 #   type: proxmox
                 #   url: https://h-pve.homehub.stream:8443
@@ -77,21 +77,21 @@
                 href: https://h-1p.homehub.stream:8443
                 description: 现代化服务器管理面板
                 target: _blank
-                ping: https://h-1p.homehub.stream:8443
+                siteMonitor: https://h-1p.homehub.stream:8443
 
         - 青龙面板:
                 icon: mdi-robot-outline
                 href: https://h-ql.homehub.stream:8443
                 description: 青龙面板 - 定时任务管理
                 target: _blank
-                ping: https://h-ql.homehub.stream:8443
+                siteMonitor: https://h-ql.homehub.stream:8443
 
         - DDNS-Go:
                 icon: mdi-dns
                 href: https://h-ddns.homehub.stream:8443
                 description: 动态 DNS - 自动更新服务
                 target: _blank
-                ping: https://h-ddns.homehub.stream:8443
+                siteMonitor: https://h-ddns.homehub.stream:8443
         - Proxmox VE - 局域网:
                 icon: mdi-virtual-reality
                 href: https://192.168.31.18:8006
@@ -148,7 +148,7 @@
                 href: https://h-ddns.homehub.stream:8443
                 description: 动态 DNS - 自动更新服务
                 target: _blank
-                ping: https://h-ddns.homehub.stream:8443
+                siteMonitor: https://h-ddns.homehub.stream:8443
         - Proxmox VE:
                 icon: mdi-virtual-reality
                 href: https://192.168.31.18:8006
@@ -176,7 +176,7 @@
                 href: https://kp.m-team.cc/
                 description: 中文综合 PT 大站，以高清影视资源为主
                 target: _blank
-                ping: https://kp.m-team.cc/
+                siteMonitor: https://kp.m-team.cc/
 
         # 未注册成功，暂时不使用
         #   - 海豚音乐 (DICMusic):
@@ -190,11 +190,11 @@
                 href: https://carpt.net/
                 description: 车 PT（CarPT） -  影视、音乐 PT 站
                 target: _blank
-                ping: https://carpt.net/
+                siteMonitor: https://carpt.net/
 
         - PTS-Kit:
                 icon: mdi-tools
                 href: https://www.ptskit.com/
                 description: PTS 短剧 PT 站 - 短的是时间，长的是热爱
                 target: _blank
-                ping: https://www.ptskit.com/
+                siteMonitor: https://www.ptskit.com/
