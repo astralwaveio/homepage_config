@@ -18,6 +18,7 @@ background:
 
 fullWidth: true # 内容是否撑满整个页面宽度
 useEqualHeightCards: true # 服务卡片是否等高显示
+groupsInitiallyCollapsed: true # 全局设置服务组是否折叠显示
 
 layout: # 服务组布局配置
   # 您可以在这里定义服务组的布局、顺序和图标
@@ -25,7 +26,7 @@ layout: # 服务组布局配置
   "核心系统": # 这是您在 services.yaml 中定义的组名
     style: row # 排列方式: row (行) 或 column (列)
     columns: 8 # 每行显示的卡片数量 (当 style 为 row 时生效)
-    initiallyCollapsed: true
+    initiallyCollapsed: true # 是否折叠显示该组
     icon: mdi-chip # 图标，来自 Material Design Icons (mdi-) 或 Simple Icons (si-)
     order: 1 # 可选，用于手动排序，数字越小越靠前
 
