@@ -34,7 +34,7 @@ layout: # 服务组布局配置
     icon: mdi-home-assistant
     # order: 2
 
-  "虚拟化与运维":
+  "运维平台":
     style: row
     columns: 3
     icon: mdi-nas
