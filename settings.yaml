@@ -33,7 +33,7 @@ layout: # 服务组布局配置
   "运维平台":
     style: row
     columns: 8
-    initiallyCollapsed: true
+    initiallyCollapsed: false
     icon: mdi-server
     order: 2
 
