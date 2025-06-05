@@ -68,7 +68,7 @@
                 description: Transmission - 局域网
                 target: _blank
 
-- 虚拟化与运维:
+- 运维平台:
         - Proxmox VE:
                 icon: mdi-virtual-reality
                 href: https://h-pve.homehub.stream:8443
