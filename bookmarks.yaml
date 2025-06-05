@@ -54,3 +54,24 @@
           description: 虫部落.快搜-搜索快人一步
           target: _blank
 
+- PT站:
+    - 馒头 (M-Team):
+        icon: mdi-nas
+        href: https://kp.m-team.cc/
+        description: 中文综合 PT 大站，以高清影视资源为主
+        target: _blank
+        siteMonitor: https://kp.m-team.cc/
+
+    - CarPT:
+        icon: mdi-car
+        href: https://carpt.net/
+        description: 车 PT（CarPT） -  影视、音乐 PT 站
+        target: _blank
+        siteMonitor: https://carpt.net/
+
+    - PTS-Kit:
+        icon: mdi-tools
+        href: https://www.ptskit.com/
+        description: PTS 短剧 PT 站 - 短的是时间，长的是热爱
+        target: _blank
+        siteMonitor: https://www.ptskit.com/

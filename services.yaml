@@ -21,7 +21,21 @@
                 description: 飞牛相册 - 图片媒体管理
                 target: _blank
                 siteMonitor: https://h-fn.homehub.stream:8443/p
-
+        - 飞牛OS - 局域网:
+                icon: mdi-server
+                href: http://192.168.31.8:25666/
+                description: 飞牛OS - 局域网
+                target: _blank
+        - 飞牛影视 - 局域网:
+                icon: mdi-movie-play-outline
+                href: http://192.168.31.8:25666/v
+                description: 飞牛影视 - 局域网
+                target: _blank
+        - 飞牛相册 - 局域网:
+                icon: mdi-movie-play-outline
+                href: http://192.168.31.8:25666/p
+                description: 飞牛相册 - 局域网
+                target: _blank
 - 下载工具:
         - qBittorrent:
                 icon: mdi-download
@@ -43,6 +57,16 @@
                 description: Transmission - 手机版 Web 控制台
                 target: _blank
                 siteMonitor: https://h-tr.homehub.stream:8443
+        - Transmission(桌面端) - 局域网:
+                icon: mdi-download
+                href: http://192.168.31.8:8085
+                description: 局域网访问 qBittorrent
+                target: _blank
+        - Transmission(手机端) - 局域网:
+                icon: mdi-progress-download
+                href: http://192.168.31.8:9091/transmission/web/
+                description: Transmission - 局域网
+                target: _blank
 
 - 虚拟化与运维:
         - Proxmox VE:
@@ -72,83 +96,23 @@
                 description: 动态 DNS - 自动更新服务
                 target: _blank
                 siteMonitor: https://h-ddns.homehub.stream:8443
-
-- 核心系统 - 局域网:
-        - 飞牛OS:
-                icon: mdi-server
-                href: http://192.168.31.8:25666/
-                description: 飞牛OS - 局域网
-                target: _blank
-        - 飞牛影视:
-                icon: mdi-movie-play-outline
-                href: http://192.168.31.8:25666/v
-                description: 飞牛影视 - 局域网
-                target: _blank
-        - 飞牛相册:
-                icon: mdi-movie-play-outline
-                href: http://192.168.31.8:25666/p
-                description: 飞牛相册 - 局域网
-                target: _blank
-
-- 下载工具 - 局域网:
-        - Transmission(桌面端):
-                icon: mdi-download
-                href: http://192.168.31.8:8085
-                description: 局域网访问 qBittorrent
-                target: _blank
-        - Transmission(手机端):
-                icon: mdi-progress-download
-                href: http://192.168.31.8:9091/transmission/web/
-                description: Transmission - 局域网
-                target: _blank
-
-- 虚拟化与运维 - 局域网:
-        - Proxmox VE:
+        - Proxmox VE - 局域网:
                 icon: mdi-virtual-reality
                 href: https://192.168.31.18:8006
                 description: PVE 虚拟化管理平台 - 局域网
                 target: _blank
-        - 1Panel:
+        - 1Panel - 局域网:
                 icon: mdi-monitor-dashboard
                 href: http://192.168.31.100:32080/
                 description: 服务器管理面板 - 局域网
                 target: _blank
-        - 青龙面板:
+        - 青龙面板 - 局域网:
                 icon: mdi-robot-outline
                 href: http://192.168.31.100:35700
                 description: 青龙面板 - 定时任务管理
                 target: _blank
-        - DDNS-Go:
+        - DDNS-Go - 局域网:
                 icon: mdi-dns
                 href: http://192.168.31.8:9876/
                 description: 动态 DNS - 局域网
                 target: _blank
-
-- 常用PT站:
-        - 馒头 (M-Team):
-                icon: mdi-nas
-                href: https://kp.m-team.cc/
-                description: 中文综合 PT 大站，以高清影视资源为主
-                target: _blank
-                siteMonitor: https://kp.m-team.cc/
-
-        # 未注册成功，暂时不使用
-        #   - 海豚音乐 (DICMusic):
-        #           icon: mdi-music-note
-        #           href: https://dicmusic.com/
-        #           description: 专注高质量音乐资源的PT站
-        #           target: _blank
-
-        - CarPT:
-                icon: mdi-car
-                href: https://carpt.net/
-                description: 车 PT（CarPT） -  影视、音乐 PT 站
-                target: _blank
-                siteMonitor: https://carpt.net/
-
-        - PTS-Kit:
-                icon: mdi-tools
-                href: https://www.ptskit.com/
-                description: PTS 短剧 PT 站 - 短的是时间，长的是热爱
-                target: _blank
-                siteMonitor: https://www.ptskit.com/
