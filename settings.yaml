@@ -1,9 +1,9 @@
 # Homepage 设置配置文件
 # 更多信息请参考官方文档: https://gethomepage.dev/latest/configs/settings/
 
-title: 极客任意门
+title: 极客任意门 - GeekBase
 shortTitle: GeekBase
-favicon: https://gethomepage.dev/assets/favicon.ico
+favicon: https://magichub.top/download/static/GeekBase/favicon.ico
 
 headerStyle: boxedWidgets # 头部样式，可选值: default (默认), underlined (下划线), boxed (盒子), clean (简洁), boxedWidgets (小部件盒子)
 theme: dark
