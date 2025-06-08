@@ -21,9 +21,10 @@
 # 日期时间小部件
 - datetime:
           label: "当前时间" # 可选，自定义标签
-          timezone: Asia/Shanghai # 设置您的时区，例如 "Asia/Shanghai" 或 "America/New_York"
-          text_size: xl # 文本大小: sm, md, lg, xl
+          timezone: Asia/Shanghai
+          text_size: lg # 文本大小: sm, md, lg, xl
           format:
+                  locale: zh-cn
                   # 日期时间显示格式
                   dateStyle: medium # 日期样式: full, long, medium, short
                   timeStyle: short # 时间样式: full, long, medium, short
