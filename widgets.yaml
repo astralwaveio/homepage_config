@@ -28,3 +28,8 @@
         locale: zh-cn
         dateStyle: medium
         timeStyle: short
+
+- openweathermap:
+    latitude: 50.449684
+    longitude: 30.525026
+    provider: openweathermap 
