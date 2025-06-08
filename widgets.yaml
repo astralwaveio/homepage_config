@@ -30,6 +30,6 @@
         timeStyle: short
 
 - openweathermap:
-    latitude: 119.932655
-    longitude: 30.089309
+    latitude: 30.089309
+    longitude: 119.932655
     provider: openweathermap
