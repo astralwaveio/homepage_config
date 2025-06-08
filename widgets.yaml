@@ -24,19 +24,19 @@
     label: "当前时间"
     timezone: Asia/Shanghai
     text_size: lg
+    locale: zh_cn
     format:
-        locale: zh-cn
         dateStyle: medium
         timeStyle: short
  
 - openweathermap:
     label: "杭州"
-    locale: zh-cn
     latitude: 30.089309
     longitude: 119.932655
     units: metric
     provider: openweathermap
     cache: 5
+    locale: zh_cn
     format:
         maximumFractionDigits: 2
         useGrouping: false
