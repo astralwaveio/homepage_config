@@ -1,5 +1,5 @@
 # Homepage 设置配置文件
-# 更多信息请参考官方文档: https://gethomepage.dev/latest/configs/settings/
+# 更多信息请参考官方文档: https://gethomepage.dev/configs/settings/#base-url
 language: zh-CN
 title: 极客任意门 - GeekBase
 shortTitle: GeekBase
@@ -50,6 +50,9 @@ layout:
 # 天气或其他需要API密钥的服务提供商
 providers:
   openweathermap: b79ccd07da22a1684b055550a478cf0f
+    latitude: 50.449684
+    longitude: 30.525026
+    provider: openweathermap
 
 quicklaunch:
   searchDescriptions: true
