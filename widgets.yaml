@@ -36,9 +36,8 @@
     units: metric
     provider: openweathermap
     cache: 5
-    providerOptions:
-        lang: zh_cn
+    locale: zh-CN
     format:
-        maximumFractionDigits: 2
+        maximumFractionDigits: 1
         useGrouping: false
 
