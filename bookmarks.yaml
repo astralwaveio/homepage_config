@@ -1,82 +1,80 @@
----
-# https://gethomepage.dev/configs/bookmarks
 - 搜索服务:
-    - GitHub 搜索:
-        - abbr: GH
-          href: https://github.com/search?type=Repositories&q=
+  - GitHub 搜索:
+    - abbr: GH
+      href: https://github.com/search?type=Repositories&q=
 
 - 开发网站:
-    - GitHub:
-        - abbr: GH
-          href: https://github.com/
+  - GitHub:
+    - abbr: GH
+      href: https://github.com/
 
 - 社交论坛:
-    - Reddit:
-        - abbr: RE
-          href: https://reddit.com/
+  - Reddit:
+    - abbr: RE
+      href: https://reddit.com/
 
-    - V2EX:
-        - abbr: V2EX
-          href: https://www.v2ex.com/
+  - V2EX:
+    - abbr: V2EX
+      href: https://www.v2ex.com/
 
 - 资源:
-    - 猫狸盘搜:
-        - abbr: ML
-          href: https://www.alipansou.com/
-          description: 阿里云盘资源搜索
-          target: _blank
-    - 阿里小站:
-        - abbr: AL
-          href: https://pan666.net/
-          description: 阿里云盘资源论坛
-          target: _blank
-    - ZLibrary:
-        - abbr: ZL
-          href: https://zh.z-library.gs/
-          description: 全球最大的电子书籍资源站
-          target: _blank
+  - 猫狸盘搜:
+    - abbr: ML
+      href: https://www.alipansou.com/
+      description: 阿里云盘资源搜索
+      target: _blank
+  - 阿里小站:
+    - abbr: AL
+      href: https://pan666.net/
+      description: 阿里云盘资源论坛
+      target: _blank
+  - ZLibrary:
+    - abbr: ZL
+      href: https://zh.z-library.gs/
+      description: 全球最大的电子书籍资源站
+      target: _blank
 
 - 工具:
-    - 图片压缩:
-        - abbr: TINY
-          href: https://tinypng.com/
-          description: 在线图片压缩工具
-          target: _blank
-    - 虫部落.快搜:
-        - abbr: KS
-          href: https://search.chongbuluo.com/
-          description: 虫部落.快搜-搜索快人一步
-          target: _blank
+  - 图片压缩:
+    - abbr: TINY
+      href: https://tinypng.com/
+      description: 在线图片压缩工具
+      target: _blank
+  - 虫部落.快搜:
+    - abbr: KS
+      href: https://search.chongbuluo.com/
+      description: 虫部落.快搜-搜索快人一步
+      target: _blank
 
 - PT站:
-    - 馒头 (M-Team):
-        - abbr: MT
-          icon: mdi-nas
-          href: https://kp.m-team.cc/
-          description: 中文综合 PT 大站，以高清影视资源为主
-          target: _blank
+  - 馒头 (M-Team):
+    - abbr: MT
+      icon: mdi-nas
+      href: https://kp.m-team.cc/
+      description: 中文综合 PT 大站，以高清影视资源为主
+      target: _blank
 
-    - CarPT:
-        - abbr: CPT
-          icon: mdi-car
-          href: https://carpt.net/
-          description: 车 PT（CarPT） -  影视、音乐 PT 站
-          target: _blank
+  - CarPT:
+    - abbr: CPT
+      icon: mdi-car
+      href: https://carpt.net/
+      description: 车 PT（CarPT） -  影视、音乐 PT 站
+      target: _blank
 
-    - PTS-Kit:
-        - abbr: PTK
-          icon: mdi-tools
-          href: https://www.ptskit.com/
-          description: PTS 短剧 PT 站 - 短的是时间，长的是热爱
-          target: _blank
+  - PTS-Kit:
+    - abbr: PTK
+      icon: mdi-tools
+      href: https://www.ptskit.com/
+      description: PTS 短剧 PT 站 - 短的是时间，长的是热爱
+      target: _blank
 
 - 娱乐:
-    - YouTube:
-        - abbr: YT
-          href: https://youtube.com/
+  - YouTube:
+    - abbr: YT
+      href: https://youtube.com/
 
-    - 实时热榜:
-        - abbr: RB
-          href: https://momoyu.cc/
-          description: 实时热榜 - 定制化热点榜单
-          target: _blank
+  - 实时热榜:
+    - abbr: RB
+      href: https://momoyu.cc/
+      description: 实时热榜 - 定制化热点榜单
+      target: _blank
