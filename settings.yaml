@@ -28,21 +28,21 @@ layout:
   "核心系统":
     # 这是您在 services.yaml 中定义的组名
     style: row # 排列方式: row (行) 或 column (列)
-    columns: 8 # 每行显示的卡片数量 (当 style 为 row 时生效)
+    columns: 5 # 每行显示的卡片数量 (当 style 为 row 时生效)
     initiallyCollapsed: false # 是否折叠显示该组
     icon: mdi-chip # 图标，来自 Material Design Icons (mdi-) 或 Simple Icons (si-)
     order: 1 # 可选，用于手动排序，数字越小越靠前
 
   "运维平台":
     style: row
-    columns: 8
+    columns: 5
     initiallyCollapsed: false
     icon: mdi-server
     order: 2
 
   "下载工具":
     style: row
-    columns: 6
+    columns: 5
     initiallyCollapsed: true
     icon: mdi-cloud-download
     order: 3
