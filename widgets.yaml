@@ -1,30 +1,30 @@
 - resources:
-          locale: zh-cn
-          label: "Oracle 主机资源"
-          cpu: true
-          memory: true # 显示内存使用率
-          disk: / # 您希望监控的磁盘路径，例如 "/" 或 "/mnt/data"
-          uptime: true # 显示系统运行时间
-  # 搜索小部件
+    label: 系统CPU
+    cpu: true
+
+- resources:
+    label: 存储空间
+    disk: /
+ 
+- resources:
+    label: "内存空间" 
+    memory: true
+ 
+- resources:
+    label: "系统时间"
+    uptime: true
+
 - search:
-          locale: zh-cn
-          provider: google
-          focus: true
-          target: _blank
-          showSearchSuggestions: true
+    provider: google
+    focus: true
+    target: _blank
+    showSearchSuggestions: true
 
-# - search:
-#       provider: custom
-#       url: https://github.com/search?type=Repositories&q=
-#       target: _blank
-
-# 日期时间小部件
 - datetime:
-          label: "当前时间" # 可选，自定义标签
-          timezone: Asia/Shanghai
-          text_size: lg # 文本大小: sm, md, lg, xl
-          format:
-                  locale: zh-cn
-                  # 日期时间显示格式
-                  dateStyle: medium # 日期样式: full, long, medium, short
-                  timeStyle: short # 时间样式: full, long, medium, short
+    label: "当前时间"
+    timezone: Asia/Shanghai
+    text_size: lg
+    format:
+        locale: zh-cn
+        dateStyle: medium
+        timeStyle: short
