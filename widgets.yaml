@@ -1,17 +1,15 @@
----
 - resources:
-        label: "Oracle 主机资源"
-        cpu: true
-        memory: true # 显示内存使用率
-        disk: / # 您希望监控的磁盘路径，例如 "/" 或 "/mnt/data"
-        uptime: true # 显示系统运行时间
-
+          label: "Oracle 主机资源"
+          cpu: true
+          memory: true # 显示内存使用率
+          disk: / # 您希望监控的磁盘路径，例如 "/" 或 "/mnt/data"
+          uptime: true # 显示系统运行时间
   # 搜索小部件
 - search:
-        provider: google
-        focus: true
-        target: _blank
-        showSearchSuggestions: true
+          provider: google
+          focus: true
+          target: _blank
+          showSearchSuggestions: true
 
 # - search:
 #       provider: custom
@@ -20,9 +18,10 @@
 
 # 日期时间小部件
 - datetime:
-        label: "当前时间" # 可选，自定义标签
-        timezone: Asia/Shanghai # 设置您的时区，例如 "Asia/Shanghai" 或 "America/New_York"
-        text_size: xl # 文本大小: sm, md, lg, xl
-        format: # 日期时间显示格式
-              dateStyle: medium # 日期样式: full, long, medium, short
-              timeStyle: short # 时间样式: full, long, medium, short
+          label: "当前时间" # 可选，自定义标签
+          timezone: Asia/Shanghai # 设置您的时区，例如 "Asia/Shanghai" 或 "America/New_York"
+          text_size: xl # 文本大小: sm, md, lg, xl
+          format:
+                  # 日期时间显示格式
+                  dateStyle: medium # 日期样式: full, long, medium, short
+                  timeStyle: short # 时间样式: full, long, medium, short
