@@ -76,20 +76,30 @@
                 target: _blank
                 siteMonitor: https://h-pve.homehub.stream:8443
 
-        - 1Panel:
+        - 1Panel(Home):
                 icon: mdi-monitor-dashboard
                 href: https://h-1p.homehub.stream:8443
                 description: 现代化服务器管理面板
                 target: _blank
                 siteMonitor: https://h-1p.homehub.stream:8443
-
-        - 青龙面板:
+        - 1Panel(Oracle):
+                icon: mdi-monitor-dashboard
+                href: https://kr1-panel.eoysky.com/
+                description: 现代化服务器管理面板
+                target: _blank
+                siteMonitor: https://kr1-panel.eoysky.com/
+        - 青龙面板(Home):
                 icon: mdi-robot-outline
                 href: https://h-ql.homehub.stream:8443
-                description: 青龙面板 - 定时任务管理
+                description: 定时任务管理 - Home
                 target: _blank
                 siteMonitor: https://h-ql.homehub.stream:8443
-
+        - 青龙面板(Oracle):
+                icon: mdi-robot-outline
+                href: https://ql.astralwave.vip/login
+                description: 定时任务管理 - OracleCloud
+                target: _blank
+                siteMonitor: https://ql.astralwave.vip/login
         - DDNS-Go:
                 icon: mdi-dns
                 href: https://h-ddns.homehub.stream:8443
