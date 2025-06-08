@@ -31,9 +31,12 @@
  
 - openweathermap:
     label: "杭州"
-    locale: zh-CN
+    locale: zh-cn
     latitude: 30.089309
     longitude: 119.932655
     units: metric
     provider: openweathermap
     cache: 5
+    format:
+        maximumFractionDigits: 2
+        useGrouping: false
