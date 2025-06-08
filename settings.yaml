@@ -20,10 +20,12 @@ fullWidth: false # 内容是否撑满整个页面宽度
 useEqualHeightCards: true # 服务卡片是否等高显示
 groupsInitiallyCollapsed: true # 全局设置服务组是否折叠显示
 
-layout: # 服务组布局配置
+layout:
+  # 服务组布局配置
   # 您可以在这里定义服务组的布局、顺序和图标
   # 服务组的名称需要与您在 services.yaml (或其他服务定义文件) 中的组名完全对应
-  "核心系统": # 这是您在 services.yaml 中定义的组名
+  "核心系统":
+    # 这是您在 services.yaml 中定义的组名
     style: row # 排列方式: row (行) 或 column (列)
     columns: 8 # 每行显示的卡片数量 (当 style 为 row 时生效)
     initiallyCollapsed: false # 是否折叠显示该组
@@ -64,4 +66,4 @@ target: _blank
 # 其他可选设置
 hideVersion: true
 showStats: true
-statusStyle: "icon" # 服务状态点的样式: "dot" (圆点) 或 "icon" (基于图标颜色变化)
+statusStyle: "dot"
