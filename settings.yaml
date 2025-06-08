@@ -8,6 +8,7 @@ favicon: https://magichub.top/download/static/GeekBase/favicon.ico
 headerStyle: boxedWidgets # 头部样式，可选值: default (默认), underlined (下划线), boxed (盒子), clean (简洁), boxedWidgets (小部件盒子)
 theme: dark
 color: slate # 颜色主题，具体取决于您选择的主题，常见有: slate (石板色), sky (天空蓝), amber (琥珀色), rose (玫瑰色) 等
+locale: zh-cn
 
 background:
   image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
