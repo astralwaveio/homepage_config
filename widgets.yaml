@@ -24,7 +24,7 @@
     label: "当前时间"
     timezone: Asia/Shanghai
     text_size: lg
-    locale: zh_cn
+    locale: zh-CN
     format:
         dateStyle: medium
         timeStyle: short
@@ -36,7 +36,9 @@
     units: metric
     provider: openweathermap
     cache: 5
-    locale: zh_cn
+    locale: zh-CN
+    providerOptions:
+        lang: zh_cn
     format:
         maximumFractionDigits: 2
         useGrouping: false
