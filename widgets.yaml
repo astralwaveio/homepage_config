@@ -1,4 +1,5 @@
 - resources:
+          locale: zh-cn
           label: "Oracle 主机资源"
           cpu: true
           memory: true # 显示内存使用率
@@ -6,6 +7,7 @@
           uptime: true # 显示系统运行时间
   # 搜索小部件
 - search:
+          locale: zh-cn
           provider: google
           focus: true
           target: _blank
