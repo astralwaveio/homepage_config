@@ -14,12 +14,6 @@
     label: "系统时间"
     uptime: true
 
-- search:
-    provider: google
-    focus: true
-    target: _blank
-    showSearchSuggestions: true
-
 - datetime:
     label: "当前时间"
     timezone: Asia/Shanghai
@@ -41,9 +35,9 @@
     format:
       maximumFractionDigits: 1
       useGrouping: false
-- calendar:
-    view: agenda
-    maxEvents: 10 # optional - defaults to 10
-    showTime: true # optional - show time for event happening today - defaults to false
-    previousDays: 3 # optional - shows events since three days ago - defaults to 0
-    integrations: # same as in Monthly view example
+
+- search:
+    provider: google
+    focus: true
+    target: _blank
+    showSearchSuggestions: true
