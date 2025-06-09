@@ -1,23 +1,7 @@
-- resources:
-    label: 系统CPU
-    cpu: true
-
-- resources:
-    label: 存储空间
-    disk: /
-
-- resources:
-    label: "内存空间"
-    memory: true
-
-- resources:
-    label: "系统时间"
-    uptime: true
-
 - datetime:
-    label: "当前时间"
+    label: 当前时间
     timezone: Asia/Shanghai
-    text_size: lg
+    text_size: xl
     hour12: true
     locale: zh-Hans
     format:
@@ -25,7 +9,7 @@
       timeStyle: short
 
 - openweathermap:
-    label: "杭州"
+    label: 杭州天气
     latitude: 30.089309
     longitude: 119.932655
     units: metric
@@ -36,8 +20,62 @@
       maximumFractionDigits: 1
       useGrouping: false
 
+- resources:
+    label: CPU 占用
+    cpu: true
+
+- resources:
+    label: 内存空间
+    memory: true
+
+- resources:
+    label: 存储空间
+    disk: /
+
+- resources:
+    label: 系统运行时长
+    uptime: true
+
+- network:
+    label: 网络状态
+
+- rss:
+    label: IT之家资讯
+    icon: rss
+    url: https://www.ithome.com/rss/
+    limit: 5
+
+- todo:
+    label: 待办清单
+    icon: check-circle
+    items:
+      - title: 检查系统服务
+        done: false
+      - title: 阅读今日资讯
+        done: false
+
+- clipboard:
+    label: 剪贴板管理
+    icon: clipboard
+
+- note:
+    label: 公告栏
+    content: |
+      🗒️ 欢迎访问极客任意门！今日加油 💪
+
 - search:
     provider: google
     focus: true
     target: _blank
     showSearchSuggestions: true
+
+- bookmarks:
+    label: 快捷导航
+    icon: link
+    bookmarks:
+      - name: GitHub
+        url: https://github.com
+      - name: V2EX
+        url: https://v2ex.com
+      - name: 阮一峰博客
+        url: https://www.ruanyifeng.com/blog/
