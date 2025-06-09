@@ -1,43 +1,49 @@
 - resources:
-          label: 系统CPU
-          cpu: true
+    label: 系统CPU
+    cpu: true
 
 - resources:
-          label: 存储空间
-          disk: /
+    label: 存储空间
+    disk: /
 
 - resources:
-          label: "内存空间"
-          memory: true
+    label: "内存空间"
+    memory: true
 
 - resources:
-          label: "系统时间"
-          uptime: true
+    label: "系统时间"
+    uptime: true
 
 - search:
-          provider: google
-          focus: true
-          target: _blank
-          showSearchSuggestions: true
+    provider: google
+    focus: true
+    target: _blank
+    showSearchSuggestions: true
 
 - datetime:
-          label: "当前时间"
-          timezone: Asia/Shanghai
-          text_size: lg
-          hour12: true
-          locale: zh-Hans
-          format:
-                  dateStyle: medium
-                  timeStyle: short
+    label: "当前时间"
+    timezone: Asia/Shanghai
+    text_size: lg
+    hour12: true
+    locale: zh-Hans
+    format:
+      dateStyle: medium
+      timeStyle: short
 
 - openweathermap:
-          label: "杭州"
-          latitude: 30.089309
-          longitude: 119.932655
-          units: metric
-          provider: openweathermap
-          cache: 5
-          locale: zh-Hans
-          format:
-                  maximumFractionDigits: 1
-                  useGrouping: false
+    label: "杭州"
+    latitude: 30.089309
+    longitude: 119.932655
+    units: metric
+    provider: openweathermap
+    cache: 5
+    locale: zh-Hans
+    format:
+      maximumFractionDigits: 1
+      useGrouping: false
+- calendar:
+    view: agenda
+    maxEvents: 10 # optional - defaults to 10
+    showTime: true # optional - show time for event happening today - defaults to false
+    previousDays: 3 # optional - shows events since three days ago - defaults to 0
+    integrations: # same as in Monthly view example
