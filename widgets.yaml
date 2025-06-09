@@ -25,7 +25,7 @@
           timezone: Asia/Shanghai
           text_size: lg
           hour12: true
-          locale: zh_Hans
+          locale: zh-Hans
           format:
                   dateStyle: medium
                   timeStyle: short
@@ -37,7 +37,7 @@
           units: metric
           provider: openweathermap
           cache: 5
-          locale: zh_Hans
+          locale: zh-Hans
           format:
                   maximumFractionDigits: 1
                   useGrouping: false
