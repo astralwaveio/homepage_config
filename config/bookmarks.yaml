@@ -522,6 +522,11 @@
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=claude.ai
           href: https://claude.ai/
           description: 智能AI问答
+    - DeepSeek:
+        - abbr: DS
+          icon: https://www.google.com/s2/favicons?sz=64&domain_url=chat.deepseek.com
+          href: https://chat.deepseek.com/
+          description: 深度AI助手
     - Midjourney:
         - abbr: MJ
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.midjourney.com
@@ -537,11 +542,6 @@
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=huggingface.co
           href: https://huggingface.co/
           description: 模型社区平台
-    - 文心一言:
-        - abbr: WXY
-          icon: https://www.google.com/s2/favicons?sz=64&domain_url=yiyan.baidu.com
-          href: https://yiyan.baidu.com/
-          description: 百度AI助手
     - Stable Diffusion:
         - abbr: SD
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=stablediffusionweb.com
@@ -587,11 +587,6 @@
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.aifree.cc
           href: https://www.aifree.cc/
           description: AI工具大全
-    - Notion AI:
-        - abbr: NAI
-          icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.notion.so
-          href: https://www.notion.so/product/ai
-          description: 笔记AI助手
     - Character AI:
         - abbr: CAI
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=beta.character.ai
