@@ -1,6 +1,7 @@
 ---
 # 书签
 # 参考文档：https://gethomepage.dev/configs/bookmarks/
+
 - 搜索·聚合:
     - Google:
         abbr: GG
@@ -49,7 +50,7 @@
         description: 代码仓库搜索
     - V2EX搜:
         abbr: V2S
-        icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.sov2ex.com
+        icon: /icons/v2ex.png
         href: https://www.sov2ex.com/?q=
         description: 技术社区搜索
     - StackOverflow搜:
@@ -97,6 +98,7 @@
         icon: https://www.chinaz.com/favicon.ico
         href: https://www.chinaz.com/
         description: 站长行业平台
+
 - 开发·编程:
     - GitHub:
         abbr: GH
@@ -198,6 +200,7 @@
         icon: https://swagger.io/favicon-32x32.png
         href: https://swagger.io/
         description: API文档管理
+
 - 运维·云端:
     - AWS:
         abbr: AWS
@@ -299,6 +302,7 @@
         icon: https://glitch.com/favicon.ico
         href: https://glitch.com/
         description: 云端小项目
+
 - 架构·数据:
     - MySQL:
         abbr: MYSQL
@@ -400,6 +404,7 @@
         icon: https://swagger.io/favicon-32x32.png
         href: https://swagger.io/specification/
         description: API规范文档
+
 - 前端·设计:
     - Figma:
         abbr: FGM
@@ -433,6 +438,7 @@
         description: 免费图片素材
     - Iconfont:
         abbr: IF
+        # icon: https://www.iconfont.cn/favicon.ico
         href: https://www.iconfont.cn/
         description: 图标素材库
     - Font Awesome:
@@ -500,6 +506,7 @@
         icon: https://www.imacso.com/favicon.ico
         href: https://www.imacso.com/
         description: Mac软件导航
+
 - AI·数据科学:
     - ChatGPT:
         abbr: GPT
@@ -601,10 +608,11 @@
         icon: https://chatglm.cn/favicon.ico
         href: https://chatglm.cn/
         description: 中文AI助手
+
 - 技术社区:
     - V2EX:
         abbr: V2EX
-        icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.v2ex.com
+        icon: /icons/v2ex.png
         href: https://www.v2ex.com/
         description: 中文极客社区
     - Reddit:
@@ -702,6 +710,7 @@
         icon: https://www.zhihu.com/favicon.ico
         href: https://www.zhihu.com/
         description: 中文知识社区
+
 - 办公·效率:
     - Notion:
         abbr: NT
@@ -803,6 +812,7 @@
         icon: https://burnermail.io/favicon.ico
         href: https://burnermail.io/
         description: 临时邮箱
+
 - 文件·资源:
     - 阿里云盘:
         abbr: ALY
@@ -841,7 +851,7 @@
         description: 云盘资源论坛
     - ZLibrary:
         abbr: ZL
-        icon: https://www.google.com/s2/favicons?sz=64&domain_url=zh.z-library.gs
+        icon: /icons/zlibrary.png
         href: https://zh.z-library.gs/
         description: 全球电子书库
     - 书栈网:
@@ -904,6 +914,7 @@
         icon: https://send-anywhere.com/favicon.ico
         href: https://send-anywhere.com/
         description: 多端传文件
+
 - 娱乐·影音:
     - YouTube:
         abbr: YT
@@ -922,17 +933,17 @@
         description: 在线音乐平台
     - 馒头PT:
         abbr: MT
-        icon: https://www.google.com/s2/favicons?sz=64&domain_url=kp.m-team.cc
+        icon: mdi-nas
         href: https://kp.m-team.cc/
         description: 综合影视PT站
     - CarPT:
         abbr: CPT
-        icon: https://www.google.com/s2/favicons?sz=64&domain_url=carpt.net
+        icon: mdi-car
         href: https://carpt.net/
         description: 影音资源PT站
     - PTSKit:
         abbr: PTK
-        icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.ptskit.com
+        icon: mdi-tools
         href: https://www.ptskit.com/
         description: 短剧PT分享
     - QQ音乐:
@@ -1020,6 +1031,7 @@
         icon: https://itch.io/favicon.ico
         href: https://itch.io/
         description: 独立游戏平台
+
 - 生活·服务:
     - 京东:
         abbr: JD
@@ -1121,6 +1133,7 @@
         icon: https://www.cmbchina.com/favicon.ico
         href: https://www.cmbchina.com/
         description: 银行服务平台
+
 - 成长·提升:
     - TED:
         abbr: TED
