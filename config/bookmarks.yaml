@@ -507,46 +507,46 @@
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=chatgpt.com
           href: https://chatgpt.com/
           description: AI聊天助手
-    - OpenAI官网:
+    - OpenAI:
         - abbr: OAI
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=openai.com
           href: https://openai.com/
           description: 人工智能平台
-    - Google Gemini:
+    - Gemini:
         - abbr: GMN
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=gemini.google.com
           href: https://gemini.google.com/
           description: 谷歌AI助手
-    - 文心一言:
-        - abbr: WXY
-          icon: https://www.google.com/s2/favicons?sz=64&domain_url=yiyan.baidu.com
-          href: https://yiyan.baidu.com/
-          description: 百度AI助手
     - Claude:
         - abbr: CLD
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=claude.ai
           href: https://claude.ai/
           description: 智能AI问答
-    - 讯飞星火:
-        - abbr: XF
-          icon: https://www.google.com/s2/favicons?sz=64&domain_url=xinghuo.xfyun.cn
-          href: https://xinghuo.xfyun.cn/
-          description: 讯飞AI助手
     - Midjourney:
         - abbr: MJ
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.midjourney.com
           href: https://www.midjourney.com/
           description: AI绘画工具
-    - Stable Diffusion:
-        - abbr: SD
-          icon: https://www.google.com/s2/favicons?sz=64&domain_url=stablediffusionweb.com
-          href: https://stablediffusionweb.com/
-          description: AI生成图片
+    - 讯飞星火:
+        - abbr: XF
+          icon: https://www.google.com/s2/favicons?sz=64&domain_url=xinghuo.xfyun.cn
+          href: https://xinghuo.xfyun.cn/
+          description: 讯飞AI助手
     - Hugging Face:
         - abbr: HF
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=huggingface.co
           href: https://huggingface.co/
           description: 模型社区平台
+    - 文心一言:
+        - abbr: WXY
+          icon: https://www.google.com/s2/favicons?sz=64&domain_url=yiyan.baidu.com
+          href: https://yiyan.baidu.com/
+          description: 百度AI助手
+    - Stable Diffusion:
+        - abbr: SD
+          icon: https://www.google.com/s2/favicons?sz=64&domain_url=stablediffusionweb.com
+          href: https://stablediffusionweb.com/
+          description: AI生成图片
     - Kaggle:
         - abbr: KG
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.kaggle.com
@@ -568,7 +568,7 @@
           href: https://paperswithcode.com/
           description: 论文与代码
     - 魔搭社区:
-        - abbr: MT
+        - abbr: MTS
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.modelscope.cn
           href: https://www.modelscope.cn/
           description: AI模型社区
@@ -806,7 +806,7 @@
           description: 临时邮箱
 - 文件·资源:
     - 阿里云盘:
-        - abbr: ALY
+        - abbr: ALD
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.aliyundrive.com
           href: https://www.aliyundrive.com/
           description: 阿里云盘存储
@@ -922,7 +922,7 @@
           href: https://music.163.com/
           description: 在线音乐平台
     - 馒头PT:
-        - abbr: MT
+        - abbr: MPT
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=kp.m-team.cc
           href: https://kp.m-team.cc/
           description: 综合影视PT站
