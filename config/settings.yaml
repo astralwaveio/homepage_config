@@ -24,26 +24,30 @@ useEqualHeightCards: true
 groupsInitiallyCollapsed: false
 
 layout:
-  "NAS服务":
-    style: row
-    columns: 3
-    initiallyCollapsed: true
-    icon: mdi-chip
-    order: 1
-
   "运维平台":
     style: row
     columns: 3
     initiallyCollapsed: true
     icon: mdi-server
+    order: 1
+  "NAS服务":
+    style: row
+    columns: 3
+    initiallyCollapsed: true
+    icon: mdi-chip
     order: 2
-
   "下载工具":
     style: row
     columns: 3
     initiallyCollapsed: true
     icon: mdi-cloud-download
     order: 3
+  "其他服务":
+    style: row
+    columns: 3
+    initiallyCollapsed: true
+    icon: mdi-setting
+    order: 4
 
 # 天气或其他需要API密钥的服务提供商
 providers:

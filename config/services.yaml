@@ -1,72 +1,6 @@
 ---
 # 服务器信息 (Oracle Cloud & Home Service)
 # 参考文档：https://gethomepage.dev/configs/services/
-
-- NAS服务:
-    - 飞牛OS:
-        icon: mdi-server
-        href: https://h-fn.homehub.stream:8443
-        description: 飞牛OS - 宿主机管理面板
-        target: _blank
-        siteMonitor: https://h-fn.homehub.stream:8443
-    - 飞牛影视:
-        icon: mdi-movie-play-outline
-        href: https://h-fn.homehub.stream:8443/v
-        description: 飞牛影视 - 综合在线影视服务
-        target: _blank
-        siteMonitor: https://h-fn.homehub.stream:8443/v
-    - 飞牛相册:
-        icon: mdi-movie-play-outline
-        href: https://h-fn.homehub.stream:8443/p
-        description: 飞牛相册 - 图片媒体管理
-        target: _blank
-        siteMonitor: https://h-fn.homehub.stream:8443/p
-    - 飞牛OS - 局域网:
-        icon: mdi-server
-        href: http://192.168.31.8:25666/
-        description: 飞牛OS - 局域网
-        target: _blank
-    - 飞牛影视 - 局域网:
-        icon: mdi-movie-play-outline
-        href: http://192.168.31.8:25666/v
-        description: 飞牛影视 - 局域网
-        target: _blank
-    - 飞牛相册 - 局域网:
-        icon: mdi-movie-play-outline
-        href: http://192.168.31.8:25666/p
-        description: 飞牛相册 - 局域网
-        target: _blank
-- 下载工具:
-    - qBittorrent:
-        icon: mdi-download
-        href: https://h-qbt.homehub.stream:8443/
-        description: qBittorrent - 下载工具 WebUI
-        target: _blank
-        siteMonitor: https://h-qbt.homehub.stream:8443/
-
-    - Transmission(桌面端):
-        icon: mdi-progress-download
-        href: https://h-tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
-        description: Transmission - 电脑版 Web 控制台
-        target: _blank
-        siteMonitor: https://h-tr.homehub.stream:8443
-
-    - Transmission(手机端):
-        icon: mdi-progress-download
-        href: https://h-tr.homehub.stream:8443/transmission/web/index.mobile.html
-        description: Transmission - 手机版 Web 控制台
-        target: _blank
-        siteMonitor: https://h-tr.homehub.stream:8443
-    - Transmission(桌面端) - 局域网:
-        icon: mdi-download
-        href: http://192.168.31.8:8085
-        description: 局域网访问 qBittorrent
-        target: _blank
-    - Transmission(手机端) - 局域网:
-        icon: mdi-progress-download
-        href: http://192.168.31.8:9091/transmission/web/
-        description: Transmission - 局域网
-        target: _blank
 - 运维平台:
     - Proxmox VE:
         icon: mdi-virtual-reality
@@ -126,6 +60,73 @@
         description: 动态 DNS - 局域网
         target: _blank
 
+- NAS服务:
+    - 飞牛OS:
+        icon: mdi-server
+        href: https://h-fn.homehub.stream:8443
+        description: 飞牛OS - 宿主机管理面板
+        target: _blank
+        siteMonitor: https://h-fn.homehub.stream:8443
+    - 飞牛影视:
+        icon: mdi-movie-play-outline
+        href: https://h-fn.homehub.stream:8443/v
+        description: 飞牛影视 - 综合在线影视服务
+        target: _blank
+        siteMonitor: https://h-fn.homehub.stream:8443/v
+    - 飞牛相册:
+        icon: mdi-movie-play-outline
+        href: https://h-fn.homehub.stream:8443/p
+        description: 飞牛相册 - 图片媒体管理
+        target: _blank
+        siteMonitor: https://h-fn.homehub.stream:8443/p
+    - 飞牛OS - 局域网:
+        icon: mdi-server
+        href: http://192.168.31.8:25666/
+        description: 飞牛OS - 局域网
+        target: _blank
+    - 飞牛影视 - 局域网:
+        icon: mdi-movie-play-outline
+        href: http://192.168.31.8:25666/v
+        description: 飞牛影视 - 局域网
+        target: _blank
+    - 飞牛相册 - 局域网:
+        icon: mdi-movie-play-outline
+        href: http://192.168.31.8:25666/p
+        description: 飞牛相册 - 局域网
+        target: _blank
+
+- 下载工具:
+    - qBittorrent:
+        icon: mdi-download
+        href: https://h-qbt.homehub.stream:8443/
+        description: qBittorrent - 下载工具 WebUI
+        target: _blank
+        siteMonitor: https://h-qbt.homehub.stream:8443/
+
+    - Transmission(桌面端):
+        icon: mdi-progress-download
+        href: https://h-tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
+        description: Transmission - 电脑版 Web 控制台
+        target: _blank
+        siteMonitor: https://h-tr.homehub.stream:8443
+
+    - Transmission(手机端):
+        icon: mdi-progress-download
+        href: https://h-tr.homehub.stream:8443/transmission/web/index.mobile.html
+        description: Transmission - 手机版 Web 控制台
+        target: _blank
+        siteMonitor: https://h-tr.homehub.stream:8443
+    - Transmission(桌面端) - 局域网:
+        icon: mdi-download
+        href: http://192.168.31.8:8085
+        description: 局域网访问 qBittorrent
+        target: _blank
+    - Transmission(手机端) - 局域网:
+        icon: mdi-progress-download
+        href: http://192.168.31.8:9091/transmission/web/
+        description: Transmission - 局域网
+        target: _blank
+
 - 其他服务:
     - FreshRSS:
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/freshrss.png
@@ -134,7 +135,10 @@
         target: _blank
         siteMonitor: https://admin.rsshub.in
         widget:
-          freshrss:
-            url: https://admin.rsshub.in
-            username: astral
-            password: Rain@8240
+          type: freshrss
+          url: https://admin.rsshub.in
+          username: astral
+          password: Rain@8240
+          fields:
+            - subscriptions
+            - unread
