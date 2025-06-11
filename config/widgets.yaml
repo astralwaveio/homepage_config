@@ -2,6 +2,12 @@
 # 首页小组件
 # 参考：https://gethomepage.dev/widgets/
 
+- search:
+    provider: google
+    focus: true
+    target: _blank
+    showSearchSuggestions: true
+
 - datetime:
     label: 当前时间
     timezone: Asia/Shanghai
@@ -42,9 +48,3 @@
 
 - network:
     label: 网络状态
-
-- search:
-    provider: google
-    focus: true
-    target: _blank
-    showSearchSuggestions: true

@@ -23,6 +23,9 @@ useEqualHeightCards: true
 groupsInitiallyCollapsed: true
 
 layout:
+  "search":
+    columns: 1
+
   "NAS服务":
     style: row
     columns: 5
