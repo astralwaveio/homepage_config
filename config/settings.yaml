@@ -20,7 +20,7 @@ background:
 
 fullWidth: false
 maxGroupColumns: 4
-maxBookmarkGroupColumns: 8
+maxBookmarkGroupColumns: 5
 useEqualHeights: true
 useEqualHeightCards: true
 groupsInitiallyCollapsed: false
