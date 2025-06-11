@@ -1,47 +1,47 @@
 - 搜索·聚合:
   - Google:
       abbr: GG
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/google.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.google.com
       href: https://www.google.com/
       description: 全球搜索引擎
   - 必应:
       abbr: BY
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/bing.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.bing.com
       href: https://www.bing.com/
       description: 微软搜索引擎
   - DuckDuckGo:
       abbr: DDG
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/duckduckgo.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=duckduckgo.com
       href: https://duckduckgo.com/
       description: 隐私搜索工具
   - 搜狗:
       abbr: SG
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/sogou.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.sogou.com
       href: https://www.sogou.com/
       description: 中文综合搜索
   - Bing AI:
       abbr: BAI
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/bing.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.bing.com
       href: https://www.bing.com/chat
       description: 微软AI问答
   - 搜外问答:
       abbr: SW
-      icon: https://www.sowang.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=ask.seowhy.com
       href: https://ask.seowhy.com/
       description: SEO问答社区
   - 虫部落快搜:
       abbr: CB
-      icon: https://search.chongbuluo.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=search.chongbuluo.com
       href: https://search.chongbuluo.com/
       description: 聚合快速搜索
   - 豆瓣搜索:
       abbr: DB
-      icon: https://www.douban.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.douban.com
       href: https://www.douban.com/search
       description: 影视图书搜索
   - Github搜索:
       abbr: GHS
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/github.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=github.com
       href: https://github.com/search?type=Repositories&q=
       description: 代码仓库搜索
   - V2EX搜:
@@ -51,381 +51,381 @@
       description: 技术社区搜索
   - StackOverflow搜:
       abbr: SOQ
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/stackoverflow.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=stackoverflow.com
       href: https://stackoverflow.com/search
       description: 技术问答搜索
   - 谷歌学术:
       abbr: GS
-      icon: https://scholar.google.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=scholar.google.com
       href: https://scholar.google.com/
       description: 学术论文搜索
   - 站长工具:
       abbr: ZZ
-      icon: https://tool.chinaz.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=tool.chinaz.com
       href: https://tool.chinaz.com/
       description: 综合站长工具
   - 5118:
       abbr: WLY
-      icon: https://www.5118.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.5118.com
       href: https://www.5118.com/
       description: 网站分析工具
   - 程序员导航:
       abbr: DH
-      icon: https://www.code-nav.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.code-nav.cn
       href: https://www.code-nav.cn/
       description: 开发常用导航
   - 快搜API:
       abbr: APIQ
-      icon: https://search.chongbuluo.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=search.chongbuluo.com
       href: https://search.chongbuluo.com/api
       description: 聚合API工具
   - Product Hunt:
       abbr: PH
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/producthunt.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.producthunt.com
       href: https://www.producthunt.com/
       description: 产品发现社区
   - DevToys:
       abbr: DVT
-      icon: https://devtoys.app/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=devtoys.app
       href: https://devtoys.app/
       description: 开发聚合工具
   - 站长之家:
       abbr: ZC
-      icon: https://www.chinaz.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.chinaz.com
       href: https://www.chinaz.com/
       description: 站长行业平台
 - 开发·编程:
   - GitHub:
       abbr: GH
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/github-light.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=github.com
       href: https://github.com/
       description: 代码托管平台
   - GitLab:
       abbr: GL
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/gitlab.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=gitlab.com
       href: https://gitlab.com/
       description: 私有Git服务
   - Gitee:
       abbr: GT
-      icon: https://gitee.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=gitee.com
       href: https://gitee.com/
       description: 国内代码托管
   - Stack Overflow:
       abbr: SO
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/stackoverflow.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=stackoverflow.com
       href: https://stackoverflow.com/
       description: 技术问答社区
   - LeetCode:
       abbr: LC
-      icon: https://leetcode.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=leetcode.cn
       href: https://leetcode.cn/
       description: 编程刷题平台
   - CSDN:
       abbr: CSDN
-      icon: https://csdnimg.cn/public/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.csdn.net
       href: https://www.csdn.net/
       description: 开发者社区
   - 掘金:
       abbr: JJ
-      icon: https://juejin.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=juejin.cn
       href: https://juejin.cn/
       description: 技术分享社区
   - 博客园:
       abbr: BKY
-      icon: https://www.cnblogs.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.cnblogs.com
       href: https://www.cnblogs.com/
       description: 程序员博客
   - FreeCodeCamp:
       abbr: FCC
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/freecodecamp.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=freecodecamp.org
       href: https://freecodecamp.org/
       description: 编程学习平台
   - MDN文档:
       abbr: MDN
-      icon: https://developer.mozilla.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=developer.mozilla.org
       href: https://developer.mozilla.org/zh-CN/
       description: Web开发文档
   - npm:
       abbr: NPM
-      icon: https://www.npmjs.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.npmjs.com
       href: https://www.npmjs.com/
       description: JS包管理器
   - PyPI:
       abbr: PYPI
-      icon: https://pypi.org/static/images/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=pypi.org
       href: https://pypi.org/
       description: Python包管理
   - Rust Lang:
       abbr: RS
-      icon: https://www.rust-lang.org/static/images/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.rust-lang.org
       href: https://www.rust-lang.org/
       description: Rust语言官网
   - Go Lang:
       abbr: GO
-      icon: https://go.dev/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=go.dev
       href: https://go.dev/
       description: Go语言官网
   - TypeScript:
       abbr: TS
-      icon: https://www.typescriptlang.org/favicon-32x32.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.typescriptlang.org
       href: https://www.typescriptlang.org/
       description: TypeScript官网
   - CodePen:
       abbr: CP
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/codepen.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=codepen.io
       href: https://codepen.io/
       description: 在线代码演示
   - JSFiddle:
       abbr: JSF
-      icon: https://jsfiddle.net/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=jsfiddle.net
       href: https://jsfiddle.net/
       description: JS代码实验
   - OneAPI:
       abbr: OA
-      icon: https://oneapi.dev/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=oneapi.dev
       href: https://oneapi.dev/
       description: API聚合平台
   - Postman:
       abbr: PM
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/postman.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.postman.com
       href: https://www.postman.com/
       description: API调试工具
   - Swagger:
       abbr: SWG
-      icon: https://swagger.io/favicon-32x32.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=swagger.io
       href: https://swagger.io/
       description: API文档管理
 - 运维·云端:
   - AWS:
       abbr: AWS
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/aws.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=aws.amazon.com
       href: https://aws.amazon.com/
       description: 亚马逊云服务
   - 阿里云:
       abbr: ALY
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/aliyun.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=aliyun.com
       href: https://aliyun.com/
       description: 阿里云官网
   - 腾讯云:
       abbr: TXY
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/tencent-cloud.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=cloud.tencent.com
       href: https://cloud.tencent.com/
       description: 腾讯云平台
   - 华为云:
       abbr: HWY
-      icon: https://res-static.hc-cdn.com/cnpm-paas/static/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.huaweicloud.com
       href: https://www.huaweicloud.com/
       description: 华为云官网
   - Azure:
       abbr: AZ
-      icon: https://azure.microsoft.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=azure.microsoft.com
       href: https://azure.microsoft.com/
       description: 微软云服务
   - Google Cloud:
       abbr: GCP
-      icon: https://cloud.google.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=cloud.google.com
       href: https://cloud.google.com/
       description: 谷歌云服务
   - Cloudflare:
       abbr: CF
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cloudflare.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=cloudflare.com
       href: https://cloudflare.com/
       description: CDN与安全
   - DigitalOcean:
       abbr: DO
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/digitalocean.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=digitalocean.com
       href: https://digitalocean.com/
       description: VPS云服务
   - Vercel:
       abbr: VC
-      icon: https://vercel.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=vercel.com
       href: https://vercel.com/
       description: 前端云托管
   - Netlify:
       abbr: NL
-      icon: https://www.netlify.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.netlify.com
       href: https://www.netlify.com/
       description: 静态站托管
   - Railway:
       abbr: RW
-      icon: https://railway.app/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=railway.app
       href: https://railway.app/
       description: 云开发平台
   - Render:
       abbr: RN
-      icon: https://render.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=render.com
       href: https://render.com/
       description: 全栈云托管
   - Docker:
       abbr: DK
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/docker.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.docker.com
       href: https://www.docker.com/
       description: 容器技术
   - Kubernetes:
       abbr: K8S
-      icon: https://kubernetes.io/images/favicon.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=kubernetes.io
       href: https://kubernetes.io/
       description: K8S集群管理
   - Grafana:
       abbr: GF
-      icon: https://grafana.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=grafana.com
       href: https://grafana.com/
       description: 数据可视化
   - Prometheus:
       abbr: PT
-      icon: https://prometheus.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=prometheus.io
       href: https://prometheus.io/
       description: 监控报警系统
   - Jenkins:
       abbr: JKS
-      icon: https://www.jenkins.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.jenkins.io
       href: https://www.jenkins.io/
       description: 持续集成工具
   - Cloud Studio:
       abbr: CS
-      icon: https://cloudstudio.net/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=cloudstudio.net
       href: https://cloudstudio.net/
       description: 云端开发环境
   - Serverless:
       abbr: SVL
-      icon: https://www.serverless.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.serverless.com
       href: https://www.serverless.com/
       description: 无服务架构
   - Glitch:
       abbr: GLT
-      icon: https://glitch.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=glitch.com
       href: https://glitch.com/
       description: 云端小项目
 - 架构·数据:
   - MySQL:
       abbr: MYSQL
-      icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.mysql.com
       href: https://www.mysql.com/
       description: 关系型数据库
   - PostgreSQL:
       abbr: PG
-      icon: https://www.postgresql.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.postgresql.org
       href: https://www.postgresql.org/
       description: 开源数据库
   - MongoDB:
       abbr: MDB
-      icon: https://www.mongodb.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.mongodb.com
       href: https://www.mongodb.com/
       description: 文档型数据库
   - Redis:
       abbr: RDS
-      icon: https://redis.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=redis.io
       href: https://redis.io/
       description: 高速缓存数据库
   - SQLite:
       abbr: SQLT
-      icon: https://sqlite.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.sqlite.org
       href: https://www.sqlite.org/
       description: 嵌入式数据库
   - ElasticSearch:
       abbr: ES
-      icon: https://www.elastic.co/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.elastic.co
       href: https://www.elastic.co/
       description: 搜索引擎
   - Kafka:
       abbr: KF
-      icon: https://kafka.apache.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=kafka.apache.org
       href: https://kafka.apache.org/
       description: 消息队列
   - RabbitMQ:
       abbr: RMQ
-      icon: https://www.rabbitmq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.rabbitmq.com
       href: https://www.rabbitmq.com/
       description: 消息中间件
   - ClickHouse:
       abbr: CH
-      icon: https://clickhouse.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=clickhouse.com
       href: https://clickhouse.com/
       description: 列式数据库
   - Grafana:
       abbr: GFA
-      icon: https://grafana.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=grafana.com
       href: https://grafana.com/
       description: 数据可视化
   - Metabase:
       abbr: MB
-      icon: https://www.metabase.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.metabase.com
       href: https://www.metabase.com/
       description: 数据分析平台
   - Apache Airflow:
       abbr: AF
-      icon: https://airflow.apache.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=airflow.apache.org
       href: https://airflow.apache.org/
       description: 数据工作流调度
   - Superset:
       abbr: SUP
-      icon: https://superset.apache.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=superset.apache.org
       href: https://superset.apache.org/
       description: BI数据分析
   - dbdiagram.io:
       abbr: DBD
-      icon: https://dbdiagram.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=dbdiagram.io
       href: https://dbdiagram.io/
       description: 数据库ER图
   - DataGrip:
       abbr: DG
-      icon: https://www.jetbrains.com/datagrip/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.jetbrains.com
       href: https://www.jetbrains.com/datagrip/
       description: 数据库管理
   - 数据库实验室:
       abbr: DKL
-      icon: https://www.dbaplus.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.dbaplus.cn
       href: https://www.dbaplus.cn/
       description: 数据库学习
   - 腾讯云开发者:
       abbr: TCD
-      icon: https://cloud.tencent.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=cloud.tencent.com
       href: https://cloud.tencent.com/developer
       description: 云开发者社区
   - 设计模式速查:
       abbr: DP
-      icon: https://refactoring.guru/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=refactoring.guru
       href: https://refactoring.guru/zh/design-patterns
       description: 设计模式速查
   - 架构师之路:
       abbr: JG
-      icon: https://www.archdaily.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.infoq.cn
       href: https://www.infoq.cn/topic/architecture
       description: 架构师专栏
   - OpenAPI Spec:
       abbr: OAS
-      icon: https://swagger.io/favicon-32x32.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=swagger.io
       href: https://swagger.io/specification/
       description: API规范文档
 - 前端·设计:
   - Figma:
       abbr: FGM
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/figma.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=figma.com
       href: https://figma.com/
       description: 在线设计工具
   - Adobe XD:
       abbr: XD
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/adobexd.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.adobe.com
       href: https://www.adobe.com/products/xd.html
       description: UI原型设计
   - Sketch:
       abbr: SKT
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/sketch.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.sketch.com
       href: https://www.sketch.com/
       description: 矢量设计软件
   - Dribbble:
       abbr: DRB
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/dribbble.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=dribbble.com
       href: https://dribbble.com/
       description: 设计灵感社区
   - Behance:
       abbr: BH
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/behance.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.behance.net
       href: https://www.behance.net/
       description: 全球设计平台
   - Unsplash:
       abbr: US
-      icon: https://unsplash.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=unsplash.com
       href: https://unsplash.com/
       description: 免费图片素材
   - Iconfont:
@@ -434,168 +434,168 @@
       description: 图标素材库
   - Font Awesome:
       abbr: FA
-      icon: https://fontawesome.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=fontawesome.com
       href: https://fontawesome.com/
       description: 图标字体库
   - LottieFiles:
       abbr: LF
-      icon: https://lottiefiles.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=lottiefiles.com
       href: https://lottiefiles.com/
       description: 动画资源库
   - 稀土掘金设计:
       abbr: JJD
-      icon: https://juejin.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=juejin.cn
       href: https://juejin.cn/design
       description: 掘金设计资源
   - 站酷:
       abbr: ZK
-      icon: https://www.zcool.com.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.zcool.com.cn
       href: https://www.zcool.com.cn/
       description: 中文设计社区
   - 觅元素:
       abbr: MY
-      icon: https://www.51yuansu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.51yuansu.com
       href: https://www.51yuansu.com/
       description: 元素素材库
   - 程序员配色表:
       abbr: PC
-      icon: https://www.colordrop.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.colordrop.io
       href: https://www.colordrop.io/
       description: 颜色搭配推荐
   - css-tricks:
       abbr: CSST
-      icon: https://css-tricks.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=css-tricks.com
       href: https://css-tricks.com/
       description: 前端技巧网
   - CodeSandbox:
       abbr: CSB
-      icon: https://codesandbox.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=codesandbox.io
       href: https://codesandbox.io/
       description: 在线前端IDE
   - TailwindCSS:
       abbr: TWC
-      icon: https://tailwindcss.com/favicon-32x32.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=tailwindcss.com
       href: https://tailwindcss.com/
       description: CSS原子框架
   - Ant Design:
       abbr: ANT
-      icon: https://ant.design/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=ant.design
       href: https://ant.design/
       description: 企业级UI库
   - Element Plus:
       abbr: ELE
-      icon: https://element-plus.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=element-plus.org
       href: https://element-plus.org/
       description: Vue组件库
   - APPICON下载:
       abbr: APPI
-      icon: https://jiejingku.net/icon/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=jiejingku.net
       href: https://jiejingku.net/icon/
       description: APP图标下载
   - 麦氪搜:
       abbr: MKS
-      icon: https://www.imacso.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.imacso.com
       href: https://www.imacso.com/
       description: Mac软件导航
 - AI·数据科学:
   - ChatGPT:
       abbr: GPT
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/openai.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=chatgpt.com
       href: https://chatgpt.com/
       description: AI聊天助手
   - OpenAI官网:
       abbr: OAI
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/openai.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=openai.com
       href: https://openai.com/
       description: 人工智能平台
   - Google Gemini:
       abbr: GMN
-      icon: https://gemini.google.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=gemini.google.com
       href: https://gemini.google.com/
       description: 谷歌AI助手
   - 文心一言:
       abbr: WXY
-      icon: https://yiyan.baidu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=yiyan.baidu.com
       href: https://yiyan.baidu.com/
       description: 百度AI助手
   - Claude:
       abbr: CLD
-      icon: https://www.anthropic.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=claude.ai
       href: https://claude.ai/
       description: 智能AI问答
   - 讯飞星火:
       abbr: XF
-      icon: https://xinghuo.xfyun.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=xinghuo.xfyun.cn
       href: https://xinghuo.xfyun.cn/
       description: 讯飞AI助手
   - Midjourney:
       abbr: MJ
-      icon: https://cdn.midjourney.com/favicon-32x32.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.midjourney.com
       href: https://www.midjourney.com/
       description: AI绘画工具
   - Stable Diffusion:
       abbr: SD
-      icon: https://stablediffusionweb.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=stablediffusionweb.com
       href: https://stablediffusionweb.com/
       description: AI生成图片
   - Hugging Face:
       abbr: HF
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/huggingface.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=huggingface.co
       href: https://huggingface.co/
       description: 模型社区平台
   - Kaggle:
       abbr: KG
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/kaggle.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.kaggle.com
       href: https://www.kaggle.com/
       description: 数据竞赛平台
   - Datawhale:
       abbr: DW
-      icon: https://datawhale.club/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=datawhale.club
       href: https://datawhale.club/
       description: 数据科学社区
   - FastGPT:
       abbr: FGPT
-      icon: https://fastgpt.app/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=fastgpt.app
       href: https://fastgpt.app/
       description: 快速AI助手
   - Papers with Code:
       abbr: PWC
-      icon: https://paperswithcode.com/static/favicon/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=paperswithcode.com
       href: https://paperswithcode.com/
       description: 论文与代码
   - 魔搭社区:
       abbr: MT
-      icon: https://www.modelscope.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.modelscope.cn
       href: https://www.modelscope.cn/
       description: AI模型社区
   - 讯飞开放平台:
       abbr: XFKF
-      icon: https://www.xfyun.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.xfyun.cn
       href: https://www.xfyun.cn/
       description: 智能语音AI
   - Dify:
       abbr: DFY
-      icon: https://dify.ai/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=dify.ai
       href: https://dify.ai/
       description: AI工具集
   - AI 工具集:
       abbr: AIT
-      icon: https://www.aifree.cc/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.aifree.cc
       href: https://www.aifree.cc/
       description: AI工具大全
   - Notion AI:
       abbr: NAI
-      icon: https://notion.so/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.notion.so
       href: https://www.notion.so/product/ai
       description: 笔记AI助手
   - Character AI:
       abbr: CAI
-      icon: https://beta.character.ai/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=beta.character.ai
       href: https://beta.character.ai/
       description: 虚拟角色对话
   - 智谱清言:
       abbr: ZPQY
-      icon: https://chatglm.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=chatglm.cn
       href: https://chatglm.cn/
       description: 中文AI助手
 - 技术社区:
@@ -606,234 +606,234 @@
       description: 中文极客社区
   - Reddit:
       abbr: RE
-      icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/reddit.png
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=reddit.com
       href: https://reddit.com/
       description: 全球社区论坛
   - 掘金:
       abbr: JJQ
-      icon: https://juejin.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=juejin.cn
       href: https://juejin.cn/
       description: 技术分享社区
   - CSDN:
       abbr: CSDN2
-      icon: https://csdnimg.cn/public/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.csdn.net
       href: https://www.csdn.net/
       description: 开发者社区
   - 博客园:
       abbr: BKY2
-      icon: https://www.cnblogs.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.cnblogs.com
       href: https://www.cnblogs.com/
       description: 程序员博客
   - 少数派:
       abbr: SSP
-      icon: https://sspai.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=sspai.com
       href: https://sspai.com/
       description: 极客产品资讯
   - 51CTO:
       abbr: CTO
-      icon: https://www.51cto.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.51cto.com
       href: https://www.51cto.com/
       description: IT学习社区
   - OSCHINA:
       abbr: OSC
-      icon: https://www.oschina.net/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.oschina.net
       href: https://www.oschina.net/
       description: 开源技术社区
   - InfoQ:
       abbr: IQ
-      icon: https://www.infoq.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.infoq.cn
       href: https://www.infoq.cn/
       description: 技术资讯平台
   - 腾讯云开发者:
       abbr: TXKD
-      icon: https://cloud.tencent.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=cloud.tencent.com
       href: https://cloud.tencent.com/developer
       description: 云开发者社区
   - 程序员客栈:
       abbr: CKZ
-      icon: https://www.proginn.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.proginn.com
       href: https://www.proginn.com/
       description: 程序员社区
   - Dev.to:
       abbr: DVT
-      icon: https://dev.to/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=dev.to
       href: https://dev.to/
       description: 国际开发社区
   - 极客时间:
       abbr: JKSJ
-      icon: https://time.geekbang.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=time.geekbang.org
       href: https://time.geekbang.org/
       description: 技术成长平台
   - Stack Exchange:
       abbr: SE
-      icon: https://stackexchange.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=stackexchange.com
       href: https://stackexchange.com/
       description: 技术问答网络
   - Quora:
       abbr: QR
-      icon: https://quora.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=quora.com
       href: https://quora.com/
       description: 全球知识社区
   - SegmentFault:
       abbr: SF
-      icon: https://segmentfault.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=segmentfault.com
       href: https://segmentfault.com/
       description: 编程问答社区
   - 稀土掘金小册:
       abbr: JJXC
-      icon: https://juejin.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=juejin.cn
       href: https://juejin.cn/books
       description: 技术小册精选
   - 简书:
       abbr: JS
-      icon: https://www.jianshu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.jianshu.com
       href: https://www.jianshu.com/
       description: 写作分享社区
   - 微信公众号:
       abbr: WXGZ
-      icon: https://mp.weixin.qq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=mp.weixin.qq.com
       href: https://mp.weixin.qq.com/
       description: 微信内容平台
   - 知乎:
       abbr: ZH
-      icon: https://www.zhihu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.zhihu.com
       href: https://www.zhihu.com/
       description: 中文知识社区
 - 办公·效率:
   - Notion:
       abbr: NT
-      icon: https://notion.so/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=notion.so
       href: https://notion.so/
       description: 笔记协作平台
   - 飞书:
       abbr: FS
-      icon: https://www.feishu.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.feishu.cn
       href: https://www.feishu.cn/
       description: 企业协作工具
   - 钉钉:
       abbr: DD
-      icon: https://www.dingtalk.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.dingtalk.com
       href: https://www.dingtalk.com/
       description: 企业办公套件
   - 石墨文档:
       abbr: SM
-      icon: https://shimo.im/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=shimo.im
       href: https://shimo.im/
       description: 在线文档协作
   - 腾讯文档:
       abbr: TXWD
-      icon: https://docs.qq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=docs.qq.com
       href: https://docs.qq.com/
       description: 腾讯在线文档
   - 有道云笔记:
       abbr: YD
-      icon: https://note.youdao.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=note.youdao.com
       href: https://note.youdao.com/
       description: 云端笔记工具
   - WPS Office:
       abbr: WPS
-      icon: https://www.wps.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.wps.cn
       href: https://www.wps.cn/
       description: 办公文档工具
   - 印象笔记:
       abbr: YX
-      icon: https://www.yinxiang.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.yinxiang.com
       href: https://www.yinxiang.com/
       description: 个人知识库
   - Google Drive:
       abbr: GD
-      icon: https://drive.google.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=drive.google.com
       href: https://drive.google.com/
       description: 谷歌云盘
   - Todoist:
       abbr: TD
-      icon: https://todoist.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=todoist.com
       href: https://todoist.com/
       description: 任务管理工具
   - Trello:
       abbr: TR
-      icon: https://trello.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=trello.com
       href: https://trello.com/
       description: 看板协作平台
   - Calendly:
       abbr: CAL
-      icon: https://calendly.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=calendly.com
       href: https://calendly.com/
       description: 日程安排工具
   - MindMeister:
       abbr: MM
-      icon: https://www.mindmeister.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.mindmeister.com
       href: https://www.mindmeister.com/
       description: 思维导图工具
   - XMind:
       abbr: XM
-      icon: https://www.xmind.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.xmind.cn
       href: https://www.xmind.cn/
       description: 脑图工具
   - ProcessOn:
       abbr: PO
-      icon: https://www.processon.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.processon.com
       href: https://www.processon.com/
       description: 在线作图工具
   - 腾讯邮箱:
       abbr: QQM
-      icon: https://mail.qq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=mail.qq.com
       href: https://mail.qq.com/
       description: QQ邮箱服务
   - Gmail:
       abbr: GML
-      icon: https://mail.google.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=mail.google.com
       href: https://mail.google.com/
       description: 谷歌邮箱
   - ProtonMail:
       abbr: PMAIL
-      icon: https://proton.me/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=proton.me
       href: https://proton.me/
       description: 加密邮箱
   - SimpleLogin:
       abbr: SL
-      icon: https://simplelogin.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=simplelogin.io
       href: https://simplelogin.io/
       description: 邮箱防骚扰
   - Burner Mail:
       abbr: BM
-      icon: https://burnermail.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=burnermail.io
       href: https://burnermail.io/
       description: 临时邮箱
 - 文件·资源:
   - 阿里云盘:
       abbr: ALY
-      icon: https://www.aliyundrive.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.aliyundrive.com
       href: https://www.aliyundrive.com/
       description: 阿里云盘存储
   - 百度网盘:
       abbr: BDWP
-      icon: https://pan.baidu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=pan.baidu.com
       href: https://pan.baidu.com/
       description: 百度网盘
   - OneDrive:
       abbr: OD
-      icon: https://onedrive.live.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=onedrive.live.com
       href: https://onedrive.live.com/
       description: 微软云盘
   - Google Drive:
       abbr: GD
-      icon: https://drive.google.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=drive.google.com
       href: https://drive.google.com/
       description: 谷歌云盘
   - Dropbox:
       abbr: DBX
-      icon: https://www.dropbox.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.dropbox.com
       href: https://www.dropbox.com/
       description: 国际云盘
   - 猫狸盘搜:
       abbr: ML
-      icon: https://www.alipansou.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.alipansou.com
       href: https://www.alipansou.com/
       description: 云盘资源搜索
   - 阿里小站:
       abbr: ALZ
-      icon: https://pan666.net/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=pan666.net
       href: https://pan666.net/
       description: 云盘资源论坛
   - ZLibrary:
@@ -843,78 +843,78 @@
       description: 全球电子书库
   - 书栈网:
       abbr: SS
-      icon: https://www.bookstack.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.bookstack.cn
       href: https://www.bookstack.cn/
       description: IT电子书库
   - 鸠摩搜书:
       abbr: JM
-      icon: https://www.jiumodiary.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.jiumodiary.com
       href: https://www.jiumodiary.com/
       description: 电子书搜索
   - 免费书城:
       abbr: MFSC
-      icon: https://ebook.huzerui.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=ebook.huzerui.com
       href: https://ebook.huzerui.com/
       description: 免费电子书
   - 猫云搜索:
       abbr: MYS
-      icon: https://www.maoyunsearch.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.maoyunsearch.com
       href: https://www.maoyunsearch.com/
       description: 资源搜索引擎
   - 路过图床:
       abbr: LGT
-      icon: https://imgse.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=imgse.com
       href: https://imgse.com/
       description: 免费图床
   - Imgur:
       abbr: IMG
-      icon: https://imgur.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=imgur.com
       href: https://imgur.com/
       description: 国际图床
   - PicX 图床:
       abbr: PX
-      icon: https://picx.xpoet.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=picx.xpoet.cn
       href: https://picx.xpoet.cn/
       description: 免费图床
   - Postimages:
       abbr: PI
-      icon: https://postimages.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=postimages.org
       href: https://postimages.org/
       description: 免费图片托管
   - CowTransfer:
       abbr: NNKC
-      icon: https://cowtransfer.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=cowtransfer.com
       href: https://cowtransfer.com/
       description: 奶牛快传
   - 文叔叔:
       abbr: WSS
-      icon: https://www.wenshushu.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.wenshushu.cn
       href: https://www.wenshushu.cn/
       description: 临时文件传输
   - Wormhole:
       abbr: WH
-      icon: https://wormhole.app/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=wormhole.app
       href: https://wormhole.app/
       description: 跨端大文件
   - SendAnywhere:
       abbr: SA
-      icon: https://send-anywhere.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=send-anywhere.com
       href: https://send-anywhere.com/
       description: 多端传文件
 - 娱乐·影音:
   - YouTube:
       abbr: YT
-      icon: https://youtube.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=youtube.com
       href: https://youtube.com/
       description: 全球视频平台
   - 哔哩哔哩:
       abbr: BIL
-      icon: https://www.bilibili.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.bilibili.com
       href: https://www.bilibili.com/
       description: 二次元社区
   - 网易云音乐:
       abbr: WY
-      icon: https://music.163.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=music.163.com
       href: https://music.163.com/
       description: 在线音乐平台
   - 馒头PT:
@@ -934,288 +934,288 @@
       description: 短剧PT分享
   - QQ音乐:
       abbr: QQY
-      icon: https://y.qq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=y.qq.com
       href: https://y.qq.com/
       description: 在线音乐服务
   - 豆瓣FM:
       abbr: DBFM
-      icon: https://fm.douban.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=fm.douban.com
       href: https://fm.douban.com/
       description: 个性化电台
   - Apple Music:
       abbr: AM
-      icon: https://music.apple.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=music.apple.com
       href: https://music.apple.com/
       description: 苹果音乐
   - Spotify:
       abbr: SPT
-      icon: https://open.spotify.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=open.spotify.com
       href: https://open.spotify.com/
       description: 国际音乐平台
   - 虾米音乐:
       abbr: XM
-      icon: https://www.xiami.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.xiami.com
       href: https://www.xiami.com/
       description: 音乐社区
   - Twitch:
       abbr: TWC
-      icon: https://www.twitch.tv/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.twitch.tv
       href: https://www.twitch.tv/
       description: 游戏直播平台
   - 虎牙直播:
       abbr: HY
-      icon: https://www.huya.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.huya.com
       href: https://www.huya.com/
       description: 游戏直播
   - 斗鱼直播:
       abbr: DY
-      icon: https://www.douyu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.douyu.com
       href: https://www.douyu.com/
       description: 游戏直播
   - Netflix:
       abbr: NF
-      icon: https://www.netflix.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.netflix.com
       href: https://www.netflix.com/
       description: 国际影视平台
   - 腾讯视频:
       abbr: TXV
-      icon: https://v.qq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=v.qq.com
       href: https://v.qq.com/
       description: 腾讯在线视频
   - 爱奇艺:
       abbr: IQY
-      icon: https://www.iqiyi.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.iqiyi.com
       href: https://www.iqiyi.com/
       description: 热门视频站
   - 优酷:
       abbr: YK
-      icon: https://www.youku.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.youku.com
       href: https://www.youku.com/
       description: 国内视频站
   - 实时热榜:
       abbr: RB
-      icon: https://momoyu.cc/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=momoyu.cc
       href: https://momoyu.cc/
       description: 热门榜单
   - Steam:
       abbr: STM
-      icon: https://store.steampowered.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=store.steampowered.com
       href: https://store.steampowered.com/
       description: 游戏商店平台
   - Epic Games:
       abbr: EG
-      icon: https://store.epicgames.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=store.epicgames.com
       href: https://store.epicgames.com/
       description: 游戏商城
   - TapTap:
       abbr: TT
-      icon: https://www.taptap.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.taptap.cn
       href: https://www.taptap.cn/
       description: 手游社区
   - itch.io:
       abbr: ITCH
-      icon: https://itch.io/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=itch.io
       href: https://itch.io/
       description: 独立游戏平台
 - 生活·服务:
   - 京东:
       abbr: JD
-      icon: https://www.jd.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.jd.com
       href: https://www.jd.com/
       description: 网上购物平台
   - 天猫:
       abbr: TM
-      icon: https://www.tmall.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.tmall.com
       href: https://www.tmall.com/
       description: 天猫商城
   - 淘宝:
       abbr: TB
-      icon: https://www.taobao.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.taobao.com
       href: https://www.taobao.com/
       description: 淘宝购物
   - 拼多多:
       abbr: PDD
-      icon: https://www.pinduoduo.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.pinduoduo.com
       href: https://www.pinduoduo.com/
       description: 团购购物
   - 美团:
       abbr: MT
-      icon: https://www.meituan.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.meituan.com
       href: https://www.meituan.com/
       description: 本地生活服务
   - 饿了么:
       abbr: ELM
-      icon: https://www.ele.me/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.ele.me
       href: https://www.ele.me/
       description: 外卖订餐
   - 携程旅行:
       abbr: CTRIP
-      icon: https://www.ctrip.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.ctrip.com
       href: https://www.ctrip.com/
       description: 机票酒店预订
   - 12306:
       abbr: 12306
-      icon: https://www.12306.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.12306.cn
       href: https://www.12306.cn/
       description: 火车票官网
   - 高德地图:
       abbr: GD
-      icon: https://www.amap.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.amap.com
       href: https://www.amap.com/
       description: 地图导航
   - 百度地图:
       abbr: BDM
-      icon: https://map.baidu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=map.baidu.com
       href: https://map.baidu.com/
       description: 在线地图服务
   - 支付宝:
       abbr: ZFB
-      icon: https://www.alipay.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.alipay.com
       href: https://www.alipay.com/
       description: 在线支付平台
   - 微信支付:
       abbr: WXP
-      icon: https://pay.weixin.qq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=pay.weixin.qq.com
       href: https://pay.weixin.qq.com/
       description: 微信支付
   - 微博:
       abbr: WB
-      icon: https://weibo.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=weibo.com
       href: https://weibo.com/
       description: 社交媒体
   - 天气通:
       abbr: TQT
-      icon: https://www.weather.com.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.weather.com.cn
       href: https://www.weather.com.cn/
       description: 实时天气预报
   - 得到APP:
       abbr: DT
-      icon: https://www.dedao.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.dedao.cn
       href: https://www.dedao.cn/
       description: 知识服务平台
   - 下厨房:
       abbr: XCF
-      icon: https://www.xiachufang.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.xiachufang.com
       href: https://www.xiachufang.com/
       description: 菜谱食谱
   - 小红书:
       abbr: XHS
-      icon: https://www.xiaohongshu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.xiaohongshu.com
       href: https://www.xiaohongshu.com/
       description: 生活分享社区
   - 支付宝蚂蚁森林:
       abbr: MYSL
-      icon: https://www.alipay.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=60000002.h5app.alipay.com
       href: https://60000002.h5app.alipay.com/www/index.htm
       description: 绿色公益平台
   - 理财通:
       abbr: LCT
-      icon: https://licaitong.qq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=licaitong.qq.com
       href: https://licaitong.qq.com/
       description: 腾讯理财产品
   - 招商银行:
       abbr: CMB
-      icon: https://www.cmbchina.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.cmbchina.com
       href: https://www.cmbchina.com/
       description: 银行服务平台
 - 成长·提升:
   - TED:
       abbr: TED
-      icon: https://www.ted.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.ted.com
       href: https://www.ted.com/
       description: 知识演讲
   - Coursera:
       abbr: COU
-      icon: https://www.coursera.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.coursera.org
       href: https://www.coursera.org/
       description: 国际在线课程
   - edX:
       abbr: EDX
-      icon: https://www.edx.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.edx.org
       href: https://www.edx.org/
       description: 在线教育平台
   - 网易公开课:
       abbr: WYKK
-      icon: https://open.163.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=open.163.com
       href: https://open.163.com/
       description: 中文公开课
   - 极客时间专栏:
       abbr: JKSJZ
-      icon: https://time.geekbang.org/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=time.geekbang.org
       href: https://time.geekbang.org/column
       description: 技术专栏
   - MOOC中国:
       abbr: MOOC
-      icon: https://www.mooc.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.mooc.cn
       href: https://www.mooc.cn/
       description: 慕课课程
   - 译学馆:
       abbr: YXG
-      icon: https://www.yxgapp.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.yxgapp.com
       href: https://www.yxgapp.com/
       description: 外语学习
   - 知乎Live:
       abbr: ZHL
-      icon: https://www.zhihu.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.zhihu.com
       href: https://www.zhihu.com/lives
       description: 在线讲座
   - 站酷UED:
       abbr: ZKUED
-      icon: https://www.zcool.com.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.zcool.com.cn
       href: https://www.zcool.com.cn/u/14934567
       description: 设计成长
   - 少数派学院:
       abbr: SSPXY
-      icon: https://sspai.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=sspai.com
       href: https://sspai.com/academy
       description: 数字成长课
   - infoQ讲堂:
       abbr: IQJT
-      icon: https://www.infoq.cn/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=xue.infoq.cn
       href: https://xue.infoq.cn/
       description: 技术讲堂
   - 豆瓣读书:
       abbr: DBDS
-      icon: https://book.douban.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=book.douban.com
       href: https://book.douban.com/
       description: 在线图书
   - 语雀:
       abbr: YQ
-      icon: https://www.yuque.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.yuque.com
       href: https://www.yuque.com/
       description: 知识文档
   - 知识星球:
       abbr: ZSXQ
-      icon: https://www.zsxq.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.zsxq.com
       href: https://www.zsxq.com/
       description: 社群成长
   - GROWTH:
       abbr: GRW
-      icon: https://growth.design/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=growth.design
       href: https://growth.design/
       description: 产品成长案例
   - LinkedIn:
       abbr: LI
-      icon: https://www.linkedin.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.linkedin.com
       href: https://www.linkedin.com/
       description: 职业成长
   - 拉勾网:
       abbr: LG
-      icon: https://www.lagou.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.lagou.com
       href: https://www.lagou.com/
       description: IT求职平台
   - 智联招聘:
       abbr: ZLZP
-      icon: https://www.zhaopin.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.zhaopin.com
       href: https://www.zhaopin.com/
       description: 求职招聘
   - BOSS直聘:
       abbr: BOSS
-      icon: https://www.zhipin.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.zhipin.com
       href: https://www.zhipin.com/
       description: 互联网招聘
   - 英语流利说:
       abbr: YLLS
-      icon: https://www.liulishuo.com/favicon.ico
+      icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.liulishuo.com
       href: https://www.liulishuo.com/
       description: 英语学习
