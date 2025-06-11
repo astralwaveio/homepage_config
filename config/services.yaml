@@ -3,7 +3,7 @@
 # 参考文档：https://gethomepage.dev/configs/services/
 
 - FreshRSS:
-    icon: mdi-rss
+    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/freshrss.png
     href: https://admin.rsshub.in/
     description: 一个免费的、可自托管的 RSS 聚合器。
     target: _blank
