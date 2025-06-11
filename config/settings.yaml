@@ -25,25 +25,25 @@ groupsInitiallyCollapsed: false
 
 layout:
   "运维平台":
-    style: row
+    # style: row
     columns: 3
     initiallyCollapsed: true
     icon: mdi-rocket-launch
     order: 1
   "NAS服务":
-    style: row
+    # style: row
     columns: 3
     initiallyCollapsed: true
     icon: mdi-harddisk
     order: 2
   "下载工具":
-    style: row
+    # style: row
     columns: 3
     initiallyCollapsed: true
     icon: mdi-download-network
     order: 3
   "其他服务":
-    style: row
+    # style: row
     columns: 3
     initiallyCollapsed: true
     icon: mdi-apps
