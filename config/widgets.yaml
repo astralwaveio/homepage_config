@@ -8,6 +8,7 @@
     target: _blank
     showSearchSuggestions: true
     id: searchBar
+    order: 1
     logo:
       href: /icons/logo.png
       target: _blank
@@ -36,6 +37,7 @@
     text_size: xl
     hour12: true
     locale: zh-Hans
+    order: 2
     format:
       dateStyle: medium
       timeStyle: short
@@ -48,6 +50,7 @@
     provider: openweathermap
     cache: 5
     locale: zh-Hans
+    order: 3
     format:
       maximumFractionDigits: 1
       useGrouping: false
