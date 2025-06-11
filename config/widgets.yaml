@@ -45,3 +45,10 @@
 - resources:
     label: 系统运行时长
     uptime: true
+
+- calendar:
+  firstDayInWeek: monday
+  view: monthly
+  maxEvents: 10
+  showTime: true
+  timezone: Asia/Shanghai
