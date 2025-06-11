@@ -24,9 +24,9 @@
       timeStyle: short
 
 - openweathermap:
-    label: 杭州天气
-    latitude: 30.089309
-    longitude: 119.932655
+    label: 天气
+    # latitude: 30.089309
+    # longitude: 119.932655
     units: metric
     provider: openweathermap
     cache: 5
