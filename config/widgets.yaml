@@ -2,6 +2,9 @@
 # 首页小组件
 # 参考：https://gethomepage.dev/widgets/
 
+- logo:
+    icon: /icons/logo.png
+
 - search:
     provider: google
     focus: true
@@ -11,24 +14,6 @@
     logo:
       href: /icons/logo.png
       target: _blank
-
-# - resources:
-#     label: 系统资源
-#     cpu: true
-#     memory: true
-#     cputemp: true
-#     tempmin: 0
-#     tempmax: 100
-#     uptime: true
-#     units: imperial
-#     refresh: 3000
-
-# - resources:
-#     label: 存储与网络
-#     disk: /
-#     diskUnits: bytes
-#     network: true
-#     refresh: 3000
 
 - datetime:
     label: 当前时间
@@ -53,6 +38,3 @@
     format:
       maximumFractionDigits: 1
       useGrouping: false
-
-- logo:
-    icon: /icons/logo.png
