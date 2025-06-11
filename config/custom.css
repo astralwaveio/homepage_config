@@ -1,0 +1,4 @@
+/* 把搜索框限制在 300px 内 */
+#searchBar {
+  min-width: 100% !important;
+}
