@@ -19,8 +19,6 @@ background:
   opacity: 75
 
 fullWidth: false
-maxGroupColumns: 4
-maxBookmarkGroupColumns: 5
 useEqualHeights: true
 useEqualHeightCards: true
 groupsInitiallyCollapsed: false
