@@ -3,7 +3,7 @@
 # 参考：https://gethomepage.dev/widgets/
 
 - logo:
-    icon: /icons/logo.png
+    icon: /icons/icon.png
 
 - search:
     provider: google
@@ -11,9 +11,6 @@
     target: _blank
     showSearchSuggestions: true
     id: searchBar
-    logo:
-      href: /icons/logo.png
-      target: _blank
 
 - datetime:
     label: 当前时间
