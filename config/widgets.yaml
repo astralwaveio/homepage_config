@@ -45,6 +45,3 @@
 - resources:
     label: 系统运行时长
     uptime: true
-
-- network:
-    label: 网络状态
