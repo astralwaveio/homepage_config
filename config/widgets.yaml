@@ -13,23 +13,23 @@
       href: /icons/logo.png
       target: _blank
 
-- resources:
-    label: 系统资源
-    cpu: true
-    memory: true
-    cputemp: true
-    tempmin: 0
-    tempmax: 100
-    uptime: true
-    units: imperial
-    refresh: 3000
+# - resources:
+#     label: 系统资源
+#     cpu: true
+#     memory: true
+#     cputemp: true
+#     tempmin: 0
+#     tempmax: 100
+#     uptime: true
+#     units: imperial
+#     refresh: 3000
 
-- resources:
-    label: 存储与网络
-    disk: /
-    diskUnits: bytes
-    network: true
-    refresh: 3000
+# - resources:
+#     label: 存储与网络
+#     disk: /
+#     diskUnits: bytes
+#     network: true
+#     refresh: 3000
 
 - datetime:
     label: 当前时间
