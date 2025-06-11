@@ -1,3 +1,7 @@
+---
+# 首页小组件
+# 参考：https://gethomepage.dev/widgets/
+
 - datetime:
     label: 当前时间
     timezone: Asia/Shanghai
@@ -39,43 +43,8 @@
 - network:
     label: 网络状态
 
-- rss:
-    label: IT之家资讯
-    icon: rss
-    url: https://www.ithome.com/rss/
-    limit: 5
-
-- todo:
-    label: 待办清单
-    icon: check-circle
-    items:
-      - title: 检查系统服务
-        done: false
-      - title: 阅读今日资讯
-        done: false
-
-- clipboard:
-    label: 剪贴板管理
-    icon: clipboard
-
-- note:
-    label: 公告栏
-    content: |
-      🗒️ 欢迎访问极客任意门！今日加油 💪
-
 - search:
     provider: google
     focus: true
     target: _blank
     showSearchSuggestions: true
-
-- bookmarks:
-    label: 快捷导航
-    icon: link
-    bookmarks:
-      - name: GitHub
-        url: https://github.com
-      - name: V2EX
-        url: https://v2ex.com
-      - name: 阮一峰博客
-        url: https://www.ruanyifeng.com/blog/

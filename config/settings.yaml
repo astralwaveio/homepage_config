@@ -1,37 +1,34 @@
 # Homepage 设置配置文件
-# 更多信息请参考官方文档: https://gethomepage.dev/configs/settings/#base-url
+# 官方文档: https://gethomepage.dev/configs/settings/
+
 language: zh-CN
 title: 极客任意门 - GeekBase
 shortTitle: GeekBase
 favicon: https://magichub.top/download/static/GeekBase/favicon.ico
 
-headerStyle: boxedWidgets # 头部样式，可选值: default (默认), underlined (下划线), boxed (盒子), clean (简洁), boxedWidgets (小部件盒子)
+headerStyle: boxedWidgets
 theme: dark
-color: slate # 颜色主题，具体取决于您选择的主题，常见有: slate (石板色), sky (天空蓝), amber (琥珀色), rose (玫瑰色) 等
+color: slate
 locale: zh-cn
 
 background:
   image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
-  blur: sm # 背景模糊程度: none (无), sm (小), md (中), lg (大), xl (极大)
-  saturate: 100 # 背景饱和度 (0-200，100为原始值)
-  brightness: 70 # 背景亮度 (0-200，100为原始值)
-  opacity: 75 # 背景图片叠加在主题背景色上的不透明度 (0-100)
+  blur: sm
+  saturate: 100
+  brightness: 70
+  opacity: 75
 
-fullWidth: false # 内容是否撑满整个页面宽度
-useEqualHeightCards: true # 服务卡片是否等高显示
-groupsInitiallyCollapsed: true # 全局设置服务组是否折叠显示
+fullWidth: false
+useEqualHeightCards: true
+groupsInitiallyCollapsed: true
 
 layout:
-  # 服务组布局配置
-  # 您可以在这里定义服务组的布局、顺序和图标
-  # 服务组的名称需要与您在 services.yaml (或其他服务定义文件) 中的组名完全对应
-  "核心系统":
-    # 这是您在 services.yaml 中定义的组名
-    style: row # 排列方式: row (行) 或 column (列)
-    columns: 5 # 每行显示的卡片数量 (当 style 为 row 时生效)
-    initiallyCollapsed: false # 是否折叠显示该组
-    icon: mdi-chip # 图标，来自 Material Design Icons (mdi-) 或 Simple Icons (si-)
-    order: 1 # 可选，用于手动排序，数字越小越靠前
+  "NAS服务":
+    style: row
+    columns: 5
+    initiallyCollapsed: false
+    icon: mdi-chip
+    order: 1
 
   "运维平台":
     style: row
@@ -51,6 +48,7 @@ layout:
 providers:
   openweathermap: b79ccd07da22a1684b055550a478cf0f
 
+# 快捷启动 直接输入
 quicklaunch:
   searchDescriptions: true
   hideInternetSearch: true
@@ -59,12 +57,7 @@ quicklaunch:
   provider: google
 
 # 默认链接打开方式:
-# _self: 在当前标签页打开
-# _blank: 在新标签页打开
-# _parent: 在父框架中打开
-# _top: 在整个窗口中打开
 target: _blank
-# 其他可选设置
 hideVersion: true
 showStats: true
 statusStyle: "dot"

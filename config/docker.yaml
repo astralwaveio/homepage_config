@@ -1,9 +1,3 @@
 ---
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/docker/
-
-homepage:
-  host: 172.23.0.2
-  port: 37620
-# my-docker:
-#   socket: /var/run/docker.sock
+# Docker 服务
+# 参考文档：https://gethomepage.dev/configs/docker/

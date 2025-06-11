@@ -1,20 +1,37 @@
+---
+# 书签
+# 参考文档：https://gethomepage.dev/configs/bookmarks/
+
 - 搜索服务:
     - GitHub 搜索:
-        - abbr: GH
+        - abbr: GHS
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/github.png
           href: https://github.com/search?type=Repositories&q=
+    - V2EX:
+        - abbr: V2ES
+          icon: https://www.sov2ex.com/?q=
+
+- 人工智能:
+    - ChatGPT:
+        - abbr: GPT
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/openai.png
+          href: https://chatgpt.com/
 
 - 开发网站:
     - GitHub:
         - abbr: GH
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/github-light.png
           href: https://github.com/
 
 - 社交论坛:
     - Reddit:
         - abbr: RE
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/reddit.png
           href: https://reddit.com/
 
     - V2EX:
         - abbr: V2EX
+          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/vultr.png
           href: https://www.v2ex.com/
 
 - 资源:
