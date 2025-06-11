@@ -9,6 +9,20 @@
     showSearchSuggestions: true
     id: searchBar
 
+- resources:
+    label: 系统
+    cpu: true
+    memory: true
+    disk: /
+    cputemp: true
+    tempmin: 0
+    tempmax: 100
+    uptime: true
+    units: imperial
+    refresh: 3000
+    diskUnits: bytes
+    network: true
+
 - datetime:
     label: 当前时间
     timezone: Asia/Shanghai
@@ -30,22 +44,6 @@
     format:
       maximumFractionDigits: 1
       useGrouping: false
-
-- resources:
-    label: CPU 占用
-    cpu: true
-
-- resources:
-    label: 内存空间
-    memory: true
-
-- resources:
-    label: 存储空间
-    disk: /
-
-- resources:
-    label: 系统运行时长
-    uptime: true
 
 - calendar:
   firstDayInWeek: monday

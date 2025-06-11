@@ -19,30 +19,28 @@ background:
   opacity: 75
 
 fullWidth: false
+useEqualHeights: true
 useEqualHeightCards: true
-groupsInitiallyCollapsed: true
+groupsInitiallyCollapsed: false
 
 layout:
-  "search":
-    columns: 1
-
   "NAS服务":
     style: row
-    columns: 5
-    initiallyCollapsed: false
+    columns: 3
+    initiallyCollapsed: true
     icon: mdi-chip
     order: 1
 
   "运维平台":
     style: row
-    columns: 5
-    initiallyCollapsed: false
+    columns: 3
+    initiallyCollapsed: true
     icon: mdi-server
     order: 2
 
   "下载工具":
     style: row
-    columns: 5
+    columns: 3
     initiallyCollapsed: true
     icon: mdi-cloud-download
     order: 3
