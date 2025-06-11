@@ -6,10 +6,6 @@ title: 极客任意门 - GeekBase
 shortTitle: GeekBase
 favicon: /icons/favicon.ico
 
-# logo:
-#   href: /icons/logo.png
-#   target: _blank
-
 headerStyle: boxedWidgets
 theme: dark
 color: slate
@@ -22,7 +18,7 @@ background:
   brightness: 70
   opacity: 75
 
-fullWidth: true
+fullWidth: false
 maxGroupColumns: 4
 maxBookmarkGroupColumns: 8
 useEqualHeights: true
