@@ -2,6 +2,18 @@
 # 服务器信息 (Oracle Cloud & Home Service)
 # 参考文档：https://gethomepage.dev/configs/services/
 
+- FreshRSS:
+    icon: mdi-rss
+    href: https://admin.rsshub.in/
+    description: 一个免费的、可自托管的 RSS 聚合器。
+    target: _blank
+    siteMonitor: https://admin.rsshub.in
+    widget:
+      freshrss:
+        url: https://admin.rsshub.in
+        username: astral
+        password: Rain@8240
+
 - NAS服务:
     - 飞牛OS:
         icon: mdi-server
@@ -67,7 +79,6 @@
         href: http://192.168.31.8:9091/transmission/web/
         description: Transmission - 局域网
         target: _blank
-
 - 运维平台:
     - Proxmox VE:
         icon: mdi-virtual-reality

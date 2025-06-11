@@ -2,14 +2,15 @@
 # 书签
 # 参考文档：https://gethomepage.dev/configs/bookmarks/
 
-- 搜索服务:
-    - GitHub 搜索:
+- 搜索:
+    - GitHub:
         - abbr: GHS
           icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/github.png
           href: https://github.com/search?type=Repositories&q=
     - V2EX:
-        - abbr: V2ES
-          icon: https://www.sov2ex.com/?q=
+        - abbr: V2S
+          icon: /icons/v2ex.png
+          href: https://www.sov2ex.com/?q=
 
 - 人工智能:
     - ChatGPT:
@@ -31,7 +32,7 @@
 
     - V2EX:
         - abbr: V2EX
-          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/vultr.png
+          icon: /icons/v2ex.png
           href: https://www.v2ex.com/
 
 - 资源:
@@ -47,6 +48,7 @@
           target: _blank
     - ZLibrary:
         - abbr: ZL
+          icon: /icons/zlibrary.png
           href: https://zh.z-library.gs/
           description: 全球最大的电子书籍资源站
           target: _blank

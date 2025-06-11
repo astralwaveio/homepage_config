@@ -8,6 +8,9 @@
     target: _blank
     showSearchSuggestions: true
     id: searchBar
+    logo:
+      href: /icons/logo.png
+      target: _blank
 
 - resources:
     label: 系统
@@ -44,15 +47,3 @@
     format:
       maximumFractionDigits: 1
       useGrouping: false
-
-- calendar:
-  firstDayInWeek: monday
-  view: monthly
-  maxEvents: 10
-  showTime: true
-  timezone: Asia/Shanghai
-
-- freshrss:
-  url: https://admin.rsshub.in
-  username: astral
-  password: Rain@8240
