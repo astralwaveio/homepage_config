@@ -3,7 +3,7 @@
 # 参考文档：https://gethomepage.dev/configs/services/
 - 运维平台:
     - Proxmox VE:
-        icon: mdi-virtual-reality
+        icon: mdi-server
         href: https://h-pve.homehub.stream:8443
         description: PVE 虚拟化管理平台
         target: _blank
@@ -22,25 +22,25 @@
         target: _blank
         siteMonitor: https://kr1-panel.eoysky.com/
     - 青龙面板(Home):
-        icon: mdi-robot-outline
+        icon: mdi-robot
         href: https://h-ql.homehub.stream:8443
         description: 定时任务管理 - Home
         target: _blank
         siteMonitor: https://h-ql.homehub.stream:8443
     - 青龙面板(Oracle):
-        icon: mdi-robot-outline
+        icon: mdi-robot
         href: https://ql.astralwave.vip/login
         description: 定时任务管理 - OracleCloud
         target: _blank
         siteMonitor: https://ql.astralwave.vip/login
     - DDNS-Go:
-        icon: mdi-dns
+        icon: mdi-earth
         href: https://h-ddns.homehub.stream:8443
         description: 动态 DNS - 自动更新服务
         target: _blank
         siteMonitor: https://h-ddns.homehub.stream:8443
     - Proxmox VE - 局域网:
-        icon: mdi-virtual-reality
+        icon: mdi-lan
         href: https://192.168.31.18:8006
         description: PVE 虚拟化管理平台 - 局域网
         target: _blank
@@ -50,47 +50,47 @@
         description: 服务器管理面板 - 局域网
         target: _blank
     - 青龙面板 - 局域网:
-        icon: mdi-robot-outline
+        icon: mdi-robot
         href: http://192.168.31.100:35700
         description: 青龙面板 - 定时任务管理
         target: _blank
     - DDNS-Go - 局域网:
-        icon: mdi-dns
+        icon: mdi-earth
         href: http://192.168.31.8:9876/
         description: 动态 DNS - 局域网
         target: _blank
 
 - NAS服务:
     - 飞牛OS:
-        icon: mdi-server
+        icon: mdi-nas
         href: https://h-fn.homehub.stream:8443
         description: 飞牛OS - 宿主机管理面板
         target: _blank
         siteMonitor: https://h-fn.homehub.stream:8443
     - 飞牛影视:
-        icon: mdi-movie-play-outline
+        icon: mdi-movie-open
         href: https://h-fn.homehub.stream:8443/v
         description: 飞牛影视 - 综合在线影视服务
         target: _blank
         siteMonitor: https://h-fn.homehub.stream:8443/v
     - 飞牛相册:
-        icon: mdi-movie-play-outline
+        icon: mdi-image-multiple
         href: https://h-fn.homehub.stream:8443/p
         description: 飞牛相册 - 图片媒体管理
         target: _blank
         siteMonitor: https://h-fn.homehub.stream:8443/p
     - 飞牛OS - 局域网:
-        icon: mdi-server
+        icon: mdi-nas
         href: http://192.168.31.8:25666/
         description: 飞牛OS - 局域网
         target: _blank
     - 飞牛影视 - 局域网:
-        icon: mdi-movie-play-outline
+        icon: mdi-movie-open
         href: http://192.168.31.8:25666/v
         description: 飞牛影视 - 局域网
         target: _blank
     - 飞牛相册 - 局域网:
-        icon: mdi-movie-play-outline
+        icon: mdi-image-multiple
         href: http://192.168.31.8:25666/p
         description: 飞牛相册 - 局域网
         target: _blank
@@ -104,14 +104,14 @@
         siteMonitor: https://h-qbt.homehub.stream:8443/
 
     - Transmission(桌面端):
-        icon: mdi-progress-download
+        icon: mdi-torrent
         href: https://h-tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
         description: Transmission - 电脑版 Web 控制台
         target: _blank
         siteMonitor: https://h-tr.homehub.stream:8443
 
     - Transmission(手机端):
-        icon: mdi-progress-download
+        icon: mdi-torrent
         href: https://h-tr.homehub.stream:8443/transmission/web/index.mobile.html
         description: Transmission - 手机版 Web 控制台
         target: _blank
@@ -122,7 +122,7 @@
         description: 局域网访问 qBittorrent
         target: _blank
     - Transmission(手机端) - 局域网:
-        icon: mdi-progress-download
+        icon: mdi-torrent
         href: http://192.168.31.8:9091/transmission/web/
         description: Transmission - 局域网
         target: _blank

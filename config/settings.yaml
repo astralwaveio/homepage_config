@@ -28,25 +28,25 @@ layout:
     style: row
     columns: 3
     initiallyCollapsed: true
-    icon: mdi-server
+    icon: mdi-rocket-launch
     order: 1
   "NAS服务":
     style: row
     columns: 3
     initiallyCollapsed: true
-    icon: mdi-chip
+    icon: mdi-harddisk
     order: 2
   "下载工具":
     style: row
     columns: 3
     initiallyCollapsed: true
-    icon: mdi-cloud-download
+    icon: mdi-download-network
     order: 3
   "其他服务":
     style: row
     columns: 3
     initiallyCollapsed: true
-    icon: mdi-setting
+    icon: mdi-apps
     order: 4
 
 # 天气或其他需要API密钥的服务提供商
