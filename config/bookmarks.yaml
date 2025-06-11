@@ -936,19 +936,16 @@
         icon: mdi-nas
         href: https://kp.m-team.cc/
         description: 综合影视PT站
-        target: _blank
     - CarPT:
         abbr: CPT
         icon: mdi-car
         href: https://carpt.net/
         description: 影音资源PT站
-        target: _blank
     - PTSKit:
         abbr: PTK
         icon: mdi-tools
         href: https://www.ptskit.com/
         description: 短剧PT分享
-        target: _blank
     - QQ音乐:
         abbr: QQY
         icon: https://y.qq.com/favicon.ico
