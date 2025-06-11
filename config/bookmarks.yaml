@@ -2,17 +2,27 @@
 # 书签
 # 参考文档：https://gethomepage.dev/configs/bookmarks/
 
-- 搜索:
-    - GitHub:
-        - abbr: GHS
-          icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/github.png
-          href: https://github.com/search?type=Repositories&q=
-          description: 代码仓库搜索
-    - V2EX:
-        - abbr: V2S
-          icon: /icons/v2ex.png
-          href: https://www.sov2ex.com/?q=
-          description: 技术社区搜索
+- 搜索·聚合:
+    - Google:
+        abbr: GG
+        icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.google.com
+        href: https://www.google.com/
+        description: 全球搜索引擎
+    - 必应:
+        abbr: BY
+        icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.bing.com
+        href: https://www.bing.com/
+        description: 微软搜索引擎
+    - DuckDuckGo:
+        abbr: DDG
+        icon: https://www.google.com/s2/favicons?sz=64&domain_url=duckduckgo.com
+        href: https://duckduckgo.com/
+        description: 隐私搜索工具
+    - 搜狗:
+        abbr: SG
+        icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.sogou.com
+        href: https://www.sogou.com/
+        description: 中文综合搜索
 
 - 人工智能:
     - ChatGPT:
