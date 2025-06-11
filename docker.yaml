@@ -2,9 +2,8 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/docker/
 
-# my-docker:
-#   host: 127.0.0.1
-#   port: 2375
-
+homepage:
+  host: 172.23.0.2
+  port: 37620
 # my-docker:
 #   socket: /var/run/docker.sock
