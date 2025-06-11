@@ -8,7 +8,6 @@
     target: _blank
     showSearchSuggestions: true
     id: searchBar
-    order: 1
     logo:
       href: /icons/logo.png
       target: _blank
@@ -54,3 +53,6 @@
     format:
       maximumFractionDigits: 1
       useGrouping: false
+
+- logo:
+    icon: /icons/logo.png
