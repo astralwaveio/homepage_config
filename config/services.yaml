@@ -62,22 +62,34 @@
 - NAS服务:
     - 飞牛OS:
         icon: mdi-nas
-        href: https://fn.homehub.stream
+        href: https://fn.homehub.stream:8443
         description: 飞牛OS 主机管理面板
         target: _blank
-        siteMonitor: https://fn.homehub.stream
+        siteMonitor: https://fn.homehub.stream:8443
     - 飞牛影视:
         icon: mdi-movie-open
-        href: https://fn.homehub.stream/v
-        description: 在线影视服务（Jellyfin）
+        href: https://fn.homehub.stream:8443/v
+        description: 飞牛影视服务
         target: _blank
-        siteMonitor: https://fn.homehub.stream/v
+        siteMonitor: https://fn.homehub.stream:8443/v
     - 飞牛相册:
         icon: mdi-image-multiple
-        href: https://fn.homehub.stream/p
-        description: 媒体相册服务（Navidrome）
+        href: https://fn.homehub.stream:8443/p
+        description: 飞牛相册服务
         target: _blank
-        siteMonitor: https://fn.homehub.stream/p
+        siteMonitor: https://fn.homehub.stream:8443/p
+    - Jellyfin:
+        icon: mdi-movie-open
+        href: https://v.homehub.stream:8443
+        description: 在线影视服务（Jellyfin）
+        target: _blank
+        siteMonitor: https://fn.homehub.stream:8443
+    - 音乐服务:
+        icon: mdi-image-multiple
+        href: https://m.homehub.stream:8443/p
+        description: Navidrome 在线音乐服务
+        target: _blank
+        siteMonitor: https://m.homehub.stream:8443
 
     - 局域网访问:
         - 飞牛OS - 局域网:
@@ -95,6 +107,18 @@
             href: http://192.168.31.8:12680/p
             description: 局域网访问 - Navidrome
             target: _blank
+        - Jellyfin:
+            icon: mdi-movie-open
+            href: http://192.168.31.8:8097
+            description: 在线影视服务（Jellyfin）
+            target: _blank
+            siteMonitor: https://fn.homehub.stream:8443
+        - 音乐服务:
+            icon: mdi-image-multiple
+            href: http://192.168.31.8:4533
+            description: Navidrome 在线音乐服务
+            target: _blank
+            siteMonitor: https://m.homehub.stream:8443
 
 - 下载工具:
     - qBittorrent(Home):
