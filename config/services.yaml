@@ -4,10 +4,10 @@
 - 运维平台:
     - 1Panel(Home):
         icon: mdi-monitor-dashboard
-        href: https://panel.homehub.stream
+        href: https://panel.homehub.stream/astral
         description: Home 主机 · 服务管理面板
         target: _blank
-        siteMonitor: https://panel.homehub.stream
+        siteMonitor: https://panel.homehub.stream/
 
     - 1Panel(Oracle):
         icon: mdi-monitor-dashboard
@@ -40,7 +40,7 @@
     - 局域网访问:
         - 1Panel(Home):
             icon: mdi-monitor-dashboard
-            href: http://192.168.31.8:17859
+            href: http://192.168.31.8:17859/astral
             description: 局域网访问 - 1Panel 面板
             target: _blank
             siteMonitor: https://panel.homehub.stream
