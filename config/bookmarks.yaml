@@ -921,6 +921,11 @@
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=kp.m-team.cc
           href: https://kp.m-team.cc/
           description: 综合影视PT站
+    - AFUN PT:
+        - abbr: AFUN
+          icon: https://www.google.com/s2/favicons?sz=64&domain_url=www.ptlover.cc
+          href: https://www.ptlover.cc/
+          description: 综合影视PT站
     - CarPT:
         - abbr: CPT
           icon: https://www.google.com/s2/favicons?sz=64&domain_url=carpt.net

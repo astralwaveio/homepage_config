@@ -4,17 +4,17 @@
 - 运维平台:
     - 服务器IMPI:
         icon: mdi-monitor-dashboard
-        href: http://impi.ddns.net:1880/
+        href: http://impi.ddns.net:60808/
         description: 主机IMPI管理面板
         target: _blank
-        siteMonitor: http://impi.ddns.net:1880/
+        siteMonitor: http://impi.ddns.net:60808/
 
     - 1Panel(Home):
         icon: mdi-monitor-dashboard
-        href: https://panel.homehub.stream/astral
+        href: https://panel.homehub.stream:8443/astral
         description: Home 主机 · 服务管理面板
         target: _blank
-        siteMonitor: https://panel.homehub.stream/
+        siteMonitor: https://panel.homehub.stream:8443/
 
     - 1Panel(Oracle):
         icon: mdi-monitor-dashboard
@@ -66,6 +66,13 @@
             target: _blank
             siteMonitor: https://chat.homehub.stream
 
+        - 小米路由器:
+            icon: mdi-monitor-dashboard
+            href: http://192.168.31.1
+            description: 局域网访问
+            target: _blank
+            siteMonitor: http://lab.homehub.stream:8443
+
 - NAS服务:
     - 飞牛OS:
         icon: mdi-nas
@@ -97,6 +104,24 @@
         description: Navidrome 在线音乐服务
         target: _blank
         siteMonitor: https://m.homehub.stream:8443
+    - MoviePilot:
+        icon: mdi-movie-open
+        href: https://mp.homehub.stream:8443
+        description: MoviePilot
+        target: _blank
+        siteMonitor: https://mp.homehub.stream:8443
+    - MovieBot:
+        icon: mdi-movie-open
+        href: https://mb.homehub.stream:8443
+        description: MovieBot
+        target: _blank
+        siteMonitor: https://mb.homehub.stream:8443
+    - Vertex:
+        icon: mdi-movie-open
+        href: https://vt.homehub.stream:8443
+        description: Vertex
+        target: _blank
+        siteMonitor: https://vt.homehub.stream:8443
 
     - 局域网访问:
         - 飞牛OS - 局域网:
@@ -134,6 +159,13 @@
         description: 下载工具 · qBittorrent WebUI
         target: _blank
         siteMonitor: https://qb.homehub.stream
+
+    - Aria2:
+        icon: mdi-download
+        href: https://aria.homehub.stream:8443
+        description: 下载工具 · Aria2
+        target: _blank
+        siteMonitor: https://aria.homehub.stream:8443
 
     - Transmission(桌面端):
         icon: mdi-torrent
