@@ -54,10 +54,10 @@
         siteMonitor: https://mp.homehub.stream:8443
     - Lidarr:
         icon: mdi-music-note
-        href: https://lid.homehub.stream:8443
+        href: https://arr.homehub.stream:8443/login
         description: Lidarr 音乐管理
         target: _blank
-        siteMonitor: https://lid.homehub.stream:8443/
+        siteMonitor: https://arr.homehub.stream:8443/login
     - 音乐服务:
         icon: mdi-music
         href: https://music.homehub.stream:8443/p
@@ -161,7 +161,7 @@
         href: http://192.168.31.8:38786
         description: Lidarr 音乐管理
         target: _blank
-        siteMonitor: https://lid.homehub.stream:8443
+        siteMonitor: https://arr.homehub.stream:8443/login
     - 音乐服务[内]:
         icon: mdi-music
         href: http://192.168.31.8:4533
