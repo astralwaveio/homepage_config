@@ -42,10 +42,10 @@
         siteMonitor: https://fn.homehub.stream:8443/p
     - Jellyfin:
         icon: mdi-movie-open
-        href: https://v.homehub.stream:8443/web/#/home.html
+        href: https://tv.homehub.stream:8443/web/#/home.html
         description: 在线影视服务（Jellyfin）
         target: _blank
-        siteMonitor: https://fn.homehub.stream:8443
+        siteMonitor: https://tv.homehub.stream:8443
     - MoviePilot:
         icon: mdi-movie-filter
         href: https://mp.homehub.stream:8443/
@@ -60,10 +60,10 @@
         siteMonitor: https://lid.homehub.stream:8443/
     - 音乐服务:
         icon: mdi-music
-        href: https://m.homehub.stream:8443/p
+        href: https://music.homehub.stream:8443/p
         description: Navidrome 在线音乐
         target: _blank
-        siteMonitor: https://m.homehub.stream:8443
+        siteMonitor: https://music.homehub.stream:8443
     - 青龙面板:
         icon: mdi-robot
         href: https://ql.homehub.stream:8443/
@@ -149,7 +149,7 @@
         href: http://192.168.31.8:28096/web/#/home.html
         description: 在线影视服务（Jellyfin）
         target: _blank
-        siteMonitor: https://v.homehub.stream:8443
+        siteMonitor: https://tv.homehub.stream:8443
     - MoviePilot[内]:
         icon: mdi-movie-filter
         href: http://192.168.31.8:42720
@@ -167,7 +167,7 @@
         href: http://192.168.31.8:4533
         description: Navidrome 在线音乐
         target: _blank
-        siteMonitor: https://m.homehub.stream:8443
+        siteMonitor: https://music.homehub.stream:8443
     - 青龙面板[内]:
         icon: mdi-robot
         href: http://192.168.31.8:15700
