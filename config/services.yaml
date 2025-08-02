@@ -89,7 +89,7 @@
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
     - Transmission-移动:
-        icon: mdi-mdi:download-network
+        icon: mdi-download-network
         href: https://tr.homehub.stream:8443/transmission/web/index.mobile.html
         description: Transmission WebUI (移动端)
         target: _blank
@@ -187,7 +187,7 @@
         target: _blank
         siteMonitor: https://chat.homehub.stream:8443
     - Transmission-桌面[内]:
-        icon: mid-monitor-arrow-down
+        icon: mdi-monitor-arrow-down
         href: http://192.168.31.8:9091/transmission/web/index.html?devicetype=computer
         description: Transmission WebUI
         target: _blank
@@ -200,7 +200,7 @@
         siteMonitor: https://tr.homehub.stream:8443
     - 服务器 IMPI[内]:
         icon: mdi-monitor-dashboard
-        href: http://192.198.31.81
+        href: http://192.168.31.81
         description: NAS IMPI管理面板
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
