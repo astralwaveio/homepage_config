@@ -83,13 +83,13 @@
         target: _blank
         siteMonitor: https://chat.homehub.stream:8443/
     - Transmission-桌面:
-        icon: mdi:monitor-arrow-down
+        icon: mdi-monitor-arrow-down
         href: https://tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
         description: Transmission WebUI
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
     - Transmission-移动:
-        icon: mdi:mdi:download-network
+        icon: mdi-mdi:download-network
         href: https://tr.homehub.stream:8443/transmission/web/index.mobile.html
         description: Transmission WebUI (移动端)
         target: _blank
@@ -101,7 +101,7 @@
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
     - Aria2:
-        icon: mdi-download
+        icon: mdi-cloud-download
         href: https://aria.homehub.stream:8443/
         description: 下载工具 Aria2
         target: _blank
@@ -187,13 +187,13 @@
         target: _blank
         siteMonitor: https://chat.homehub.stream:8443
     - Transmission-桌面[内]:
-        icon: monitor-arrow-down
+        icon: mid-monitor-arrow-down
         href: http://192.168.31.8:9091/transmission/web/index.html?devicetype=computer
         description: Transmission WebUI
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
     - Transmission-移动[内]:
-        icon: mdi:download-network
+        icon: mdi-download-network
         href: http://192.168.31.8:9091/transmission/web/index.mobile.html
         description: Transmission WebUI (移动端)
         target: _blank
@@ -204,8 +204,8 @@
         description: NAS IMPI管理面板
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
-    - 小米路由器[内]:
-        icon: router-wireless
+    - 路由器[内]:
+        icon: mid-router-wireless
         href: http://192.168.31.1
         description: 路由器管理
         target: _blank
