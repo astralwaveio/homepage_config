@@ -81,12 +81,6 @@
         description: 轻量语音服务
         target: _blank
         siteMonitor: https://chat.homehub.stream:8443/
-    - Aria2:
-        icon: mdi-download
-        href: https://aria.homehub.stream:8443/
-        description: 下载工具 Aria2
-        target: _blank
-        siteMonitor: https://aria.homehub.stream:8443
     - Transmission(桌面端):
         icon: mdi-torrent
         href: https://tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
@@ -105,6 +99,12 @@
         description: NAS IMPI管理面板
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
+    - Aria2:
+        icon: mdi-download
+        href: https://aria.homehub.stream:8443/
+        description: 下载工具 Aria2
+        target: _blank
+        siteMonitor: https://aria.homehub.stream:8443
 
 - NAS 服务 (内网):
     - 1Panel:
