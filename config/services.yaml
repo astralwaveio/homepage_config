@@ -1,7 +1,8 @@
 ---
 # 服务器信息 (Oracle Cloud & Home Service)
 # 参考文档：https://gethomepage.dev/configs/services/
-
+        
+        
 - NAS 服务 (外网):
     - 1Panel:
         icon: mdi-monitor-dashboard
@@ -210,7 +211,6 @@
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
 
----
 - VPS 服务:
     - 1Panel(Oracle):
         icon: mdi-monitor-dashboard
