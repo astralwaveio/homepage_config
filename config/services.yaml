@@ -1,8 +1,9 @@
 ---
 # 服务器信息 (Oracle Cloud & Home Service)
 # 参考文档：https://gethomepage.dev/configs/services/
+# ICON查询：https://pictogrammers.com/library/mdi/
 
-- NAS 服务 (外网):
+- NAS 服务[外网]:
     - 1Panel:
         icon: mdi-monitor-dashboard
         href: https://panel.homehub.stream:8443/astral
@@ -15,7 +16,7 @@
         description: qBittorrent WebUI
         target: _blank
         siteMonitor: https://qb.homehub.stream:8443
-    - qBittorrent(刷流):
+    - qBittorrent-刷流:
         icon: mdi-download
         href: https://qbit.homehub.stream:8443
         description: 刷流专用 qBittorrent
@@ -81,19 +82,19 @@
         description: 轻量语音服务
         target: _blank
         siteMonitor: https://chat.homehub.stream:8443/
-    - Transmission(桌面端):
-        icon: mdi-torrent
+    - Transmission-桌面:
+        icon: mdi:monitor-arrow-down
         href: https://tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
         description: Transmission WebUI
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
-    - Transmission(手机端):
-        icon: mdi-torrent
+    - Transmission-移动:
+        icon: mdi:mdi:download-network
         href: https://tr.homehub.stream:8443/transmission/web/index.mobile.html
         description: Transmission WebUI (移动端)
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
-    - 服务器IMPI:
+    - 服务器 IMPI:
         icon: mdi-monitor-dashboard
         href: http://impi.ddns.net:60808/
         description: NAS IMPI管理面板
@@ -106,107 +107,107 @@
         target: _blank
         siteMonitor: https://aria.homehub.stream:8443
 
-- NAS 服务 (内网):
-    - 1Panel:
+- NAS 服务[内网]:
+    - 1Panel[内]:
         icon: mdi-monitor-dashboard
         href: http://192.168.31.8:17859/astral
         description: 1Panel 管理面板
         target: _blank
         siteMonitor: https://panel.homehub.stream:8443
-    - qBittorrent:
+    - qBittorrent[内]:
         icon: mdi-download
         href: http://192.168.31.8:8085
         description: qBittorrent WebUI
         target: _blank
         siteMonitor: https://qb.homehub.stream:8443
-    - qBittorrent(刷流):
+    - qBittorrent-刷流[内]:
         icon: mdi-download
         href: http://192.168.31.8:27980
         description: 刷流专用 qBittorrent
         target: _blank
         siteMonitor: https://qbit.homehub.stream:8443
-    - 飞牛OS:
+    - 飞牛OS[内]:
         icon: mdi-nas
         href: http://192.168.31.8:5666
         description: 飞牛OS 主机管理
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
-    - 飞牛影视:
+    - 飞牛影视[内]:
         icon: mdi-movie-open
         href: http://192.168.31.8:5666/v
         description: 飞牛OS 影视服务
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
-    - 飞牛相册:
+    - 飞牛相册[内]:
         icon: mdi-image-multiple
         href: http://192.168.31.8:5666/p
         description: 飞牛OS 相册服务
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
-    - Jellyfin:
+    - Jellyfin[内]:
         icon: mdi-movie-open
         href: http://192.168.31.8:28096/web/#/home.html
         description: 在线影视服务（Jellyfin）
         target: _blank
         siteMonitor: https://v.homehub.stream:8443
-    - MoviePilot:
+    - MoviePilot[内]:
         icon: mdi-movie-filter
         href: http://192.168.31.8:42720
         description: MoviePilot 影音管理
         target: _blank
         siteMonitor: https://mp.homehub.stream:8443
-    - Lidarr:
+    - Lidarr[内]:
         icon: mdi-music-note
         href: http://192.168.31.8:38786
         description: Lidarr 音乐管理
         target: _blank
         siteMonitor: https://lid.homehub.stream:8443
-    - 音乐服务:
+    - 音乐服务[内]:
         icon: mdi-music
         href: http://192.168.31.8:4533
         description: Navidrome 在线音乐
         target: _blank
         siteMonitor: https://m.homehub.stream:8443
-    - 青龙面板:
+    - 青龙面板[内]:
         icon: mdi-robot
         href: http://192.168.31.8:15700
         description: 青龙定时任务平台
         target: _blank
         siteMonitor: https://ql.homehub.stream:8443
-    - Home Assistant:
+    - Home Assistant[内]:
         icon: mdi-home-assistant
         href: http://192.168.31.8:8123
         description: 智能家居服务
         target: _blank
         siteMonitor: https://ha.homehub.stream:8443
-    - VoiceChat:
+    - VoiceChat[内]:
         icon: mdi-microphone
         href: http://192.168.31.8:3009
         description: 轻量语音服务
         target: _blank
         siteMonitor: https://chat.homehub.stream:8443
-    - Transmission(桌面端):
-        icon: mdi-torrent
+    - Transmission-桌面[内]:
+        icon: monitor-arrow-down
         href: http://192.168.31.8:9091/transmission/web/index.html?devicetype=computer
         description: Transmission WebUI
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
-    - Transmission(手机端):
-        icon: mdi-torrent
+    - Transmission-移动[内]:
+        icon: mdi:download-network
         href: http://192.168.31.8:9091/transmission/web/index.mobile.html
         description: Transmission WebUI (移动端)
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
-    - 服务器IMPI:
+    - 服务器 IMPI[内]:
         icon: mdi-monitor-dashboard
         href: http://192.198.31.81
         description: NAS IMPI管理面板
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
-    - 小米路由器:
-        icon: mdi-monitor-dashboard
+    - 小米路由器[内]:
+        icon: router-wireless
         href: http://192.168.31.1
-        description: 小米路由器管理
+        description: 路由器管理
         target: _blank
         siteMonitor: http://lab.homehub.stream:8443
 
