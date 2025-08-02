@@ -63,18 +63,6 @@
         description: MoviePilot
         target: _blank
         siteMonitor: https://mp.homehub.stream:8443
-    - MovieBot:
-        icon: mdi-movie-open
-        href: https://mb.homehub.stream:8443
-        description: MovieBot
-        target: _blank
-        siteMonitor: https://mb.homehub.stream:8443
-    - Vertex:
-        icon: mdi-movie-open
-        href: https://vt.homehub.stream:8443
-        description: Vertex
-        target: _blank
-        siteMonitor: https://vt.homehub.stream:8443
     - qBittorrent:
         icon: mdi-download
         href: https://qb.homehub.stream
