@@ -2,8 +2,8 @@
 # 首页小组件
 # 参考：https://gethomepage.dev/widgets/
 
-- logo:
-    icon: /icons/icon.png
+#- logo:
+#    icon: /icons/icon.png
 
 - search:
     provider: google
