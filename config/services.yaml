@@ -63,18 +63,6 @@
         description: MoviePilot
         target: _blank
         siteMonitor: https://mp.homehub.stream:8443
-    - MovieBot:
-        icon: mdi-movie-open
-        href: https://mb.homehub.stream:8443
-        description: MovieBot
-        target: _blank
-        siteMonitor: https://mb.homehub.stream:8443
-    - Vertex:
-        icon: mdi-movie-open
-        href: https://vt.homehub.stream:8443
-        description: Vertex
-        target: _blank
-        siteMonitor: https://vt.homehub.stream:8443
     - home assistant:
         icon: mdi-home-assistant
         href: https://ha.homehub.stream:8443
@@ -93,6 +81,12 @@
         description: 下载工具 · qBittorrent WebUI
         target: _blank
         siteMonitor: https://qb.homehub.stream
+    - qBittorrent(刷流):
+        icon: mdi-download
+        href: https://qbit.homehub.stream
+        description: 下载工具 · 刷流专用qBittorrent
+        target: _blank
+        siteMonitor: https://qbit.homehub.stream
     - Aria2:
         icon: mdi-download
         href: https://aria.homehub.stream:8443
@@ -160,7 +154,7 @@
         target: _blank
     - Jellyfin:
         icon: mdi-movie-open
-        href: http://192.168.31.8:8097
+        href: http://192.168.31.8:28096
         description: 在线影视服务（Jellyfin）
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
@@ -170,11 +164,35 @@
         description: Navidrome 在线音乐服务
         target: _blank
         siteMonitor: https://m.homehub.stream:8443
+    - MoviePilot:
+        icon: mdi-movie-open
+        href: http://192.168.31.8:42720
+        description: MoviePilot
+        target: _blank
+        siteMonitor: https://mp.homehub.stream:8443
+    - home assistant:
+        icon: mdi-home-assistant
+        href: http://192.168.31.8:8123
+        description: home assistant 服务
+        target: _blank
+        siteMonitor: https://ha.homehub.stream:8443
+    - Lidarr 服务:
+        icon: mdi-music-note
+        href: http://192.168.31.8:38786
+        description: Lidarr 服务
+        target: _blank
+        siteMonitor: https://lid.homehub.stream:8443
     - qBittorrent:
         icon: mdi-download
         href: http://192.168.31.8:8085
         description: 局域网访问 - qBittorrent
         target: _blank
+    - qBittorrent(刷流):
+        icon: mdi-download
+        href: http://192.168.31.8:38786
+        description: 局域网访问 - 刷流专用qBittorrent
+        target: _blank
+        siteMonitor: https://qbit.homehub.stream
     - Transmission(桌面端):
         icon: mdi-torrent
         href: http://192.168.31.8:9091/transmission/web/index.html?devicetype=computer
