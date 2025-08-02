@@ -9,18 +9,6 @@
         description: 1Panel 管理面板
         target: _blank
         siteMonitor: https://panel.homehub.stream:8443/
-    - 青龙面板:
-        icon: mdi-robot
-        href: https://ql.homehub.stream:8443/
-        description: 定时任务平台
-        target: _blank
-        siteMonitor: https://ql.homehub.stream:8443
-    - Home Assistant:
-        icon: mdi-home-assistant
-        href: https://ha.homehub.stream:8443/
-        description: 智能家居服务
-        target: _blank
-        siteMonitor: https://ha.homehub.stream:8443
     - qBittorrent:
         icon: mdi-download
         href: https://qb.homehub.stream:8443
@@ -75,6 +63,18 @@
         description: Navidrome 在线音乐
         target: _blank
         siteMonitor: https://m.homehub.stream:8443
+    - 青龙面板:
+        icon: mdi-robot
+        href: https://ql.homehub.stream:8443/
+        description: 定时任务平台
+        target: _blank
+        siteMonitor: https://ql.homehub.stream:8443
+    - Home Assistant:
+        icon: mdi-home-assistant
+        href: https://ha.homehub.stream:8443/
+        description: 智能家居服务
+        target: _blank
+        siteMonitor: https://ha.homehub.stream:8443
     - VoiceChat:
         icon: mdi-microphone
         href: https://chat.homehub.stream:8443/
@@ -113,18 +113,17 @@
         description: 1Panel 管理面板
         target: _blank
         siteMonitor: https://panel.homehub.stream:8443
-    - 青龙面板:
-        icon: mdi-robot
-        href: http://192.168.31.8:15700
-        description: 青龙定时任务平台
+    - qBittorrent:
+        icon: mdi-download
+        href: http://192.168.31.8:8085
+        description: qBittorrent WebUI
         target: _blank
-        siteMonitor: https://ql.homehub.stream:8443
-    - Home Assistant:
-        icon: mdi-home-assistant
-        href: http://192.168.31.8:8123
-        description: 智能家居服务
+    - qBittorrent(刷流):
+        icon: mdi-download
+        href: http://192.168.31.8:38786
+        description: 刷流专用 qBittorrent
         target: _blank
-        siteMonitor: https://ha.homehub.stream:8443
+        siteMonitor: https://qbit.homehub.stream
     - 飞牛OS:
         icon: mdi-nas
         href: http://192.168.31.8:5666
@@ -164,23 +163,24 @@
         description: Navidrome 在线音乐
         target: _blank
         siteMonitor: https://m.homehub.stream:8443
+    - 青龙面板:
+        icon: mdi-robot
+        href: http://192.168.31.8:15700
+        description: 青龙定时任务平台
+        target: _blank
+        siteMonitor: https://ql.homehub.stream:8443
+    - Home Assistant:
+        icon: mdi-home-assistant
+        href: http://192.168.31.8:8123
+        description: 智能家居服务
+        target: _blank
+        siteMonitor: https://ha.homehub.stream:8443
     - VoiceChat:
         icon: mdi-microphone
         href: http://192.168.31.8:3009
         description: 轻量语音服务
         target: _blank
         siteMonitor: https://chat.homehub.stream
-    - qBittorrent:
-        icon: mdi-download
-        href: http://192.168.31.8:8085
-        description: qBittorrent WebUI
-        target: _blank
-    - qBittorrent(刷流):
-        icon: mdi-download
-        href: http://192.168.31.8:38786
-        description: 刷流专用 qBittorrent
-        target: _blank
-        siteMonitor: https://qbit.homehub.stream
     - Transmission(桌面端):
         icon: mdi-torrent
         href: http://192.168.31.8:9091/transmission/web/index.html?devicetype=computer
