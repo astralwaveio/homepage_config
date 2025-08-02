@@ -21,12 +21,18 @@
         description: 智能家居服务
         target: _blank
         siteMonitor: https://ha.homehub.stream:8443
-    - 服务器IMPI:
-        icon: mdi-monitor-dashboard
-        href: http://impi.ddns.net:60808/
-        description: NAS IMPI管理面板
+    - qBittorrent:
+        icon: mdi-download
+        href: https://qb.homehub.stream:8443
+        description: qBittorrent WebUI
         target: _blank
-        siteMonitor: http://impi.ddns.net:60808/
+        siteMonitor: https://qb.homehub.stream:8443
+    - qBittorrent(刷流):
+        icon: mdi-download
+        href: https://qbit.homehub.stream:8443
+        description: 刷流专用 qBittorrent
+        target: _blank
+        siteMonitor: https://qbit.homehub.stream:8443
     - 飞牛OS:
         icon: mdi-nas
         href: https://fn.homehub.stream:8443/
@@ -47,7 +53,7 @@
         siteMonitor: https://fn.homehub.stream:8443/p
     - Jellyfin:
         icon: mdi-movie-open
-        href: https://v.homehub.stream:8443
+        href: https://v.homehub.stream:8443/web/#/home.html
         description: 在线影视服务（Jellyfin）
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
@@ -75,18 +81,6 @@
         description: 轻量语音服务
         target: _blank
         siteMonitor: https://chat.homehub.stream:8443/
-    - qBittorrent:
-        icon: mdi-download
-        href: https://qb.homehub.stream:8443
-        description: qBittorrent WebUI
-        target: _blank
-        siteMonitor: https://qb.homehub.stream:8443
-    - qBittorrent(刷流):
-        icon: mdi-download
-        href: https://qbit.homehub.stream:8443
-        description: 刷流专用 qBittorrent
-        target: _blank
-        siteMonitor: https://qbit.homehub.stream:8443
     - Aria2:
         icon: mdi-download
         href: https://aria.homehub.stream:8443/
@@ -105,6 +99,12 @@
         description: Transmission WebUI (移动端)
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
+    - 服务器IMPI:
+        icon: mdi-monitor-dashboard
+        href: http://impi.ddns.net:60808/
+        description: NAS IMPI管理面板
+        target: _blank
+        siteMonitor: http://impi.ddns.net:60808/
 
 - NAS 服务 (内网):
     - 1Panel:
@@ -125,12 +125,6 @@
         description: 智能家居服务
         target: _blank
         siteMonitor: https://ha.homehub.stream:8443
-    - 服务器IMPI:
-        icon: mdi-monitor-dashboard
-        href: http://192.168.31.81
-        description: NAS IMPI管理面板
-        target: _blank
-        siteMonitor: http://impi.ddns.net:60808/
     - 飞牛OS:
         icon: mdi-nas
         href: http://192.168.31.8:5666
@@ -148,7 +142,7 @@
         target: _blank
     - Jellyfin:
         icon: mdi-movie-open
-        href: http://192.168.31.8:28096
+        href: http://192.168.31.8:28096/web/#/home.html
         description: 在线影视服务（Jellyfin）
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
