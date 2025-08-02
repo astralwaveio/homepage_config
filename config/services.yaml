@@ -205,7 +205,7 @@
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
     - 路由器[内]:
-        icon: mid-router-wireless
+        icon: mdi-router-network
         href: http://192.168.31.1
         description: 路由器管理
         target: _blank
