@@ -20,7 +20,7 @@
     locale: zh-Hans
     order: 2
     format:
-      dateStyle: medium
+      dateStyle: short
       timeStyle: short
 
 - openweathermap:
