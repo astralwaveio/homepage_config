@@ -63,6 +63,30 @@
         description: MoviePilot
         target: _blank
         siteMonitor: https://mp.homehub.stream:8443
+    - MovieBot:
+        icon: mdi-movie-open
+        href: https://mb.homehub.stream:8443
+        description: MovieBot
+        target: _blank
+        siteMonitor: https://mb.homehub.stream:8443
+    - Vertex:
+        icon: mdi-movie-open
+        href: https://vt.homehub.stream:8443
+        description: Vertex
+        target: _blank
+        siteMonitor: https://vt.homehub.stream:8443
+    - home assistant:
+        icon: mdi-home-assistant
+        href: https://ha.homehub.stream:8443
+        description: home assistant 服务
+        target: _blank
+        siteMonitor: https://ha.homehub.stream:8443
+    - Lidarr 服务:
+        icon: mdi-music-note
+        href: https://lid.homehub.stream:8443
+        description: Lidarr 服务
+        target: _blank
+        siteMonitor: https://lid.homehub.stream:8443
     - qBittorrent:
         icon: mdi-download
         href: https://qb.homehub.stream
