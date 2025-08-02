@@ -213,77 +213,77 @@
 
 ---
 ### VPS 服务
-- 1Panel(Oracle):
-    icon: mdi-monitor-dashboard
-    href: https://panel.eoysky.com/
-    description: Oracle 主机管理面板
-    target: _blank
-    siteMonitor: https://panel.eoysky.com/
-- 青龙面板(Oracle):
-    icon: mdi-robot
-    href: https://ql.astralwave.vip/login
-    description: Oracle 青龙定时任务
-    target: _blank
-    siteMonitor: https://ql.astralwave.vip/login
-- Bitwarden:
-    icon: mdi-lock-open-outline
-    href: https://vw.eoysky.com/
-    description: Bitwarden 密码管理器
-    target: _blank
-    siteMonitor: https://vw.eoysky.com/
-- FreshRSS:
-    icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/freshrss.png
-    href: https://admin.rsshub.in/
-    description: 自托管 RSS 聚合器
-    target: _blank
-    siteMonitor: https://admin.rsshub.in
-    widget:
-        type: freshrss
-        url: https://admin.rsshub.in
-        username: astral
-        password: Rain@8240
-        fields:
-            - subscriptions
-            - unread
-- RSSHub:
-    icon: mdi-rss
-    href: https://rsshub.in/
-    description: RSS 订阅服务
-    target: _blank
-    siteMonitor: https://rsshub.in/
-- Telegram API:
-    icon: mdi-telegram
-    href: https://tapi.eoysky.com/
-    description: Telegram API 代理
-    target: _blank
-    siteMonitor: https://tapi.eoysky.com/
-- Telegram Proxy:
-    icon: mdi-telegram
-    href: https://tg.jiek.top/
-    description: Telegram 代理服务
-    target: _blank
-    siteMonitor: https://tg.jiek.top/
-- Magichub:
-    icon: mdi-magic-staff
-    href: https://magichub.top/
-    description: 个人代理服务管理
-    target: _blank
-    siteMonitor: https://magichub.top/
-- Subconverter:
-    icon: mdi-swap-horizontal
-    href: https://sub.magichub.top/
-    description: 代理订阅转换
-    target: _blank
-    siteMonitor: https://sub.magichub.top/
-- Dilyslyu.com:
-    icon: mdi-account-box-outline
-    href: https://dilyslyu.com/
-    description: 个人主页 (Dilyslyu)
-    target: _blank
-    siteMonitor: https://dilyslyu.com/
-- Astralwave.io:
-    icon: mdi-account-box-outline
-    href: https://astralwave.io/
-    description: 个人主页 (Astralwave)
-    target: _blank
-    siteMonitor: https://astralwave.io/
+    - 1Panel(Oracle):
+        icon: mdi-monitor-dashboard
+        href: https://panel.eoysky.com/
+        description: Oracle 主机管理面板
+        target: _blank
+        siteMonitor: https://panel.eoysky.com/
+    - 青龙面板(Oracle):
+        icon: mdi-robot
+        href: https://ql.astralwave.vip/login
+        description: Oracle 青龙定时任务
+        target: _blank
+        siteMonitor: https://ql.astralwave.vip/login
+    - Bitwarden:
+        icon: mdi-lock-open-outline
+        href: https://vw.eoysky.com/
+        description: Bitwarden 密码管理器
+        target: _blank
+        siteMonitor: https://vw.eoysky.com/
+    - FreshRSS:
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/freshrss.png
+        href: https://admin.rsshub.in/
+        description: 自托管 RSS 聚合器
+        target: _blank
+        siteMonitor: https://admin.rsshub.in
+        widget:
+            type: freshrss
+            url: https://admin.rsshub.in
+            username: astral
+            password: Rain@8240
+            fields:
+                - subscriptions
+                - unread
+    - RSSHub:
+        icon: mdi-rss
+        href: https://rsshub.in/
+        description: RSS 订阅服务
+        target: _blank
+        siteMonitor: https://rsshub.in/
+    - Telegram API:
+        icon: mdi-telegram
+        href: https://tapi.eoysky.com/
+        description: Telegram API 代理
+        target: _blank
+        siteMonitor: https://tapi.eoysky.com/
+    - Telegram Proxy:
+        icon: mdi-telegram
+        href: https://tg.jiek.top/
+        description: Telegram 代理服务
+        target: _blank
+        siteMonitor: https://tg.jiek.top/
+    - Magichub:
+        icon: mdi-magic-staff
+        href: https://magichub.top/
+        description: 个人代理服务管理
+        target: _blank
+        siteMonitor: https://magichub.top/
+    - Subconverter:
+        icon: mdi-swap-horizontal
+        href: https://sub.magichub.top/
+        description: 代理订阅转换
+        target: _blank
+        siteMonitor: https://sub.magichub.top/
+    - Dilyslyu.com:
+        icon: mdi-account-box-outline
+        href: https://dilyslyu.com/
+        description: 个人主页 (Dilyslyu)
+        target: _blank
+        siteMonitor: https://dilyslyu.com/
+    - Astralwave.io:
+        icon: mdi-account-box-outline
+        href: https://astralwave.io/
+        description: 个人主页 (Astralwave)
+        target: _blank
+        siteMonitor: https://astralwave.io/
