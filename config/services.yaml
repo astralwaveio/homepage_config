@@ -212,13 +212,13 @@
         siteMonitor: http://lab.homehub.stream:8443
 
 - VPS 服务:
-    - 1Panel(Oracle):
+    - 1Panel-Oracle:
         icon: mdi-monitor-dashboard
         href: https://panel.eoysky.com/
         description: Oracle 主机管理面板
         target: _blank
         siteMonitor: https://panel.eoysky.com/
-    - 青龙面板(Oracle):
+    - 青龙面板-Oracle:
         icon: mdi-robot
         href: https://ql.astralwave.vip/login
         description: Oracle 青龙定时任务
@@ -275,13 +275,13 @@
         target: _blank
         siteMonitor: https://sub.magichub.top/
     - Dilyslyu.com:
-        icon: mdi-account-box-outline
+        icon: mdi-face-woman-shimmer
         href: https://dilyslyu.com/
         description: 个人主页 (Dilyslyu)
         target: _blank
         siteMonitor: https://dilyslyu.com/
     - Astralwave.io:
-        icon: mdi-account-box-outline
+        icon: mdi-face-man-shimmer
         href: https://astralwave.io/
         description: 个人主页 (Astralwave)
         target: _blank
