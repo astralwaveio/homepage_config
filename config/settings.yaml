@@ -2,8 +2,8 @@
 # 官方文档: https://gethomepage.dev/configs/settings/
 
 language: zh-CN
-title: 极客任意门 - GeekBase
-shortTitle: GeekBase
+title: 零界
+shortTitle: ZeroRealm
 favicon: /icons/favicon.ico
 
 headerStyle: boxedWidgets
@@ -21,33 +21,24 @@ background:
 fullWidth: false
 useEqualHeights: true
 useEqualHeightCards: true
-groupsInitiallyCollapsed: false
+groupsInitiallyCollapsed: true
 
 layout:
-  "运维平台":
-    # style: row
+  'NAS 服务[外网]':
     columns: 3
-    initiallyCollapsed: true
+    initiallyCollapsed: false
     icon: mdi-rocket-launch
     order: 1
-  "NAS服务":
-    # style: row
+  'NAS 服务[内网]':
     columns: 3
-    initiallyCollapsed: true
+    initiallyCollapsed: false
     icon: mdi-harddisk
     order: 2
-  "下载工具":
-    # style: row
+  'VPS 服务':
     columns: 3
-    initiallyCollapsed: true
+    initiallyCollapsed: false
     icon: mdi-download-network
     order: 3
-  "其他服务":
-    # style: row
-    columns: 3
-    initiallyCollapsed: true
-    icon: mdi-apps
-    order: 4
 
 # 天气或其他需要API密钥的服务提供商
 providers:
@@ -65,5 +56,5 @@ quicklaunch:
 target: _blank
 hideVersion: true
 showStats: true
-statusStyle: "dot"
+statusStyle: 'dot'
 hideErrors: true
