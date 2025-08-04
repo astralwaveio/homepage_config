@@ -70,18 +70,6 @@
         description: 定时任务平台
         target: _blank
         siteMonitor: https://ql.homehub.stream:8443
-    - Home Assistant:
-        icon: mdi-home-assistant
-        href: https://ha.homehub.stream:8443/
-        description: 智能家居服务
-        target: _blank
-        siteMonitor: https://ha.homehub.stream:8443
-    - VoiceChat:
-        icon: mdi-microphone
-        href: https://chat.homehub.stream:8443/
-        description: 轻量语音服务
-        target: _blank
-        siteMonitor: https://chat.homehub.stream:8443/
     - Transmission-桌面:
         icon: mdi-monitor-arrow-down
         href: https://tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
@@ -174,18 +162,6 @@
         description: 青龙定时任务平台
         target: _blank
         siteMonitor: https://ql.homehub.stream:8443
-    - Home Assistant[内]:
-        icon: mdi-home-assistant
-        href: http://192.168.31.8:8123
-        description: 智能家居服务
-        target: _blank
-        siteMonitor: https://ha.homehub.stream:8443
-    - VoiceChat[内]:
-        icon: mdi-microphone
-        href: http://192.168.31.8:3009
-        description: 轻量语音服务
-        target: _blank
-        siteMonitor: https://chat.homehub.stream:8443
     - Transmission-桌面[内]:
         icon: mdi-monitor-arrow-down
         href: http://192.168.31.8:9091/transmission/web/index.html?devicetype=computer
