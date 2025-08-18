@@ -6,7 +6,7 @@
 - NAS 服务[外网]:
     - Plex:
         icon: mdi-plex
-        href: https://plex.homehub.stream:8443/web
+        href: https://plex.homehub.stream:8443/web/index.html#!/
         description: Plex 媒体服务器
         target: _blank
         siteMonitor: https://plex.homehub.stream:8443/
@@ -92,7 +92,7 @@
 - NAS 服务[内网]:
     - Plex[内]:
         icon: mdi-plex
-        href: http://192.168.31.8:32400/web
+        href: http://192.168.31.8:32400/web/index.html#!/
         description: Plex 媒体服务器
         target: _blank
         siteMonitor: https://plex.homehub.stream:8443
