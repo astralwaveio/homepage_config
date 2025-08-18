@@ -4,6 +4,36 @@
 # ICON查询：https://pictogrammers.com/library/mdi/
 
 - NAS 服务[外网]:
+    - Plex:
+        icon: mdi-monitor-dashboard
+        href: https://plex.homehub.stream:8443/web
+        description: Plex 媒体服务器
+        target: _blank
+        siteMonitor: https://plex.homehub.stream:8443/
+    - 飞牛影视:
+        icon: mdi-movie-open
+        href: https://fn.homehub.stream:8443/v
+        description: 飞牛OS 影视服务
+        target: _blank
+        siteMonitor: https://fn.homehub.stream:8443/v
+    - Jellyfin:
+        icon: mdi-movie-open
+        href: https://tv.homehub.stream:8443/web/#/home.html
+        description: 在线影视服务（Jellyfin）
+        target: _blank
+        siteMonitor: https://tv.homehub.stream:8443
+    - MoviePilot:
+        icon: mdi-movie-filter
+        href: https://mp.homehub.stream:8443/
+        description: MoviePilot 影音管理
+        target: _blank
+        siteMonitor: https://mp.homehub.stream:8443
+    - 飞牛OS:
+        icon: mdi-nas
+        href: https://fn.homehub.stream:8443/
+        description: 飞牛OS 主机管理
+        target: _blank
+        siteMonitor: https://fn.homehub.stream:8443
     - 1Panel:
         icon: mdi-monitor-dashboard
         href: https://panel.homehub.stream:8443/astral
@@ -18,52 +48,16 @@
         siteMonitor: https://qb.homehub.stream:8443
     - qBittorrent-刷流:
         icon: mdi-download
-        href: https://qbit.homehub.stream:8443
+        href: https://flush.homehub.stream:8443
         description: 刷流专用 qBittorrent
         target: _blank
-        siteMonitor: https://qbit.homehub.stream:8443
-    - 飞牛OS:
-        icon: mdi-nas
-        href: https://fn.homehub.stream:8443/
-        description: 飞牛OS 主机管理
+        siteMonitor: https://flush.homehub.stream:8443
+    - qBittorrent-保种:
+        icon: mdi-download
+        href: https://keep.homehub.stream:8443
+        description: 保种专用 qBittorrent
         target: _blank
-        siteMonitor: https://fn.homehub.stream:8443
-    - 飞牛影视:
-        icon: mdi-movie-open
-        href: https://fn.homehub.stream:8443/v
-        description: 飞牛OS 影视服务
-        target: _blank
-        siteMonitor: https://fn.homehub.stream:8443/v
-    - 飞牛相册:
-        icon: mdi-image-multiple
-        href: https://fn.homehub.stream:8443/p
-        description: 飞牛OS 相册服务
-        target: _blank
-        siteMonitor: https://fn.homehub.stream:8443/p
-    - Jellyfin:
-        icon: mdi-movie-open
-        href: https://tv.homehub.stream:8443/web/#/home.html
-        description: 在线影视服务（Jellyfin）
-        target: _blank
-        siteMonitor: https://tv.homehub.stream:8443
-    - MoviePilot:
-        icon: mdi-movie-filter
-        href: https://mp.homehub.stream:8443/
-        description: MoviePilot 影音管理
-        target: _blank
-        siteMonitor: https://mp.homehub.stream:8443
-    - Lidarr:
-        icon: mdi-music-note
-        href: https://arr.homehub.stream:8443/login
-        description: Lidarr 音乐管理
-        target: _blank
-        siteMonitor: https://arr.homehub.stream:8443/login
-    - 音乐服务:
-        icon: mdi-music
-        href: https://music.homehub.stream:8443/p
-        description: Navidrome 在线音乐
-        target: _blank
-        siteMonitor: https://music.homehub.stream:8443
+        siteMonitor: https://keep.homehub.stream:8443
     - 青龙面板:
         icon: mdi-robot
         href: https://ql.homehub.stream:8443/
@@ -96,40 +90,16 @@
         siteMonitor: https://aria.homehub.stream:8443
 
 - NAS 服务[内网]:
-    - 1Panel[内]:
+    - Plex[内]:
         icon: mdi-monitor-dashboard
-        href: http://192.168.31.8:17859/astral
-        description: 1Panel 管理面板
+        href: http://192.168.31.8:32400/web
+        description: Plex 媒体服务器
         target: _blank
-        siteMonitor: https://panel.homehub.stream:8443
-    - qBittorrent[内]:
-        icon: mdi-download
-        href: http://192.168.31.8:8085
-        description: qBittorrent WebUI
-        target: _blank
-        siteMonitor: https://qb.homehub.stream:8443
-    - qBittorrent-刷流[内]:
-        icon: mdi-download
-        href: http://192.168.31.8:27980
-        description: 刷流专用 qBittorrent
-        target: _blank
-        siteMonitor: https://qbit.homehub.stream:8443
-    - 飞牛OS[内]:
-        icon: mdi-nas
-        href: http://192.168.31.8:5666
-        description: 飞牛OS 主机管理
-        target: _blank
-        siteMonitor: https://fn.homehub.stream:8443
+        siteMonitor: https://plex.homehub.stream:8443
     - 飞牛影视[内]:
         icon: mdi-movie-open
         href: http://192.168.31.8:5666/v
         description: 飞牛OS 影视服务
-        target: _blank
-        siteMonitor: https://fn.homehub.stream:8443
-    - 飞牛相册[内]:
-        icon: mdi-image-multiple
-        href: http://192.168.31.8:5666/p
-        description: 飞牛OS 相册服务
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
     - Jellyfin[内]:
@@ -144,18 +114,36 @@
         description: MoviePilot 影音管理
         target: _blank
         siteMonitor: https://mp.homehub.stream:8443
-    - Lidarr[内]:
-        icon: mdi-music-note
-        href: http://192.168.31.8:38786
-        description: Lidarr 音乐管理
+    - 飞牛OS[内]:
+        icon: mdi-nas
+        href: http://192.168.31.8:5666
+        description: 飞牛OS 主机管理
         target: _blank
-        siteMonitor: https://arr.homehub.stream:8443/login
-    - 音乐服务[内]:
-        icon: mdi-music
-        href: http://192.168.31.8:4533
-        description: Navidrome 在线音乐
+        siteMonitor: https://fn.homehub.stream:8443
+    - 1Panel[内]:
+        icon: mdi-monitor-dashboard
+        href: http://192.168.31.8:17859/astral
+        description: 1Panel 管理面板
         target: _blank
-        siteMonitor: https://music.homehub.stream:8443
+        siteMonitor: https://panel.homehub.stream:8443
+    - qBittorrent[内]:
+        icon: mdi-download
+        href: http://192.168.31.8:50581
+        description: qBittorrent WebUI
+        target: _blank
+        siteMonitor: https://qb.homehub.stream:8443
+    - qBittorrent-刷流[内]:
+        icon: mdi-download
+        href: http://192.168.31.8:50582
+        description: 刷流专用 qBittorrent
+        target: _blank
+        siteMonitor: https://qbit.homehub.stream:8443
+    - qBittorrent-保种[内]:
+        icon: mdi-download
+        href: http://192.168.31.8:50583
+        description: 保种专用 qBittorrent
+        target: _blank
+        siteMonitor: https://keep.homehub.stream:8443
     - 青龙面板[内]:
         icon: mdi-robot
         href: http://192.168.31.8:15700
