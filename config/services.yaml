@@ -5,85 +5,85 @@
 
 - NAS 服务[外网]:
     - Plex:
-        icon: mdi-monitor-dashboard
+        icon: mdi-plex
         href: https://plex.homehub.stream:8443/web
         description: Plex 媒体服务器
         target: _blank
         siteMonitor: https://plex.homehub.stream:8443/
     - 飞牛影视:
-        icon: mdi-movie-open
+        icon: mdi-movie-roll
         href: https://fn.homehub.stream:8443/v
         description: 飞牛OS 影视服务
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443/v
     - Jellyfin:
-        icon: mdi-movie-open
+        icon: mdi-jellyfin
         href: https://tv.homehub.stream:8443/web/#/home.html
         description: 在线影视服务（Jellyfin）
         target: _blank
         siteMonitor: https://tv.homehub.stream:8443
     - MoviePilot:
-        icon: mdi-movie-filter
+        icon: mdi-movie-open
         href: https://mp.homehub.stream:8443/
         description: MoviePilot 影音管理
         target: _blank
         siteMonitor: https://mp.homehub.stream:8443
     - 飞牛OS:
-        icon: mdi-nas
+        icon: mdi-folder-network-outline
         href: https://fn.homehub.stream:8443/
         description: 飞牛OS 主机管理
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
     - 1Panel:
-        icon: mdi-monitor-dashboard
+        icon: mdi-view-dashboard-variant
         href: https://panel.homehub.stream:8443/astral
         description: 1Panel 管理面板
         target: _blank
         siteMonitor: https://panel.homehub.stream:8443/
     - qBittorrent:
-        icon: mdi-download
+        icon: mdi-qbittorrent
         href: https://qb.homehub.stream:8443
         description: qBittorrent WebUI
         target: _blank
         siteMonitor: https://qb.homehub.stream:8443
     - qBittorrent-刷流:
-        icon: mdi-download
+        icon: mdi-trending-up
         href: https://flush.homehub.stream:8443
         description: 刷流专用 qBittorrent
         target: _blank
         siteMonitor: https://flush.homehub.stream:8443
     - qBittorrent-保种:
-        icon: mdi-download
+        icon: mdi-seed
         href: https://keep.homehub.stream:8443
         description: 保种专用 qBittorrent
         target: _blank
         siteMonitor: https://keep.homehub.stream:8443
     - 青龙面板:
-        icon: mdi-robot
+        icon: mdi-script-text
         href: https://ql.homehub.stream:8443/
         description: 定时任务平台
         target: _blank
         siteMonitor: https://ql.homehub.stream:8443
     - Transmission-桌面:
-        icon: mdi-monitor-arrow-down
+        icon: mdi-transmission-tower
         href: https://tr.homehub.stream:8443/transmission/web/index.html?devicetype=computer
         description: Transmission WebUI
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
     - Transmission-移动:
-        icon: mdi-download-network
+        icon: mdi-transmission-tower
         href: https://tr.homehub.stream:8443/transmission/web/index.mobile.html
         description: Transmission WebUI (移动端)
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
     - 服务器 IMPI:
-        icon: mdi-monitor-dashboard
+        icon: mdi-monitor
         href: http://impi.ddns.net:60808/
         description: NAS IMPI管理面板
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
     - Aria2:
-        icon: mdi-cloud-download
+        icon: mdi-download-network
         href: https://aria.homehub.stream:8443/
         description: 下载工具 Aria2
         target: _blank
@@ -91,85 +91,85 @@
 
 - NAS 服务[内网]:
     - Plex[内]:
-        icon: mdi-monitor-dashboard
+        icon: mdi-plex
         href: http://192.168.31.8:32400/web
         description: Plex 媒体服务器
         target: _blank
         siteMonitor: https://plex.homehub.stream:8443
     - 飞牛影视[内]:
-        icon: mdi-movie-open
+        icon: mdi-movie-roll
         href: http://192.168.31.8:5666/v
         description: 飞牛OS 影视服务
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
     - Jellyfin[内]:
-        icon: mdi-movie-open
+        icon: mdi-jellyfin
         href: http://192.168.31.8:28096/web/#/home.html
         description: 在线影视服务（Jellyfin）
         target: _blank
         siteMonitor: https://tv.homehub.stream:8443
     - MoviePilot[内]:
-        icon: mdi-movie-filter
+        icon: mdi-movie-open
         href: http://192.168.31.8:42720
         description: MoviePilot 影音管理
         target: _blank
         siteMonitor: https://mp.homehub.stream:8443
     - 飞牛OS[内]:
-        icon: mdi-nas
+        icon: mdi-folder-network-outline
         href: http://192.168.31.8:5666
         description: 飞牛OS 主机管理
         target: _blank
         siteMonitor: https://fn.homehub.stream:8443
     - 1Panel[内]:
-        icon: mdi-monitor-dashboard
+        icon: mdi-view-dashboard-variant
         href: http://192.168.31.8:17859/astral
         description: 1Panel 管理面板
         target: _blank
         siteMonitor: https://panel.homehub.stream:8443
     - qBittorrent[内]:
-        icon: mdi-download
+        icon: mdi-qbittorrent
         href: http://192.168.31.8:50581
         description: qBittorrent WebUI
         target: _blank
         siteMonitor: https://qb.homehub.stream:8443
     - qBittorrent-刷流[内]:
-        icon: mdi-download
+        icon: mdi-trending-up
         href: http://192.168.31.8:50582
         description: 刷流专用 qBittorrent
         target: _blank
         siteMonitor: https://qbit.homehub.stream:8443
     - qBittorrent-保种[内]:
-        icon: mdi-download
+        icon: mdi-seed
         href: http://192.168.31.8:50583
         description: 保种专用 qBittorrent
         target: _blank
         siteMonitor: https://keep.homehub.stream:8443
     - 青龙面板[内]:
-        icon: mdi-robot
+        icon: mdi-script-text
         href: http://192.168.31.8:15700
         description: 青龙定时任务平台
         target: _blank
         siteMonitor: https://ql.homehub.stream:8443
     - Transmission-桌面[内]:
-        icon: mdi-monitor-arrow-down
+        icon: mdi-transmission-tower
         href: http://192.168.31.8:9091/transmission/web/index.html?devicetype=computer
         description: Transmission WebUI
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
     - Transmission-移动[内]:
-        icon: mdi-download-network
+        icon: mdi-transmission-tower
         href: http://192.168.31.8:9091/transmission/web/index.mobile.html
         description: Transmission WebUI (移动端)
         target: _blank
         siteMonitor: https://tr.homehub.stream:8443
     - 服务器 IMPI[内]:
-        icon: mdi-monitor-dashboard
+        icon: mdi-monitor
         href: http://192.168.31.81
         description: NAS IMPI管理面板
         target: _blank
         siteMonitor: http://impi.ddns.net:60808/
     - 路由器[内]:
-        icon: mdi-router-network
+        icon: mdi-router-wireless
         href: http://192.168.31.1
         description: 路由器管理
         target: _blank
@@ -177,19 +177,19 @@
 
 - VPS 服务:
     - 1Panel-Oracle:
-        icon: mdi-monitor-dashboard
+        icon: mdi-view-dashboard-variant
         href: https://panel.eoysky.com/
         description: Oracle 主机管理面板
         target: _blank
         siteMonitor: https://panel.eoysky.com/
     - 青龙面板-Oracle:
-        icon: mdi-robot
+        icon: mdi-script-text
         href: https://ql.astralwave.vip/login
         description: Oracle 青龙定时任务
         target: _blank
         siteMonitor: https://ql.astralwave.vip/login
     - Bitwarden:
-        icon: mdi-lock-open-outline
+        icon: mdi-lock
         href: https://vw.eoysky.com/
         description: Bitwarden 密码管理器
         target: _blank
@@ -209,43 +209,43 @@
             - subscriptions
             - unread
     - RSSHub:
-        icon: mdi-rss
+        icon: mdi-rss-box
         href: https://rsshub.in/
         description: RSS 订阅服务
         target: _blank
         siteMonitor: https://rsshub.in/
     - Telegram API:
-        icon: mdi-telegram
+        icon: mdi-api
         href: https://tapi.eoysky.com/
         description: Telegram API 代理
         target: _blank
         siteMonitor: https://tapi.eoysky.com/
     - Telegram Proxy:
-        icon: mdi-telegram
+        icon: mdi-telegram-box
         href: https://tg.jiek.top/
         description: Telegram 代理服务
         target: _blank
         siteMonitor: https://tg.jiek.top/
     - Magichub:
-        icon: mdi-magic-staff
+        icon: mdi-account-star-outline
         href: https://magichub.top/
         description: 个人代理服务管理
         target: _blank
         siteMonitor: https://magichub.top/
     - Subconverter:
-        icon: mdi-swap-horizontal
+        icon: mdi-file-swap-outline
         href: https://sub.magichub.top/
         description: 代理订阅转换
         target: _blank
         siteMonitor: https://sub.magichub.top/
     - Dilyslyu.com:
-        icon: mdi-face-woman-shimmer
+        icon: mdi-creation
         href: https://dilyslyu.com/
         description: 个人主页 (Dilyslyu)
         target: _blank
         siteMonitor: https://dilyslyu.com/
     - Astralwave.io:
-        icon: mdi-face-man-shimmer
+        icon: mdi-creation
         href: https://astralwave.io/
         description: 个人主页 (Astralwave)
         target: _blank
