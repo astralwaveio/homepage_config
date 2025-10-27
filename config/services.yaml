@@ -3,7 +3,7 @@
 # 参考文档：https://gethomepage.dev/configs/services/
 # ICON查询：https://pictogrammers.com/library/mdi/
 
-- NAS 服务[外网]:
+- 公网服务:
     - Plex:
         icon: mdi-plex
         href: https://plex.homehub.stream:8443/web/index.html#!/
@@ -89,7 +89,7 @@
         target: _blank
         siteMonitor: https://aria.homehub.stream:8443
 
-- NAS 服务[内网]:
+- 内网服务:
     - Plex[内]:
         icon: mdi-plex
         href: http://192.168.31.8:32400/web/index.html#!/
@@ -175,7 +175,16 @@
         target: _blank
         siteMonitor: http://lab.homehub.stream:8443
 
-- VPS 服务:
+- PT网站:
+    - M-Team:
+        icon: mdi-plex
+        href: https://plex.homehub.stream:8443/web/index.html#!/
+        description: 
+        target: _blank
+        siteMonitor: 
+
+
+- 云服务:
     - 1Panel-Oracle:
         icon: mdi-view-dashboard-variant
         href: https://panel.eoysky.com/
