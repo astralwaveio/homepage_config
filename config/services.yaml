@@ -175,14 +175,103 @@
         target: _blank
         siteMonitor: http://lab.homehub.stream:8443
 
-- PT网站:
+- PT站点:
     - M-Team:
-        icon: mdi-plex
-        href: https://plex.homehub.stream:8443/web/index.html#!/
-        description: 
+        icon: mdi-torrent
+        href: https://kp.m-team.cc/browse
+        description: 资源全面，做种健康，全球知名中文PT站
         target: _blank
-        siteMonitor: 
-
+        siteMonitor: https://kp.m-team.cc/browse
+    - Audiences 观众:
+        icon: mdi-torrent
+        href: https://audiences.me/
+        description: 界面现代，资源更新快，综合型站
+        target: _blank
+        siteMonitor: https://audiences.me/
+    - HHCLUB 憨憨:
+        icon: mdi-torrent
+        href: https://hhanclub.top/
+        description: 邀请制，高要求，优质种子集中地
+        target: _blank
+        siteMonitor: https://hhanclub.top/
+    - 皇后音乐:
+        icon: mdi-music
+        href: https://open.cd/
+        description: 华语圈最专业无损音乐站，品质极高
+        target: _blank
+        siteMonitor: https://open.cd/
+    - 海豚音乐:
+        icon: mdi-music
+        href: https://dicmusic.com/torrents.php
+        description: 欧美古典/独立音乐资源丰富，专注音质
+        target: _blank
+        siteMonitor: https://dicmusic.com/torrents.php
+    - JPopsuki 音乐:
+        icon: mdi-music
+        href: https://jpopsuki.eu/torrents.php
+        description: 全球顶级日音无损站，J-Pop/动漫原声首选
+        target: _blank
+        siteMonitor: https://jpopsuki.eu/torrents.php
+    - PTTime:
+        icon: mdi-torrent
+        href: https://www.pttime.org/torrents.php
+        description: 高清影视为主，老牌稳定，社区活跃
+        target: _blank
+        siteMonitor: https://www.pttime.org/torrents.php
+    - HDTimePT 高清时间:
+        icon: mdi-filmstrip
+        href: https://hdtime.org/
+        description: 专注高清影视，画质优秀，适合追剧
+        target: _blank
+        siteMonitor: https://hdtime.org/
+    - BTSCHOOL:
+        icon: mdi-torrent
+        href: https://pt.btschool.club/torrents.php
+        description: 多元资源，用户基数大，长期运营
+        target: _blank
+        siteMonitor: https://pt.btschool.club/torrents.php
+    - PTSKIT:
+        icon: mdi-torrent
+        href: https://www.ptskit.org/torrents.php
+        description: 综合资源，偏重电影与动画，稳定运行
+        target: _blank
+        siteMonitor: https://www.ptskit.org/torrents.php
+    - 下水道PT:
+        icon: mdi-torrent
+        href: https://sewerpt.com/torrents.php
+        description: 小众趣味站，资源较新，社区轻松
+        target: _blank
+        siteMonitor: https://sewerpt.com/torrents.php
+    - 唐门PT:
+        icon: mdi-torrent
+        href: https://tmpt.top/torrents.php
+        description: 中小型站，资源以国产为主，风格独特
+        target: _blank
+        siteMonitor: https://tmpt.top/torrents.php
+    - HappyFappy:
+        icon: mdi-torrent
+        href: https://www.happyfappy.org/torrents.php
+        description: 社区友好，资源覆盖广，适合新手
+        target: _blank
+        siteMonitor: https://www.happyfappy.org/torrents.php
+    - 垃圾堆:
+        icon: mdi-torrent
+        href: https://pt.lajidui.top/torrents.php
+        description: 名字戏谑，但资源实用，适合试用
+        target: _blank
+        siteMonitor: https://pt.lajidui.top/torrents.php
+    - 肉丝:
+        icon: mdi-torrent
+        href: https://rousi.zip/torrents.php
+        description: 小型站，资源偏冷门，适合探索
+        target: _blank
+        siteMonitor: https://rousi.zip/torrents.php
+    - March:
+        icon: mdi-torrent
+        href: https://duckboobee.org/torrents.php
+        description: 极小众站，资源稀少，趣味性强
+        target: _blank
+        siteMonitor: https://duckboobee.org/torrents.php
 
 - 云服务:
     - 1Panel-Oracle:
