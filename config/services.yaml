@@ -181,7 +181,6 @@
         href: https://kp.m-team.cc/browse
         description: 资源全面，做种健康，全球知名中文PT站
         target: _blank
-        siteMonitor: https://kp.m-team.cc/browse
     - Audiences 观众:
         icon: mdi-torrent
         href: https://audiences.me/
@@ -199,19 +198,16 @@
         href: https://open.cd/
         description: 华语圈最专业无损音乐站，品质极高
         target: _blank
-        siteMonitor: https://open.cd/
     - 海豚音乐:
         icon: mdi-music
         href: https://dicmusic.com/torrents.php
         description: 欧美古典/独立音乐资源丰富，专注音质
         target: _blank
-        siteMonitor: https://dicmusic.com/torrents.php
     - JPopsuki 音乐:
         icon: mdi-music
         href: https://jpopsuki.eu/torrents.php
         description: 全球顶级日音无损站，J-Pop/动漫原声首选
         target: _blank
-        siteMonitor: https://jpopsuki.eu/torrents.php
     - PTTime:
         icon: mdi-torrent
         href: https://www.pttime.org/torrents.php
