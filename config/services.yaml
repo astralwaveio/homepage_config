@@ -181,6 +181,7 @@
         href: https://kp.m-team.cc/browse
         description: 资源全面，做种健康，全球知名中文PT站
         target: _blank
+        siteMonitor: https://api2.m-team.cc/
     - Audiences 观众:
         icon: mdi-torrent
         href: https://audiences.me/
