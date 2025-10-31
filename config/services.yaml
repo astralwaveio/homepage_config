@@ -176,7 +176,7 @@
         siteMonitor: http://lab.homehub.stream:8443
 
 - PT站点:
-    - M-Team:
+    - M-Team 馒头:
         icon: mdi-torrent
         href: https://kp.m-team.cc/browse
         description: 资源全面，做种健康，全球知名中文PT站
@@ -215,7 +215,7 @@
         description: 高清影视为主，老牌稳定，社区活跃
         target: _blank
         siteMonitor: https://www.pttime.org/torrents.php
-    - HDTimePT 高清时间:
+    - HDTime 高清时间:
         icon: mdi-filmstrip
         href: https://hdtime.org/
         description: 专注高清影视，画质优秀，适合追剧
@@ -239,6 +239,12 @@
         description: 小众趣味站，资源较新，社区轻松
         target: _blank
         siteMonitor: https://sewerpt.com/torrents.php
+    - Rousi 肉丝:
+        icon: mdi-torrent
+        href: https://rousi.zip/torrents.php
+        description: 小型站，资源偏冷门，适合探索
+        target: _blank
+        siteMonitor: https://rousi.zip/torrents.php
     - 唐门PT:
         icon: mdi-torrent
         href: https://tmpt.top/torrents.php
@@ -257,13 +263,7 @@
         description: 名字戏谑，但资源实用，适合试用
         target: _blank
         siteMonitor: https://pt.lajidui.top/torrents.php
-    - 肉丝:
-        icon: mdi-torrent
-        href: https://rousi.zip/torrents.php
-        description: 小型站，资源偏冷门，适合探索
-        target: _blank
-        siteMonitor: https://rousi.zip/torrents.php
-    - March:
+    - 三月 March:
         icon: mdi-torrent
         href: https://duckboobee.org/torrents.php
         description: 极小众站，资源稀少，趣味性强
